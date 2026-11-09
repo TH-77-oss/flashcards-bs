@@ -8,6 +8,7 @@ import ChapterDetail from './pages/ChapterDetail.jsx'
 import Session from './pages/Session.jsx'
 import CardEditor from './pages/CardEditor.jsx'
 import Stats from './pages/Stats.jsx'
+import ChapterStats from './pages/ChapterStats.jsx'
 import Planning from './pages/Planning.jsx'
 import { useAppUsage } from './hooks/useAppUsage.js'
 
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/cartes/nouvelle/:chapterId" element={<CardEditor />} />
           <Route path="/cartes/:id" element={<CardEditor />} />
           <Route path="/stats" element={<Stats />} />
+          <Route path="/stats/chapitre/:id" element={<ChapterStats />} />
           <Route path="/planning" element={<Planning />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
