@@ -1,0 +1,213 @@
+/* ==========================================================
+   Session de révision : carte 3D, notation, bilan.
+   ========================================================== */
+.session {
+  height: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: calc(var(--safe-top) + 12px) 20px calc(var(--safe-bottom) + 20px);
+}
+
+.session-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.session-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.session-pos {
+  width: 44px;
+  text-align: right;
+  color: var(--text-2);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+.icon-button {
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 22px;
+  background: var(--surface);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--surface);
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+/* ---------- La carte 3D ----------
+   .flip-scene donne la profondeur (perspective).
+   .flip-card pivote ; ses deux faces sont dos à dos.
+   backface-visibility: hidden cache la face qui nous tourne le dos.
+   Ne jamais mettre overflow: hidden sur .flip-scene ou .flip-card :
+   Safari casserait l'effet 3D. */
+.flip-scene {
+  flex: 1;
+  min-height: 0;
+  perspective: 1400px;
+}
+.flip-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--text);
+  text-align: left;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: transform 0.55s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.flip-card.is-flipped {
+  transform: rotateY(180deg);
+}
+.flip-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 26px;
+  border-radius: 24px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flip-front {
+  background: var(--surface);
+}
+.flip-back {
+  background: #16181f;
+  border: 1px solid #2b3350;
+  transform: rotateY(180deg);
+  gap: 14px;
+  overflow-y: auto; /* une longue réponse défile à l'intérieur de la carte */
+}
+
+.chip {
+  align-self: flex-start;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  background: #1f2a4a;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.flip-question {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+.flip-hint {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-2);
+}
+.flip-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.flip-answer {
+  font-size: 17px;
+  line-height: 1.55;
+  white-space: pre-line; /* respecte les retours à la ligne (\n) des réponses */
+}
+
+/* Si l'iPhone est réglé sur « Réduire les animations » : retournement instantané, sans animation */
+@media (prefers-reduced-motion: reduce) {
+  .flip-card {
+    transition: none;
+  }
+}
+
+/* ---------- Boutons de la session ---------- */
+.session-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.button-secondary,
+.button-ok,
+.button-ko {
+  height: 54px;
+  border: 0;
+  border-radius: 16px;
+  font-size: 16px;
+}
+.button-secondary {
+  background: var(--surface);
+  color: var(--text);
+}
+.button-secondary:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.button-ok {
+  background: var(--ok);
+  color: #00210a;
+  font-weight: 600;
+}
+.button-ko {
+  background: #3a2a14;
+  color: var(--ko);
+  font-weight: 600;
+}
+.session .button-primary {
+  height: 54px;
+  border-radius: 16px;
+}
+
+/* ---------- Bilan ---------- */
+.session-summary,
+.session-empty {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.summary-rate {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--ok);
+}
+.summary-detail {
+  font-size: 16px;
+}
+.ok {
+  color: var(--ok);
+}
+.ko {
+  color: var(--ko);
+}
+.summary-actions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 28px;
+}

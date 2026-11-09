@@ -1,12 +1,15 @@
 // Page d'un chapitre. useParams lit le :id de l'adresse /chapitres/:id.
 import { Link, useParams, Navigate } from 'react-router'
 import { CHAPTERS } from '../data/chapters.js'
+import { getCardsForChapter } from '../data/sampleCards.js'
 
 export default function ChapterDetail() {
   const { id } = useParams()
   const chapter = CHAPTERS.find((c) => c.id === Number(id))
 
   if (!chapter) return <Navigate to="/chapitres" replace />
+
+  const count = getCardsForChapter(chapter.id).length
 
   return (
     <div className="page">
@@ -19,13 +22,14 @@ export default function ChapterDetail() {
 
       <section className="card">
         <p className="muted">
-          Les flashcards de ce chapitre seront ajoutées à partir de vos slides (étape 8).
+          {count} cartes d’exemple pour tester. Les vraies flashcards de ce chapitre seront générées
+          à partir de vos slides (étape 8).
         </p>
       </section>
 
-      <button className="button-primary" disabled>
+      <Link to={`/session/${chapter.id}`} className="button-primary">
         Réviser ce chapitre
-      </button>
+      </Link>
     </div>
   )
 }
