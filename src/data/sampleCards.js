@@ -1,6 +1,6 @@
-// Cartes d'EXEMPLE, en attendant les vraies flashcards générées à partir
-// de vos slides (étape 8). À l'étape 5, les cartes seront stockées dans
-// la base locale (IndexedDB) et modifiables depuis l'app.
+// Contenu de départ (« seed ») inséré dans la base au premier lancement.
+// Pour l'instant : 3 cartes d'EXEMPLE par chapitre. À l'étape 8, elles
+// seront remplacées par les vraies flashcards générées à partir des slides.
 
 export const CATEGORIES = {
   definition: 'Définition',
@@ -33,12 +33,24 @@ const EXAMPLES = [
   },
 ]
 
-// Renvoie les cartes d'un chapitre (ici : les mêmes exemples pour tous).
-export function getCardsForChapter(chapterId) {
-  return EXAMPLES.map((card, i) => ({
-    id: `ex-${chapterId}-${i + 1}`,
-    chapterId,
-    ...card,
-    categoryLabel: CATEGORIES[card.category],
-  }))
+// Toutes les cartes de départ, pour les 18 chapitres.
+// L'id est stable ("ex-3-2") : relancer l'app ne crée jamais de doublon.
+export function buildSeedCards() {
+  const now = Date.now()
+  const cards = []
+  for (let chapterId = 1; chapterId <= 18; chapterId++) {
+    EXAMPLES.forEach((card, i) => {
+      cards.push({
+        id: `ex-${chapterId}-${i + 1}`,
+        chapterId,
+        ...card,
+        imageId: null,
+        source: 'seed', // 'seed' = fourni avec l'app ; 'user' = créé par vous
+        deleted: false, // une carte supprimée est marquée, pas effacée (voir db.js)
+        createdAt: now,
+        updatedAt: now,
+      })
+    })
+  }
+  return cards
 }

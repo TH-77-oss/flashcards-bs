@@ -1,14 +1,17 @@
 // Session de révision d'un chapitre : une carte à la fois, on la retourne,
 // on se note, puis un bilan s'affiche à la fin.
+// Chaque réponse est enregistrée immédiatement dans la base locale.
 import { useEffect, useRef, useState } from 'react'
 import { Navigate, useNavigate, useParams } from 'react-router'
 import FlipCard from '../components/FlipCard.jsx'
-import { CHAPTERS } from '../data/chapters.js'
-import { getCardsForChapter } from '../data/sampleCards.js'
+import { useChapter, useChapterCards } from '../hooks/useData.js'
+import { startSession, endSession, recordAnswer } from '../db/repository.js'
+import { CATEGORIES } from '../data/sampleCards.js'
+import { newId } from '../lib/id.js'
 import '../styles/session.css'
 
 // Au-delà de 2 minutes sur une carte, on considère que le téléphone a été
-// posé : le temps compté est plafonné (utile pour les stats de temps).
+// posé : le temps compté est plafonné.
 const MAX_CARD_MS = 2 * 60 * 1000
 
 // Mélange de Fisher-Yates : ordre aléatoire à chaque session.
@@ -22,21 +25,28 @@ function shuffle(list) {
 }
 
 export default function Session() {
-  const { chapterId } = useParams()
-  const chapter = CHAPTERS.find((c) => c.id === Number(chapterId))
+  const chapterId = Number(useParams().chapterId)
+  const chapter = useChapter(chapterId)
+  const cards = useChapterCards(chapterId)
+
+  if (chapter === undefined || cards === undefined) return <div className="session" /> // chargement
   if (!chapter) return <Navigate to="/chapitres" replace />
+
   // key : si on change de chapitre, la session repart de zéro.
-  return <SessionRun key={chapter.id} chapter={chapter} />
+  return <SessionRun key={chapter.id} chapter={chapter} initialCards={cards} />
 }
 
-function SessionRun({ chapter }) {
+function SessionRun({ chapter, initialCards }) {
   const navigate = useNavigate()
-  const [cards, setCards] = useState(() => shuffle(getCardsForChapter(chapter.id)))
+  const [cards, setCards] = useState(() =>
+    shuffle(initialCards).map((c) => ({ ...c, categoryLabel: CATEGORIES[c.category] || c.category })),
+  )
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
-  // Réponses de la session : { idDeCarte: { correct, durationMs } }
+  // Réponses de CETTE session (pour le bilan) : { idDeCarte: { correct, durationMs } }
   const [answers, setAnswers] = useState({})
   const shownAt = useRef(0) // instant où la carte actuelle est apparue
+  const sessionId = useRef(null) // la session n'est créée qu'à la première réponse
 
   useEffect(() => {
     shownAt.current = Date.now()
@@ -45,26 +55,44 @@ function SessionRun({ chapter }) {
   const done = index >= cards.length
   const card = cards[index]
 
+  // Fin de session : on enregistre l'heure de fin.
+  useEffect(() => {
+    if (done && sessionId.current) endSession(sessionId.current)
+  }, [done])
+
   function goTo(i) {
     setIndex(i)
     setFlipped(false)
     shownAt.current = Date.now()
   }
 
+  function ensureSession() {
+    if (!sessionId.current) {
+      sessionId.current = newId()
+      startSession(sessionId.current, chapter.id)
+    }
+    return sessionId.current
+  }
+
   function grade(correct) {
     const durationMs = Math.min(Date.now() - shownAt.current, MAX_CARD_MS)
+    recordAnswer({ sessionId: ensureSession(), card, correct, durationMs }).catch((err) =>
+      console.error('Réponse non enregistrée', err),
+    )
     setAnswers((prev) => ({ ...prev, [card.id]: { correct, durationMs } }))
     goTo(index + 1)
   }
 
   function restart(onlyMistakes) {
     const next = onlyMistakes ? cards.filter((c) => answers[c.id] && !answers[c.id].correct) : cards
+    sessionId.current = null // une nouvelle session commencera à la prochaine réponse
     setCards(shuffle(next))
     setAnswers({})
     goTo(0)
   }
 
   function quit() {
+    if (sessionId.current && !done) endSession(sessionId.current)
     navigate(`/chapitres/${chapter.id}`)
   }
 
@@ -93,7 +121,7 @@ function SessionRun({ chapter }) {
         <p className="summary-detail">
           <span className="ok">{good} justes</span> · <span className="ko">{bad} à revoir</span>
         </p>
-        <p className="muted small">≈ {minutes} min de révision</p>
+        <p className="muted small">≈ {minutes} min de révision · session enregistrée</p>
 
         <div className="summary-actions">
           {bad > 0 && (
@@ -148,11 +176,7 @@ function SessionRun({ chapter }) {
           <button className="button-secondary" onClick={() => goTo(index - 1)} disabled={index === 0}>
             Précédente
           </button>
-          <button
-            className="button-secondary"
-            onClick={() => goTo(index + 1)}
-            disabled={index === cards.length - 1}
-          >
+          <button className="button-secondary" onClick={() => goTo(index + 1)} disabled={index === cards.length - 1}>
             Suivante
           </button>
         </div>

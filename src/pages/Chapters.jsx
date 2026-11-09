@@ -1,8 +1,17 @@
 import { Link } from 'react-router'
-import { CHAPTERS } from '../data/chapters.js'
+import { useStats } from '../hooks/useData.js'
 import { IconChevron } from '../components/Icons.jsx'
 
+function subtitle(ch) {
+  if (ch.cards === 0) return 'Pas encore de cartes'
+  if (ch.attempts === 0) return `${ch.cards} cartes · pas encore révisé`
+  return `${ch.rate} % de réussite · ${ch.mastered}/${ch.cards} maîtrisées`
+}
+
 export default function Chapters() {
+  const stats = useStats()
+  if (!stats) return <div className="page" />
+
   return (
     <div className="page">
       <header className="page-header">
@@ -10,13 +19,16 @@ export default function Chapters() {
       </header>
 
       <ul className="grouped-list">
-        {CHAPTERS.map((chapter) => (
-          <li key={chapter.id}>
-            <Link to={`/chapitres/${chapter.id}`} className="list-row">
-              <span className="badge">{chapter.id}</span>
+        {stats.chapters.map((ch) => (
+          <li key={ch.id}>
+            <Link to={`/chapitres/${ch.id}`} className="list-row">
+              <span className={'badge' + (ch.isMastered ? ' badge-ok' : '')}>{ch.id}</span>
               <span className="list-row-text">
-                <span>{chapter.title}</span>
-                <span className="muted small">Pas encore de cartes</span>
+                <span>{ch.title}</span>
+                <span className="muted small">{subtitle(ch)}</span>
+                <span className="mini-bar" aria-hidden="true">
+                  <span className="mini-bar-fill" style={{ width: `${ch.masteryPct}%` }} />
+                </span>
               </span>
               <span className="chevron">
                 <IconChevron />

@@ -8,8 +8,10 @@ import ChapterDetail from './pages/ChapterDetail.jsx'
 import Session from './pages/Session.jsx'
 import Stats from './pages/Stats.jsx'
 import Planning from './pages/Planning.jsx'
+import { useAppUsage } from './hooks/useAppUsage.js'
 
 export default function App() {
+  useAppUsage() // compte le temps passé dans l'app, sur toutes les pages
   const { pathname } = useLocation()
   const inSession = pathname.startsWith('/session')
 
@@ -23,11 +25,9 @@ export default function App() {
           <Route path="/session/:chapterId" element={<Session />} />
           <Route path="/stats" element={<Stats />} />
           <Route path="/planning" element={<Planning />} />
-          {/* Toute adresse inconnue renvoie à l'accueil */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
-      {/* Mode concentration : pas de tab bar pendant une session */}
       {!inSession && <TabBar />}
     </div>
   )

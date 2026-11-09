@@ -1,5 +1,7 @@
 /* ==========================================================
    Session de révision : carte 3D, notation, bilan.
+   Les règles communes (.progress, .button-secondary, .ok, .ko) sont dans
+   components.css ; ici on ne fait que les adapter à la session.
    ========================================================== */
 .session {
   height: 100%;
@@ -41,16 +43,8 @@
   justify-content: center;
 }
 
-.progress {
-  height: 4px;
-  border-radius: 2px;
+.session .progress {
   background: var(--surface);
-  overflow: hidden;
-}
-.progress-fill {
-  height: 100%;
-  background: var(--accent);
-  transition: width 0.3s ease;
 }
 
 /* ---------- La carte 3D ----------
@@ -150,7 +144,7 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
 }
-.button-secondary,
+.session .button-secondary,
 .button-ok,
 .button-ko {
   height: 54px;
@@ -158,13 +152,8 @@
   border-radius: 16px;
   font-size: 16px;
 }
-.button-secondary {
+.session .button-secondary {
   background: var(--surface);
-  color: var(--text);
-}
-.button-secondary:disabled {
-  opacity: 0.35;
-  cursor: default;
 }
 .button-ok {
   background: var(--ok);
@@ -197,12 +186,6 @@
 }
 .summary-detail {
   font-size: 16px;
-}
-.ok {
-  color: var(--ok);
-}
-.ko {
-  color: var(--ko);
 }
 .summary-actions {
   width: 100%;
