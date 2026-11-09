@@ -6,8 +6,18 @@ import { dayKey } from '../lib/dates.js'
 /* ---------- Sessions et réponses ---------- */
 
 // Une session réellement effectuée (distincte des sessions *prévues* du planning).
-export function startSession(id, chapterId) {
-  return db.sessions.add({ id, chapterId, startedAt: Date.now(), endedAt: null, plannedSessionId: null })
+// chapterId vaut null pour une révision globale (tous les chapitres).
+// Si une session était prévue aujourd'hui pour ce chapitre, elle est
+// automatiquement marquée « réalisée » et reliée à cette vraie session.
+export async function startSession(id, chapterId) {
+  const today = dayKey()
+  const planned = await db.plannedSessions
+    .where('day')
+    .equals(today)
+    .filter((p) => p.status === 'planned' && (chapterId === null ? p.kind === 'globale' : p.chapterId === chapterId))
+    .first()
+  await db.sessions.add({ id, chapterId, startedAt: Date.now(), endedAt: null, plannedSessionId: planned?.id || null })
+  if (planned) await db.plannedSessions.update(planned.id, { status: 'done', doneSessionId: id })
 }
 
 export function endSession(id) {

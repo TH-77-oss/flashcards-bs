@@ -23,8 +23,20 @@ export function useChapters() {
   return useLiveQuery(() => db.chapters.orderBy('id').toArray(), [])
 }
 
+// chapterId null = révision globale (pas de chapitre précis).
 export function useChapter(chapterId) {
-  return useLiveQuery(() => db.chapters.get(chapterId), [chapterId])
+  return useLiveQuery(() => (chapterId == null ? null : db.chapters.get(chapterId)), [chapterId])
+}
+
+// Cartes d'une session : celles d'un chapitre, ou toutes (révision globale).
+export function useSessionCards(chapterId) {
+  return useLiveQuery(
+    () =>
+      (chapterId == null ? db.cards.toCollection() : db.cards.where('chapterId').equals(chapterId))
+        .filter((c) => !c.deleted)
+        .toArray(),
+    [chapterId],
+  )
 }
 
 export function useChapterCards(chapterId) {

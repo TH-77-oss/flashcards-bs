@@ -1,8 +1,11 @@
 import { useRef, useState } from 'react'
 import { Link } from 'react-router'
-import { daysUntilExam, EXAM_DATE_LABEL, formatDuration } from '../lib/dates.js'
+import { daysUntilExam, EXAM_DATE_LABEL, formatDuration, dayKey } from '../lib/dates.js'
 import { useStats } from '../hooks/useData.js'
 import { exportBackup, importBackup } from '../db/backup.js'
+import { usePlanning } from '../hooks/usePlanning.js'
+import { KINDS } from '../domain/scheduler.js'
+import { sessionTitle } from '../components/planning/kinds.js'
 
 export default function Home() {
   const stats = useStats()
@@ -32,6 +35,8 @@ export default function Home() {
         </Link>
       </section>
 
+      <TodayPlan />
+
       <div className="stat-grid">
         <Stat value={stats.total} label="Cartes révisées" />
         <Stat value={rate} label="Réussite" />
@@ -55,6 +60,39 @@ export default function Home() {
 
       <BackupCard />
     </div>
+  )
+}
+
+// Les sessions prévues aujourd'hui dans le planning, avec un bouton pour lancer.
+function TodayPlan() {
+  const plan = usePlanning()
+  if (!plan) return null
+  const list = plan.byDay.get(dayKey()) || []
+  if (list.length === 0) return null
+  const next = list.find((p) => p.status !== 'done')
+
+  return (
+    <section className="card today">
+      <p className="section-label">Au programme aujourd’hui</p>
+      {list.map((p) => (
+        <div key={p.id} className="today-row">
+          <span className={p.status === 'done' ? 'muted' : ''}>
+            {p.status === 'done' ? '✓ ' : ''}
+            {sessionTitle(p, plan.titles)}
+          </span>
+          <span className="muted small">
+            {KINDS[p.kind].label} · {p.minutes} min
+          </span>
+        </div>
+      ))}
+      {next ? (
+        <Link to={`/session/${next.chapterId ?? 'tout'}`} className="button-primary">
+          Lancer : {sessionTitle(next, plan.titles)}
+        </Link>
+      ) : (
+        <p className="ok small">Programme du jour terminé.</p>
+      )}
+    </section>
   )
 }
 

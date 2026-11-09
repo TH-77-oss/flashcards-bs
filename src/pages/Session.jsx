@@ -4,7 +4,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Navigate, useNavigate, useParams } from 'react-router'
 import FlipCard from '../components/FlipCard.jsx'
-import { useChapter, useChapterCards } from '../hooks/useData.js'
+import { useChapter, useSessionCards } from '../hooks/useData.js'
 import { startSession, endSession, recordAnswer } from '../db/repository.js'
 import { CATEGORIES } from '../data/sampleCards.js'
 import { newId } from '../lib/id.js'
@@ -13,6 +13,8 @@ import '../styles/session.css'
 // Au-delà de 2 minutes sur une carte, on considère que le téléphone a été
 // posé : le temps compté est plafonné.
 const MAX_CARD_MS = 2 * 60 * 1000
+// Révision globale : un échantillon de 40 cartes tirées dans tous les chapitres.
+const GLOBAL_SIZE = 40
 
 // Mélange de Fisher-Yates : ordre aléatoire à chaque session.
 function shuffle(list) {
@@ -25,15 +27,20 @@ function shuffle(list) {
 }
 
 export default function Session() {
-  const chapterId = Number(useParams().chapterId)
-  const chapter = useChapter(chapterId)
-  const cards = useChapterCards(chapterId)
+  const param = useParams().chapterId
+  const isGlobal = param === 'tout' // adresse /session/tout = révision globale
+  const chapterId = isGlobal ? null : Number(param)
+  const found = useChapter(chapterId)
+  const cards = useSessionCards(chapterId)
 
-  if (chapter === undefined || cards === undefined) return <div className="session" /> // chargement
-  if (!chapter) return <Navigate to="/chapitres" replace />
+  if (cards === undefined || (!isGlobal && found === undefined)) return <div className="session" /> // chargement
+  if (!isGlobal && !found) return <Navigate to="/chapitres" replace />
+
+  const chapter = isGlobal ? { id: null, title: 'Révision globale' } : found
+  const initialCards = isGlobal ? shuffle(cards).slice(0, GLOBAL_SIZE) : cards
 
   // key : si on change de chapitre, la session repart de zéro.
-  return <SessionRun key={chapter.id} chapter={chapter} initialCards={cards} />
+  return <SessionRun key={chapter.id ?? 'tout'} chapter={chapter} initialCards={initialCards} />
 }
 
 function SessionRun({ chapter, initialCards }) {
@@ -93,7 +100,7 @@ function SessionRun({ chapter, initialCards }) {
 
   function quit() {
     if (sessionId.current && !done) endSession(sessionId.current)
-    navigate(`/chapitres/${chapter.id}`)
+    navigate(chapter.id ? `/chapitres/${chapter.id}` : '/planning')
   }
 
   if (cards.length === 0) {

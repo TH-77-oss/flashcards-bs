@@ -21,6 +21,21 @@ db.version(1).stores({
   settings: 'key', //                      { key, value }
 })
 
+// Version 2 (étape 7) : ajout du planning. Dexie met à jour la base déjà
+// présente sur l'appareil sans toucher aux données existantes.
+db.version(2).stores({
+  chapters: 'id',
+  cards: 'id, chapterId',
+  sessions: 'id, chapterId, startedAt',
+  answers: 'id, sessionId, cardId, chapterId, day',
+  usageDaily: 'day',
+  images: 'id',
+  settings: 'key',
+  // { id, day, chapterId (null = tous), kind, minutes, status: 'planned'|'done',
+  //   generated, editedManually, doneSessionId, createdAt }
+  plannedSessions: 'id, day, chapterId, status',
+})
+
 // Appelé au démarrage : insère les chapitres et cartes de départ manquants,
 // puis demande au navigateur de protéger les données contre l'effacement.
 export async function initDb() {
