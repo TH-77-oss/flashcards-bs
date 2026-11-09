@@ -1,0 +1,273 @@
+{
+  "chapter": 3,
+  "title": "Industry Analysis: The Fundamentals",
+  "version": 1,
+  "cards": [
+    {
+      "id": "ch03-001",
+      "category": "definition",
+      "question": "What are the three objectives of industry analysis?",
+      "answer": "1. Understand industry structure — recognize the variables that drive competition and profitability.\n2. Assess change — forecast how the evolution of competitive forces may alter industry attractiveness.\n3. Link industry and firm — define boundaries, positioning and key success factors.\nStructure shapes the opportunities; the firm's choices determine how it exploits them."
+    },
+    {
+      "id": "ch03-002",
+      "category": "raisonnement",
+      "question": "What is the role of PEST analysis in industry analysis, and what is its limit?",
+      "answer": "PEST (Political, Economic, Social, Technological) is a starting point, not an endless checklist. A trend matters only if it concretely changes relationships within the industry — with customers (who generate revenue and choose between alternatives), suppliers (who provide inputs) and competitors (who affect the share of value retained). E.g. environmental policies can change demand, costs, inputs and obligations for cars, agriculture, ski resorts and power generation."
+    },
+    {
+      "id": "ch03-003",
+      "category": "formule",
+      "question": "Give the formulas for value created, consumer surplus and producer margin.",
+      "answer": "• Value created = Willingness to pay − Cost\n• Consumer surplus = Willingness to pay − Price\n• Producer margin = Price − Cost\nValue created = consumer surplus + producer margin."
+    },
+    {
+      "id": "ch03-004",
+      "category": "tableau",
+      "question": "Umbrella example: WTP €20, price €15, cost €5. What happens with more competition (price €8) and then a more powerful supplier (cost €7)?",
+      "answer": "• Initial: consumer surplus €5, seller's margin €10.\n• More competition (price €8): consumer surplus €12, margin €3 — competition shifts value to customers.\n• More powerful supplier (cost €7): consumer surplus €12, margin €1 — supplier power captures part of the remaining margin.\nThe value created is the same; its distribution depends on competitive conditions, which is why profitability differs between industries."
+    },
+    {
+      "id": "ch03-005",
+      "category": "graphique",
+      "question": "Interpret this chart of average ROCE across US industries (2008–2018).",
+      "answer": "Profitability differs hugely between industries: tobacco 64.5%, computers and peripherals 53.0%, software 26.6%, airlines 15.5%, food distribution 11.1%, autos 5.3%, wireless telecoms 3.4%. Market structure explains much of this: monopoly (a protected operator), oligopoly (a few large players) and perfect competition (excess returns tend to disappear). E.g. US Smokeless Tobacco (2014–2017): 62% operating margin and 57% share, sustained by brands, extensive distribution and advertising restrictions.",
+      "image": "ch03/slide-07.jpg",
+      "imageHint": "Slide 7 of the chapter 3 PDF"
+    },
+    {
+      "id": "ch03-006",
+      "category": "formule",
+      "question": "ROCE as used in this chapter: formula and numerical example.",
+      "answer": "ROCE = EBIT / (Shareholders' equity + Long-term debt) × 100.\nExample: EBIT = €150,000 and capital employed = €600,000 → ROCE = 25%.\nIt compares operating profit with the capital employed; industry profitability is assessed against the cost of capital."
+    },
+    {
+      "id": "ch03-007",
+      "category": "graphique",
+      "question": "Explain Porter's Five Forces framework and the 'sixth force'.",
+      "answer": "Industry profitability (return on capital relative to the cost of capital) is not random: it is determined by five forces.\n• Horizontal competition: threat of entry, threat of substitutes, rivalry among existing competitors.\n• Vertical competition: bargaining power of suppliers and bargaining power of buyers.\nSixth force: complements (Brandenburger and Nalebuff, Co-opetition, 1996).",
+      "image": "ch03/slide-09.jpg",
+      "imageHint": "Slide 9 of the chapter 3 PDF"
+    },
+    {
+      "id": "ch03-008",
+      "category": "definition",
+      "question": "List the main structural determinants of each of the five forces.",
+      "answer": "• Threat of entry: capital requirements, scale economies, absolute cost advantages, differentiation, access to distribution, legal barriers, retaliation.\n• Rivalry: concentration, diversity of competitors, differentiation, excess capacity, cost conditions.\n• Substitutes: buyers' propensity to substitute and price-performance of alternatives.\n• Buyer power and supplier power: price sensitivity and relative bargaining power."
+    },
+    {
+      "id": "ch03-009",
+      "category": "raisonnement",
+      "question": "How do substitutes and price elasticity of demand affect industry profitability?",
+      "answer": "• Inelastic demand: few close substitutes, so customers are less sensitive to price increases (Grant cites gasoline and cigarettes).\n• Elastic demand: close alternatives exist, so a price rise drives customers away, limiting pricing power.\nThe internet created devastating substitutes: online booking for travel agents, digital news and social media for newspapers (−58% printed dailies 2016–2025), online book purchases for bookstores."
+    },
+    {
+      "id": "ch03-010",
+      "category": "raisonnement",
+      "question": "What determines the threat of substitutes? Give examples.",
+      "answer": "Buyers' propensity to substitute, driven by the relative price-performance of the substitute. Examples: high-speed rail vs flights on London–Paris, Madrid–Barcelona, Beijing–Shanghai (city-centre stations, shorter waits); digital photography and smartphones vs Kodak film; streaming vs in-store DVD rental; messaging apps vs SMS and international calls. A substitute need not be a direct rival: it can come from another industry and meet the same need."
+    },
+    {
+      "id": "ch03-011",
+      "category": "raisonnement",
+      "question": "Explain the mechanism by which high profits attract entry. Give examples.",
+      "answer": "Entry → new supply → lower prices → margins pushed down towards the competitive return. With low barriers entry can be massive: US breweries rose from 284 (1990) to 4,269 (2017) and UK breweries from 241 to 892, despite falling beer consumption. Conversely, strict licensing and accreditation in professions (e.g. doctors vs psychotherapists) limit entry and sustain fees."
+    },
+    {
+      "id": "ch03-012",
+      "category": "definition",
+      "question": "What is a contestable market? Give an example.",
+      "answer": "A market with no significant barriers to entry or exit, where the mere threat of entry keeps prices close to the competitive level. With low sunk costs, an entrant can engage in 'hit-and-run' entry: enter when prices are high, exit when they return to normal.\nExample: a single-operator airline route — if aircraft can easily be moved to other routes, the incumbent has an incentive to keep fares moderate."
+    },
+    {
+      "id": "ch03-013",
+      "category": "raisonnement",
+      "question": "Why do sunk costs reduce contestability?",
+      "answer": "Sunk costs are investments that cannot be recovered on exit. They make entry riskier, because the entrant cannot simply withdraw when prices fall. Without sunk costs, hit-and-run entry is possible and potential competition disciplines incumbents' prices."
+    },
+    {
+      "id": "ch03-014",
+      "category": "definition",
+      "question": "What are the seven barriers to entry, and how is the height of a barrier measured?",
+      "answer": "1. Capital requirements\n2. Economies of scale\n3. Absolute cost advantages\n4. Product differentiation\n5. Access to channels of distribution\n6. Governmental and legal barriers\n7. Retaliation by incumbents\nThe height of a barrier measures the cost disadvantage of a new entrant relative to established firms."
+    },
+    {
+      "id": "ch03-015",
+      "category": "tableau",
+      "question": "Explain how four barriers to entry work, with an example for each.",
+      "answer": "• Capital requirements: starting and growing require huge resources — Boeing–Airbus in large jets vs pizza franchising.\n• Economies of scale: entrants start small and bear higher unit costs — car industry (high volumes needed).\n• Absolute cost advantages: incumbents have lower costs even at comparable scale through access to resources, experience and learning — TSMC in semiconductors.\n• Differentiation: brand recognition and customer loyalty require heavy investment to overcome — Coca-Cola and Pepsi."
+    },
+    {
+      "id": "ch03-016",
+      "category": "application",
+      "question": "Explain access to distribution, legal barriers and retaliation as barriers to entry.",
+      "answer": "• Access to distribution: shelf space is limited and retailers prefer established brands; the internet can bypass intermediaries (Dollar Shave Club in razors).\n• Legal barriers: licences, patents and copyright can restrict entry (taxis, banking, telecoms).\n• Retaliation: incumbents can react with price cuts, advertising or legal action; on contested air routes, fare wars until the less-resourced entrant withdraws."
+    },
+    {
+      "id": "ch03-017",
+      "category": "raisonnement",
+      "question": "Are barriers to entry equally effective against all entrants?",
+      "answer": "No. A barrier may stop a start-up but be far less effective against an established firm with transferable resources and capabilities. Google, as a diversifying entrant, used its web resources to challenge Microsoft in browsers and Apple in smartphones."
+    },
+    {
+      "id": "ch03-018",
+      "category": "tableau",
+      "question": "What are the five factors determining the intensity of rivalry? Give an example of each.",
+      "answer": "• Concentration (concentration ratio): few players can limit price wars; many rivals intensify them — Coca-Cola and Pepsi; Bloomberg and Reuters.\n• Diversity of competitors: firms similar in goals, costs and strategies maintain price discipline more easily — difficulty of coordination within OPEC.\n• Differentiation: similar offerings lead to price competition — commodities vs perfumes, pharmaceuticals, restaurants, consulting.\n• Excess capacity and exit barriers: unused capacity drives discounting — European cars, semiconductors, shipping.\n• Cost conditions: high fixed costs push firms to accept marginal business — airlines, bulk carriers.\nNo single factor explains profitability on its own."
+    },
+    {
+      "id": "ch03-019",
+      "category": "raisonnement",
+      "question": "Explain how excess capacity and high fixed costs depress industry profitability.",
+      "answer": "When capacity exceeds demand, firms cut prices to fill their plants. With high fixed costs, any price above variable cost contributes to covering fixed costs, so firms accept low-margin business. If exit barriers keep capacity in the industry, the pressure persists: unused capacity → discounts to cover variable costs → lower margins (e.g. airlines)."
+    },
+    {
+      "id": "ch03-020",
+      "category": "definition",
+      "question": "What two factors determine the power of buyers?",
+      "answer": "1. Price sensitivity — how much price matters in the purchase decision.\n2. Relative bargaining power — how far the buyer can impose prices and conditions.\nThe analysis is symmetric for supplier power: the industry's firms become the buyers of inputs."
+    },
+    {
+      "id": "ch03-021",
+      "category": "raisonnement",
+      "question": "What three factors affect buyers' price sensitivity?",
+      "answer": "1. Importance of the item in total cost: the greater its share of the buyer's costs, the more price matters (aluminium for beverage can makers).\n2. Price transparency: accessible information reduces information asymmetry and eases comparison (Idealo, Trivago, Skyscanner).\n3. Switching costs: if changing supplier is costly or risky, the customer tolerates price increases more easily (enterprise ERP vs mobile phone operator)."
+    },
+    {
+      "id": "ch03-022",
+      "category": "definition",
+      "question": "What determines the bargaining power of buyers?",
+      "answer": "• Size and concentration of buyers (large-scale purchases)\n• Standardization of the product (indistinguishable products → low seller power)\n• Switching costs\n• Influence of the product on the quality of the buyer's output (if irrelevant, e.g. zip fasteners, sellers have little power)\n• Threat of backward integration (Apple Silicon replacing Intel processors in Macs since 2020)\n• Large retailers: Walmart and Italian buying groups negotiate prices and conditions and develop private labels"
+    },
+    {
+      "id": "ch03-023",
+      "category": "tableau",
+      "question": "When are buyers strong and when are suppliers strong? Give examples.",
+      "answer": "Power depends on the parties' relative position, mutual dependence and credible alternatives.\n• Buyers strong: few large customers facing many producers; accessible price and cost information; ability to switch or produce in-house — Walmart and Italian retailers with private labels; Apple Silicon; large carmakers facing many component suppliers.\n• Suppliers strong: critical or technically complex inputs; few operators and limited alternatives; control of an essential resource or channel — ASML's EUV machines, TSMC, Nvidia GPUs; the Airbus–Boeing duopoly; energy dependence; app stores as gateways to users."
+    },
+    {
+      "id": "ch03-024",
+      "category": "definition",
+      "question": "What determines the bargaining power of suppliers? Define a cartel.",
+      "answer": "• Degree of competition among suppliers\n• Sophisticated, technically indispensable components with limited alternatives\n• Threat of forward integration (Pirelli stores for wealthy customers)\n• Importance of the firm to the supplier's sales (partnership strategies needed if the firm is the main source of sales)\n• Raw materials and cartels: individual suppliers may be weak, but cartels increase their influence (OPEC, coffee, agricultural cooperatives)\nA cartel is a formal or informal agreement between independent firms in the same industry (usually an oligopoly) to limit or eliminate competition among them."
+    },
+    {
+      "id": "ch03-025",
+      "category": "application",
+      "question": "Give examples of supplier power in traditional industries.",
+      "answer": "• Personal computers: low industry profitability linked to the power of suppliers of key components (processors, disk drives, LCD screens) and of Microsoft in operating systems.\n• Wireless telecoms: operators depend on spectrum licences sold at auction (the revenues of 3G and 4G auctions signal the value of the resource).\n• Organized labour: unions exert bargaining power in autos, steel and airlines.\n• Large retail: a supplier dependent on a few large distributors faces imposed prices, conditions and shelf access."
+    },
+    {
+      "id": "ch03-026",
+      "category": "graphique",
+      "question": "How does the criticality and concentration of an input shift value towards suppliers? Explain with these four cases.",
+      "answer": "• Semiconductors (ASML, TSMC, Nvidia): technological monopoly — critical, irreplaceable inputs, high prices and supplier-dictated terms.\n• Aircraft (Airbus, Boeing): structural duopoly — multi-year binding orders, no alternatives.\n• App stores (Apple, Google): access gatekeepers — control of customer channels, high commissions.\n• Energy (gas and commodities): geo-supply vulnerability — price shocks and sudden need to diversify.\nControl of a critical input or essential channel reduces buyers' bargaining leverage.",
+      "image": "ch03/slide-26.jpg",
+      "imageHint": "Slide 26 of the chapter 3 PDF"
+    },
+    {
+      "id": "ch03-027",
+      "category": "definition",
+      "question": "How can industry analysis be used to forecast future industry profitability?",
+      "answer": "1. Current structure: explain how current competition and profitability result from the present industry structure.\n2. Trends: identify the trends changing structure — differentiation vs standardization, technological innovation, threat of substitutes, changes in customers' buying behaviour and firms' strategies.\n3. Effects on the forces: assess how these changes will affect the five forces and hence profitability.\nSome forces strengthen, others weaken: the overall outcome requires judgement, not mechanical addition. Current profitability is not a reliable guide to the future."
+    },
+    {
+      "id": "ch03-028",
+      "category": "application",
+      "question": "Apply the Five Forces to video streaming platforms.",
+      "answer": "• Rivalry — HIGH: Netflix, Disney+, Prime Video compete for subscribers and exclusive content; heavy original production costs; easy cancellation.\n• Threat of entry — MEDIUM: large investment in technology, content and marketing, but big tech and media groups can leverage existing resources and brands.\n• Supplier power — HIGH: studios, creators and sports-rights holders demand high fees; exclusivity increases their power.\n• Buyer power — HIGH: users compare prices, share or cancel subscriptions, switch easily; low loyalty.\n• Substitutes — HIGH: YouTube, TikTok, video games, TV and social networks compete for leisure time and attention."
+    },
+    {
+      "id": "ch03-029",
+      "category": "application",
+      "question": "In food delivery platforms (Glovo, Deliveroo, Just Eat), what determines the platform's power?",
+      "answer": "The platform is an intermediary between restaurants (which prepare the offering), riders (delivery and logistics) and customers (who express demand). Its leverage depends on controlling access to demand. Key questions: who can be substituted, who controls access to customers, and what alternatives do restaurants, riders and users have? A single actor can play several roles in the value chain."
+    },
+    {
+      "id": "ch03-030",
+      "category": "tableau",
+      "question": "Capsule 3.2: why is the profitability of the world auto industry expected to decline in 2021–2025?",
+      "answer": "• Substitutes: alternative transport (weak impact 2016–20) → new substitutes driven by environmental policies (growing).\n• Internal rivalry: 22 firms producing over 1 million cars a year (strong) → M&A reduces competitor numbers, but pressure keeps growing.\n• New entry: new EV producers (moderate) → more competition from producers and operators (growing).\n• Buyer power: distribution through franchised dealers (weak) → no significant change.\n• Supplier power: consolidation among component suppliers (moderate) → new software suppliers (growing).\nDespite potential new revenue streams, structural changes will reduce future profitability.",
+      "image": "ch03/slide-33.jpg",
+      "imageHint": "Slide 33 of the chapter 3 PDF"
+    },
+    {
+      "id": "ch03-031",
+      "category": "raisonnement",
+      "question": "Once the forces depressing margins are identified, what two strategic responses are available?",
+      "answer": "1. Alter industry structure: change the balance of power or the rules of the industry to weaken some competitive pressures.\n2. Position the firm: choose segments and activities where the firm is less exposed to adverse competitive forces.\nThis turns passive analysis into an active strategic choice: industry structure → competition → profitability → strategy."
+    },
+    {
+      "id": "ch03-032",
+      "category": "application",
+      "question": "Give examples of firms altering industry structure.",
+      "answer": "• Consolidation: between 2000 and 2006 Vale, Rio Tinto and BHP came to control about 75% of world iron-ore exports; iron-ore prices rose 400%.\n• In 2016–2017 the largest Western chemical producers responded to Asian competition with strategic mergers, shifting towards specialty chemicals.\n• Raising switching costs: frequent-flyer programmes.\n• Controlling scarce assets: concentration of slots and gates at hub airports.\n• Legal barriers: the AMA's control over medical-school places and restrictive standards limits supply and supports doctors' fees."
+    },
+    {
+      "id": "ch03-033",
+      "category": "application",
+      "question": "Give examples of repositioning to escape adverse competitive forces.",
+      "answer": "• Music: digital created substitutes for physical formats, so specialist retailers repositioned on protected niches (vinyl and CDs of classical, country and old hits for collectors and older customers).\n• E*Trade (zero-commission online brokerage) vs Edward Jones, which kept local offices focused on clients needing complex advice.\n• Amazon absorbed sales of standard products, decimating department stores; John Lewis repositioned towards restaurants, spas and services.\nPositioning can exploit intangible dimensions (trust, experience) that some customers value."
+    },
+    {
+      "id": "ch03-034",
+      "category": "definition",
+      "question": "Distinguish an industry from a market. Why are SIC/ATECO codes not enough?",
+      "answer": "• Industry: a broad group of firms linked on the supply side (e.g. the packaging industry).\n• Market: a specific place where buyers and sellers exchange a defined product (e.g. aluminium cans).\nStatistical codes classify firms by main activity but are too generic and rigid for strategic decisions. E.g. banking includes household mortgages and investment banking, which serve different customers and do not compete in the same market. The principle of substitutability defines the relevant market."
+    },
+    {
+      "id": "ch03-035",
+      "category": "raisonnement",
+      "question": "How does demand-side substitutability define a market? Use the Ferrari example.",
+      "answer": "Guiding question: if the price rises, does the customer switch to another product? If Ferrari raises prices, its customers do not switch to ordinary cars; the only alternatives are other ultra-luxury cars. Ferrari therefore competes in the ultra-luxury car market, not in the car market as a whole."
+    },
+    {
+      "id": "ch03-036",
+      "category": "raisonnement",
+      "question": "How does supply-side substitutability define a market? Use the Whirlpool/Electrolux example.",
+      "answer": "Guiding question: how easily could a producer of other goods convert its plants to enter our market? Refrigerators and dishwashers are not substitutes for consumers, but Whirlpool and Electrolux use the same motors, machinery and logistics, so production can be switched flexibly and cheaply. Hence they belong to the same major-appliances industry."
+    },
+    {
+      "id": "ch03-037",
+      "category": "raisonnement",
+      "question": "How are geographical market boundaries determined?",
+      "answer": "By the price test: compare prices across countries (net of taxes). If price gaps trigger arbitrage — customers buying abroad where it is cheaper, firms selling where margins are higher — goods move geographically, barriers collapse and a single interconnected (global) market emerges. If prices remain different, markets are local or national."
+    },
+    {
+      "id": "ch03-038",
+      "category": "definition",
+      "question": "Why are market boundaries a continuum rather than clear-cut lines?",
+      "answer": "Competitors range from direct rivals to broader competitors to distant substitutes; where to draw the line depends on the management decision being made (operational or strategic). E.g. cinema: independent cinema → multiplex → streaming — each circle widens the definition of competition."
+    },
+    {
+      "id": "ch03-039",
+      "category": "definition",
+      "question": "What are key success factors (KSFs), and how are they identified?",
+      "answer": "The factors a firm needs to survive and prosper in an industry. Two questions:\n1. What do customers want? — identify the segment, needs and choice criteria (price, reliability, quality, brand, convenience, service).\n2. What does it take to survive competition? — the nature and intensity of rivalry and the conditions for a sustainable position.\nMethod: segment (who buys?) → criteria (how do they choose?) → requirement (what is needed?) → indicator (how is it measured?). Ohmae's forestry example: to maximize yield, identify the concrete cause of tree growth (light, water, variety) on which to act."
+    },
+    {
+      "id": "ch03-040",
+      "category": "tableau",
+      "question": "Compare key success factors in cloud computing, fashion and supermarkets.",
+      "answer": "• Cloud computing — customers want reliability, security, customization, analytics and AI → global scale, broad offering, technical services, financial strength.\n• Fashion — brand, style, exclusivity and quality, or low prices → differentiation, low costs, speed of response, efficient production.\n• Supermarkets — price, convenience, range, quality and service → large-scale purchasing, store efficiency, productivity, location.\nCommon KSFs do not impose a single recipe: Zara (Inditex), H&M, Diesel and Mango combine brand, cost, speed and positioning differently."
+    },
+    {
+      "id": "ch03-041",
+      "category": "formule",
+      "question": "How can an airline's profitability be disaggregated per available seat mile (ASM)?",
+      "answer": "Profit / ASM = (Revenue / RPM) × (RPM / ASM) − Costs / ASM\n• ASM (available seat miles) = seats offered × miles flown: capacity.\n• RPM (revenue passenger miles) = paying passengers × miles flown: actual traffic.\n• Yield = Revenue / RPM — depends on prices, competition and customer mix.\n• Load factor = RPM / ASM — utilization of capacity.\n• Unit cost = Costs / ASM — depends on fuel, productivity, wages and administrative costs."
+    },
+    {
+      "id": "ch03-042",
+      "category": "formule",
+      "question": "An airline has 100,000 ASM, 80,000 RPM, revenue €12,000 and costs €10,000. Compute yield, load factor, cost per ASM and profit per ASM.",
+      "answer": "• Yield = 12,000 / 80,000 = €0.15 per RPM\n• Load factor = 80,000 / 100,000 = 80%\n• Cost per ASM = 10,000 / 100,000 = €0.10\n• Profit per ASM = 0.15 × 0.80 − 0.10 = €0.02\n• Total profit = 0.02 × 100,000 = €2,000"
+    },
+    {
+      "id": "ch03-043",
+      "category": "raisonnement",
+      "question": "What does Buffett's quote on 'unfavourable economics' mean for industry analysis?",
+      "answer": "'When a management with a reputation for brilliance tackles a business with a reputation for bad economics, it is the reputation of the business that remains intact.' Industry structure strongly conditions profitability: even excellent managers struggle to earn high returns in a structurally unattractive industry."
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "chapter": 1,
+  "title": "The Concept of Strategy",
+  "version": 1,
+  "cards": [
+    {
+      "id": "ch01-001",
+      "category": "definition",
+      "question": "According to Grant, what is the role of a firm's business strategy?",
+      "answer": "To define how the firm will deploy its resources and capabilities within its competitive environment to achieve its long-term goals, and how it will organize itself to implement that strategy."
+    },
+    {
+      "id": "ch01-002",
+      "category": "definition",
+      "question": "What is strategy NOT, and what IS it, according to the chapter's guiding idea?",
+      "answer": "Strategy is NOT:\n• a detailed plan\n• a programme of instructions\n• a forecast to be executed literally\n\nStrategy IS:\n• a unifying thread linking decisions and actions\n• consistency and direction over time\n• the link between the organization and its environment"
+    },
+    {
+      "id": "ch01-003",
+      "category": "definition",
+      "question": "What are the four common elements of successful strategies (illustrated by Queen Elizabeth II and Lady Gaga)?",
+      "answer": "1. Clear, consistent, long-term goals\n2. Profound understanding of the competitive environment\n3. Objective appraisal of resources\n4. Effective implementation — coordinating and leading 'ecosystems' of people and supporting organizations"
+    },
+    {
+      "id": "ch01-004",
+      "category": "application",
+      "question": "Apply the four elements of successful strategy to Lady Gaga.",
+      "answer": "• Goals: total commitment to her career since 2005\n• Environment: awareness of the new economics of the music industry, the marketing potential of social networks and the needs of Generations Y and Z\n• Resources: the creative talents of the Haus of Gaga\n• Implementation: coordinating this creative ecosystem effectively"
+    },
+    {
+      "id": "ch01-005",
+      "category": "raisonnement",
+      "question": "Why does success 'at the top' often come at a price?",
+      "answer": "High achievers are single-minded: career goals take priority over friendship, love, leisure, knowledge and spiritual fulfilment. This focus produces great success but often serious failure in other areas of life (damaged relationships, limited personal development) — e.g. Howard Hughes, Elvis Presley, Tiger Woods, Richard Nixon. Most people need broader goals (Covey: career, partner, family, friends, spiritual search)."
+    },
+    {
+      "id": "ch01-006",
+      "category": "graphique",
+      "question": "Explain this diagram: strategy as the link between the firm and its industry environment.",
+      "answer": "The firm (goals and values, resources and capabilities, structure and systems) is on one side; the industry environment (competitors, customers, suppliers) is on the other. Strategy sits in the middle as the bridge: it must be consistent with both the internal and the external environment.",
+      "image": "ch01/slide-10.jpg",
+      "imageHint": "Slide 10 of the chapter 1 PDF"
+    },
+    {
+      "id": "ch01-007",
+      "category": "definition",
+      "question": "What is strategic fit, and why is it critical?",
+      "answer": "Strategic fit is the consistency of a strategy with both the external environment and the internal environment (goals, values, resources and capabilities). A common cause of business failure is a strategy that lacks consistency with either the internal or the external context."
+    },
+    {
+      "id": "ch01-008",
+      "category": "raisonnement",
+      "question": "What is wrong with SWOT analysis, according to Grant?",
+      "answer": "SWOT forces an arbitrary classification: the same factor can be both a strength and a weakness (e.g. a strong, distinctive brand image) or both an opportunity and a threat (e.g. the pandemic for a coffee chain). Grant prefers the simpler distinction between internal factors (the firm) and external factors (the industry environment), which is what matters for strategy formulation.",
+      "image": "ch01/slide-11.jpg",
+      "imageHint": "Slide 11 of the chapter 1 PDF"
+    },
+    {
+      "id": "ch01-009",
+      "category": "definition",
+      "question": "How does Porter view the firm as an 'activity system'?",
+      "answer": "'Strategy is the creation of a unique and differentiated position involving a different set of activities' (Porter). Strategic fit also applies internally: a strategy is effective when all its decisions and activities are aligned, so that they integrate into a coherent and self-reinforcing system."
+    },
+    {
+      "id": "ch01-010",
+      "category": "graphique",
+      "question": "Interpret Ryanair's activity system.",
+      "answer": "The hub is low operating costs. Around it, mutually reinforcing activities: Boeing 737 only, 25-minute turnaround, high aircraft utilization, secondary airports, point-to-point routes, no-frills offering, low prices with separate charges for extra services, high labour productivity and flexibility, single class with no assigned seats, direct sales only, internet check-in, limited baggage. Each activity supports the others (e.g. a single aircraft type and no baggage transfers allow quick turnarounds → high utilization → low costs → low prices).",
+      "image": "ch01/slide-14.jpg",
+      "imageHint": "Slide 14 of the chapter 1 PDF"
+    },
+    {
+      "id": "ch01-011",
+      "category": "definition",
+      "question": "What is contingency theory?",
+      "answer": "There is no single best way to organize or manage. The best way to design, manage and lead an organization depends on the circumstances — in particular on the characteristics of the environment in which it operates. Strategic fit is part of this set of ideas."
+    },
+    {
+      "id": "ch01-012",
+      "category": "definition",
+      "question": "Give Chandler's and Rumelt's definitions of strategy and their common elements.",
+      "answer": "• Chandler (Strategy and Structure, 1962): 'the determination of the long-run goals and objectives of an enterprise, and the adoption of courses of action and the allocation of resources necessary for carrying out these goals'.\n• Rumelt (Good Strategy/Bad Strategy, 2011): 'a coherent response to an important challenge'.\nCommon elements: setting goals, allocating resources, establishing consistency between decisions and actions."
+    },
+    {
+      "id": "ch01-013",
+      "category": "definition",
+      "question": "Distinguish strategy from tactics (military roots of the concept).",
+      "answer": "• Strategy: the overall plan for deploying resources to establish a favourable position.\n• Tactics: a scheme for a specific, single manoeuvre or action."
+    },
+    {
+      "id": "ch01-014",
+      "category": "raisonnement",
+      "question": "Why is the military analogy of strategy only partly valid in business?",
+      "answer": "In war the objective is usually to defeat the enemy. In business, rivals compete but can coexist and sometimes collaborate — competition does not require the elimination of competitors."
+    },
+    {
+      "id": "ch01-015",
+      "category": "definition",
+      "question": "What are the three characteristics of strategic decisions?",
+      "answer": "1. Important — they matter for the future of the organization\n2. They involve a significant commitment of resources\n3. They are not easily reversible"
+    },
+    {
+      "id": "ch01-016",
+      "category": "tableau",
+      "question": "Outline the evolution of strategic management from the 1950s onwards.",
+      "answer": "• 1950s — Financial budgeting: managing financial resources\n• 1960s — Corporate planning: planning the future (long-term planning)\n• 1980s — Strategic planning / competitive strategy: managing competition\n• 1990s — Resource-based view: exploiting resources and capabilities\n• 2000s onwards — Turbulence and complexity: adapting, innovating, managing change"
+    },
+    {
+      "id": "ch01-017",
+      "category": "raisonnement",
+      "question": "Contrast 'strategy as plan' with 'strategy as direction'. Why has the emphasis shifted?",
+      "answer": "• Strategy as plan: medium-term forecasts and detailed specifications of what to do — suited to a stable, predictable environment.\n• Strategy as direction: guidelines and consistency of action, flexibility and responsiveness — suited to a turbulent, unpredictable environment.\nAs environments became more turbulent, forecasts became unreliable; strategy is now a 'compass' giving direction, identity and the sources of superior profitability rather than a detailed plan."
+    },
+    {
+      "id": "ch01-018",
+      "category": "definition",
+      "question": "Why do firms need a strategy? (three roles)",
+      "answer": "1. Decision support: improves decision quality by simplifying choices, integrating knowledge and making analytical tools usable.\n2. Coordinating device: aligns the actions of many people; a communication device and a forum for discussion.\n3. Target: focuses the organization on long-term goals, motivating and inspiring people."
+    },
+    {
+      "id": "ch01-019",
+      "category": "definition",
+      "question": "What are the four types of strategy statement (Collis and Rukstad)?",
+      "answer": "• Mission — 'Why do we exist?' — the organization's purpose\n• Values — 'What do we believe in and how will we behave?' — principles guiding behaviour\n• Vision — 'What do we want to be?' — projects the organization into the future\n• Strategy statement — 'What is our competitive game plan?' — typically objectives, business scope and advantage"
+    },
+    {
+      "id": "ch01-020",
+      "category": "application",
+      "question": "Summarize Zoom Video Communications' strategy statement.",
+      "answer": "Objective: make Zoom meetings better than in-person meetings.\nGrowth strategy elements: keep existing customers satisfied, acquire new customers, expand within existing customers, continuously innovate the platform, accelerate international expansion, grow the partner ecosystem."
+    },
+    {
+      "id": "ch01-021",
+      "category": "application",
+      "question": "Summarize the Carlsberg Group's strategy statement.",
+      "answer": "• Purpose: better beers, at the heart of the moments that bring people together\n• Ambition: to be successful (sustainable growth), professional (customers' preferred supplier) and attractive (value for shareholders)\n• Priorities: position for growth (alcohol-free brews and Asia), create shareholder value, build a winning culture"
+    },
+    {
+      "id": "ch01-022",
+      "category": "raisonnement",
+      "question": "How can you identify a firm's real strategy beyond its official statements?",
+      "answer": "Strategy is ultimately realized as action, so compare statements with behaviour to reveal any gap between rhetoric and reality:\n1. Where is it investing money? — notes to the financial statements break down capital expenditure by geography and business segment.\n2. Which technologies is it developing? — patent filings (US and EU patent office databases).\n3. Which products, projects and top appointments? — press releases and trade press.\nAnnual reports also describe business scope and how the firm competes."
+    },
+    {
+      "id": "ch01-023",
+      "category": "definition",
+      "question": "What are the two sources of superior profitability, and which level of strategy addresses each?",
+      "answer": "The goal is a rate of profit above the cost of capital. It comes from:\n• Industry attractiveness — corporate strategy: WHERE to compete?\n• Competitive advantage — business strategy: HOW to compete?"
+    },
+    {
+      "id": "ch01-024",
+      "category": "tableau",
+      "question": "Compare corporate strategy and business strategy.",
+      "answer": "Corporate strategy — 'Where to compete?': defines the firm's scope in terms of industries and markets; choices on diversification, vertical integration, acquisitions, new ventures and resource allocation between businesses; responsibility of top management.\nBusiness (competitive) strategy — 'How to compete?': how the firm competes in a particular industry or market by building a competitive advantage over rivals; mainly the responsibility of senior managers of divisions and subsidiaries."
+    },
+    {
+      "id": "ch01-025",
+      "category": "raisonnement",
+      "question": "Why are corporate strategy and business strategy intertwined?",
+      "answer": "The scope of the business influences the sources of competitive advantage, and the nature of a firm's competitive advantage determines the industries in which it can succeed. The course emphasizes business strategy because the ability to create competitive advantage is the critical requirement for success."
+    },
+    {
+      "id": "ch01-026",
+      "category": "definition",
+      "question": "How can a firm's strategy be described in static and dynamic terms?",
+      "answer": "• Static — strategy as positioning (competing for the present): Where are we competing? (product-market, geographic and vertical scope). How are we competing? (basis of advantage: cost or differentiation; distinctive resources and capabilities).\n• Dynamic — strategy as direction (preparing for the future): What do we want to become? (vision). What do we want to achieve? (mission, performance goals). How will we get there? (development guidelines, investment and R&D priorities, growth mode: organic, M&A, alliances).\nReconciling the two is 'competing with dual strategies' (Abell)."
+    },
+    {
+      "id": "ch01-027",
+      "category": "graphique",
+      "question": "Explain Mintzberg's model of intended, emergent and realized strategy.",
+      "answer": "Strategy as design (rational planning and choice) produces the intended strategy. Strategy as process (many decision makers responding to a multiplicity of external and internal forces) produces the emergent strategy. The realized strategy is the combination of the intended strategy actually implemented and the emergent strategy.",
+      "image": "ch01/slide-30.jpg",
+      "imageHint": "Slide 30 of the chapter 1 PDF"
+    },
+    {
+      "id": "ch01-028",
+      "category": "definition",
+      "question": "What are Mintzberg's three fallacies of conventional strategic planning?",
+      "answer": "1. Fallacy of prediction — the future is unknown: strategy cannot be built on forecasts.\n2. Fallacy of detachment — formulation cannot be separated from implementation: strategy does not arise far from day-to-day management.\n3. Fallacy of formalization — formalization impedes flexibility, spontaneity, intuition and learning."
+    },
+    {
+      "id": "ch01-029",
+      "category": "application",
+      "question": "Contrast Instagram and Nokia in terms of emergent strategy.",
+      "answer": "• Instagram: listening to the market and execution agility → global scalability and industry dominance.\n• Nokia: strategic inertia and blindness to the changing context → rapid fall from leadership to decline.\nLesson: winning strategies combine the initial intention with emergent learning from the market."
+    },
+    {
+      "id": "ch01-030",
+      "category": "definition",
+      "question": "What is Grant's concept of 'planned emergence'?",
+      "answer": "A synthesis of intention and adaptation:\n• Design: deliberate planning by top management; enactment: strategy actually realized, where middle managers matter.\n• Choice depends on context: stable environment → formal planning and long-term plans; turbulent environment → flexibility and emergent adaptation.\n• Coherent flexibility: a few memorable strategic principles for overall direction, and simple rules (clear decision criteria) to guide decentralized choices."
+    },
+    {
+      "id": "ch01-031",
+      "category": "definition",
+      "question": "What can strategic analysis do, and what can it not do?",
+      "answer": "It CAN: improve decisions, protect against biases, organize discussion and build consensus.\nIt CANNOT: provide an algorithm for the optimal strategy, give the answers (it helps ask the right questions), replace intuition and creativity, or give certainty in novel situations.\nAnalysis + experience + intuition beat experience or intuition alone."
+    },
+    {
+      "id": "ch01-032",
+      "category": "definition",
+      "question": "What are the stages in applying strategic analysis?",
+      "answer": "1. Set the strategic agenda: identify the current strategy and appraise performance.\n2. Analyze the situation: diagnose performance, industry analysis, analysis of resources and capabilities.\n3. Formulate the strategy.\n4. Implement the strategy."
+    },
+    {
+      "id": "ch01-033",
+      "category": "raisonnement",
+      "question": "Can the concepts of business strategy be applied to non-profit organizations? Justify.",
+      "answer": "Yes (Grant). The benefits of strategic management for for-profit firms also hold for non-profits: improved decision making, better coordination and the setting of performance targets. Three types of non-profit: organizations charging users in a competitive environment; organizations providing free services in a competitive environment; organizations sheltered from competition."
+    },
+    {
+      "id": "ch01-034",
+      "category": "tableau",
+      "question": "How does strategic analysis differ across the three types of non-profit organization?",
+      "answer": "• Analysis of goals and performance: critical for ALL non-profits (mission, objectives and KPIs must be consistent).\n• Competitive environment: for those charging users, the same tools as for-profits; for those providing free services, the main arena of competition is the market for funding; for those sheltered from competition, not important — though there is inter-agency competition for public funds.\n• Resources and capabilities: identifying and exploiting distinctive resources is essential for all.\n• Implementation: organizational design, performance management and leadership principles are common to all organizations."
+    },
+    {
+      "id": "ch01-035",
+      "category": "raisonnement",
+      "question": "Why are goals especially complex for non-profit organizations, and what follows for planning?",
+      "answer": "Non-profits usually have multiple, broad goals that are hard to measure (e.g. Harvard's mission: to create knowledge, open students' minds to it and enable them to make the most of their educational opportunities). The strategic planning process must therefore closely align mission, objectives, resource allocation and performance indicators."
+    },
+    {
+      "id": "ch01-036",
+      "category": "application",
+      "question": "Does an organization like the UN face competition?",
+      "answer": "Historically it operated in a sheltered context with no true commercial rivals in international governance and security. However, ad hoc bodies and parallel alliances such as the 'Board of Peace' (a privately modelled conflict-resolution platform with membership fees) act as de facto institutional competitors, taking away authority, financial resources and the UN's traditional monopoly in mediating global conflicts."
+    },
+    {
+      "id": "ch01-037",
+      "category": "application",
+      "question": "How does shared administration in Italy's third sector extend Grant's framework?",
+      "answer": "For Italian third-sector entities (ETS), the Third Sector Code (arts. 55–57, Legislative Decree 117/2017) introduced co-programming and co-design with the public administration. Besides 'where to compete' and 'how to compete', a third question becomes relevant: 'with whom should we collaborate to pursue our mission?' The environment becomes a space of co-construction, not only of competition."
+    }
+  ]
+}

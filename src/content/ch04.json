@@ -1,0 +1,281 @@
+{
+  "chapter": 4,
+  "title": "Further Topics in Industry and Competitive Analysis",
+  "version": 1,
+  "cards": [
+    {
+      "id": "ch04-001",
+      "category": "definition",
+      "question": "How much does the industry explain of differences in firm profitability?",
+      "answer": "Less than 20% of the variance in return on assets (ROA) between firms is explained by the industry. Differences between firms within the same industry are larger than differences between industries. Hence what the firm does (resources, capabilities, strategy) matters more than the industry it is in."
+    },
+    {
+      "id": "ch04-002",
+      "category": "application",
+      "question": "What do Ryanair and Alitalia illustrate about the importance of industry vs firm?",
+      "answer": "Same industry, opposite fates. Ryanair: low-cost model, single aircraft type, point-to-point flights, among the lowest costs in Europe and among the most profitable airlines. Alitalia: flag carrier with hub and wide network, years of losses and public bailouts, ceased operations in 2021. Firm strategy, not the industry alone, drives performance."
+    },
+    {
+      "id": "ch04-003",
+      "category": "raisonnement",
+      "question": "How does Grant defend industry analysis despite its limits, and under what conditions does it work best?",
+      "answer": "Industry analysis is not only about where to position: it also identifies competitive threats, attractive segments and sources of competitive advantage. It works best under three conditions:\n1. Stable structure (what if it changes fast?)\n2. Competition in the market (what if firms compete FOR the market?)\n3. Clear boundaries (where does an industry end?)"
+    },
+    {
+      "id": "ch04-004",
+      "category": "tableau",
+      "question": "Contrast Porter's and Schumpeter's views of competition ('breeze or gale?').",
+      "answer": "• Porter — the breeze: structure → conduct → performance; industry structure determines the intensity of competition and hence potential profitability.\n• Schumpeter — the gale of creative destruction: innovation overturns industry structure; profits are the temporary reward of the innovator."
+    },
+    {
+      "id": "ch04-005",
+      "category": "definition",
+      "question": "What is hypercompetition, and what is Grant's position on it?",
+      "answer": "D'Aveni: 'intense and rapid competitive moves, in which competitors must move quickly to build new advantages and erode the advantages of rivals.' Rita McGrath: 'transient advantage is the new normal'.\nGrant and other scholars are cautious: there is no consistent evidence that industry structures are less stable than before. The five forces remain useful to predict how structural change will affect competitive forces and profitability."
+    },
+    {
+      "id": "ch04-006",
+      "category": "application",
+      "question": "What does the mobile phone industry (2005 → today) teach about using the five forces?",
+      "answer": "2005: Nokia leads mobile phones → 2007–08: iPhone and App Store arrive → 2010s: value shifts to operating systems → today: two platforms, iOS and Android. The five forces are a snapshot: in a moving industry, take several. The more hypercompetitive the industry, the more often the analysis must be repeated."
+    },
+    {
+      "id": "ch04-007",
+      "category": "definition",
+      "question": "What are network externalities and winner-take-all markets?",
+      "answer": "A product with network externalities is worth more the more other users it has: more users → more value → even more users (online auctions: eBay; social networks: Facebook). This produces winner-take-all markets with unbalanced competition. Grant: 'the analysis of the dynamics of competitive advantage takes precedence over conventional industry analysis.'"
+    },
+    {
+      "id": "ch04-008",
+      "category": "application",
+      "question": "Users, profits or both? Compare Apple, Android and Nvidia.",
+      "answer": "• Apple wins profits, not users: over 85% of smartphone net profits (2020, per the book) with a much lower share of unit sales.\n• Android phones win users (about 7 in 10) but less than 15% of profits.\n• Nvidia wins both: roughly 80–90% of the AI-chip market (2024–25 estimates) with a gross margin around 75%."
+    },
+    {
+      "id": "ch04-009",
+      "category": "raisonnement",
+      "question": "You manage a large gym: who are your competitors? What does this show about industry boundaries?",
+      "answer": "It depends on where you draw the boundary. Narrow boundary: rivalry is with other local gyms. Wide boundary: training apps become substitutes, and new entrants such as digital platforms arrive from other industries (as well as yoga studios, Decathlon, public pools, parks, spas). There is no single right answer: the analyst chooses the boundary — 'broad or narrow depending on the question' (Grant)."
+    },
+    {
+      "id": "ch04-010",
+      "category": "definition",
+      "question": "What are complements, and are they a 'sixth force'?",
+      "answer": "Substitutes take value away from an industry; complements add value to it. For a smartphone, complements include the operating system, apps, the mobile network and electricity — and the largest profits go to the owners of the operating systems (Apple and Google). The key question is how value is shared among complements. Porter (2008): complements are not a sixth force but a factor that acts through the five forces."
+    },
+    {
+      "id": "ch04-011",
+      "category": "definition",
+      "question": "What is the rule of complements? Illustrate with Android.",
+      "answer": "'Monopolize your piece, commoditize the others.' If your piece is scarce and hard to replace, margins concentrate there, while competing suppliers of the other pieces drive their prices down — so most of the system's value goes to whoever controls the scarce piece.\nAndroid: Google owns the OS, while over 1,000 phone makers and 2.6 million apps compete as commodities. It requires intellectual property to protect the monopolized piece."
+    },
+    {
+      "id": "ch04-012",
+      "category": "definition",
+      "question": "What are two-sided markets (platforms)?",
+      "answer": "Platforms connect two sides (e.g. users/buyers on one side; developers, sellers or advertisers on the other). Cross-side network externalities — more users attract more developers and vice versa — make platforms tend towards winner-take-all outcomes."
+    },
+    {
+      "id": "ch04-013",
+      "category": "definition",
+      "question": "What is a business ecosystem? Give digital and traditional examples.",
+      "answer": "'A community of organizations, institutions and individuals that influence the firm', characterized by co-dependence among members and continuous evolution.\nDigital ecosystems: Android, Amazon, Uber. Traditional ecosystems: Toyota's supplier network, the Danish wind-power cluster."
+    },
+    {
+      "id": "ch04-014",
+      "category": "definition",
+      "question": "What are the three stages of building a winning platform ecosystem (BCG)? Apply them to Android.",
+      "answer": "1. Seize the opportunity: rapid penetration to reach critical mass — Android given free to manufacturers for mass adoption.\n2. Evolve the business model: broaden the platform and engage members more — Play Store, services, then TV, cars and watches.\n3. Lock in leadership: deal with regulators, customers, standards and new technologies — rules for manufacturers, standards for developers."
+    },
+    {
+      "id": "ch04-015",
+      "category": "graphique",
+      "question": "What is a bottleneck in an ecosystem, and why does it matter for value capture?",
+      "answer": "In a production line with stations at 100, 100, 40 and 100 pieces per hour, output is 40 per hour: the slowest station decides. In an ecosystem, the bottleneck is the component that limits the performance of the whole (poor quality, insufficient performance, limited supply). Whoever occupies the bottleneck captures the largest share of value.",
+      "image": "ch04/slide-22.jpg",
+      "imageHint": "Slide 22 of the chapter 4 PDF"
+    },
+    {
+      "id": "ch04-016",
+      "category": "application",
+      "question": "How did the bottleneck shift in the US residential solar industry?",
+      "answer": "1. Consumer credit: households could not afford the system → value went to financiers (e.g. leasing).\n2. Installation: once credit was solved, installers were lacking.\n3. Mounting systems: once installation was solved, panel mounting hardware became scarce.\nLesson: whoever holds the bottleneck today must ask where it will move tomorrow."
+    },
+    {
+      "id": "ch04-017",
+      "category": "graphique",
+      "question": "Explain the upper and lower bounds of the value a firm can capture in an ecosystem, using the numerical example.",
+      "answer": "• Upper bound: the firm's marginal contribution to the current ecosystem — what would be lost without it. If A, B and C together generate €100 and B and C alone generate €60, A's upper bound is €40.\n• Lower bound: what the firm could obtain elsewhere, in an alternative ecosystem — say €25.\nSo €25 ≤ value captured by A ≤ €40; the actual share is negotiated within this zone.",
+      "image": "ch04/slide-24.jpg",
+      "imageHint": "Slide 24 of the chapter 4 PDF"
+    },
+    {
+      "id": "ch04-018",
+      "category": "definition",
+      "question": "Distinguish competitive and persuasive initiatives for capturing more value in an ecosystem.",
+      "answer": "• Competitive initiatives shift the bounds: add more value to the current network → the upper bound rises (e.g. exclusive technology: from €40 to €50); add more value to an alternative network → the lower bound rises.\n• Persuasive initiatives keep the bounds fixed and move up within the zone: convincing other members to cede more value (e.g. A obtains €35 instead of €30 with the same total value)."
+    },
+    {
+      "id": "ch04-019",
+      "category": "raisonnement",
+      "question": "Why does the occupant of a bottleneck capture so much value?",
+      "answer": "Both bounds are high: the upper bound because without it the ecosystem stops working; the lower bound because it is scarce and every alternative network wants it. Today: AI chips — Nvidia designs them, TSMC manufactures them; many develop AI, very few make the chips, so the highest margins go to them."
+    },
+    {
+      "id": "ch04-020",
+      "category": "application",
+      "question": "How does Iris Ceramica Group put 'transient advantage' into practice? Contrast it with Tesla.",
+      "answer": "Iris Ceramica (Sassuolo district, founded 1961) repeats a cycle: invest in new plants with suppliers (e.g. large-slab lines with Sacmi) → exploit exclusivity for a few years → the suppliers then sell the technology to everyone → reinvest in the next technology (Active Surfaces with the University of Milan, a green-hydrogen 'H2 Factory'). It earns while the technology is scarce, then moves on.\nTesla (2014) did the opposite: it opened its patents immediately to grow the EV market."
+    },
+    {
+      "id": "ch04-021",
+      "category": "graphique",
+      "question": "What is a business model (Teece)? Explain the business model canvas.",
+      "answer": "Teece: the firm is an infrastructure applied to customers through a value proposition that generates revenues at a cost that allows a profit.\nCanvas: infrastructure (key partners, activities, resources) → offering (value proposition) → customers (segments, relationships, channels), underpinned by financial sustainability (costs, revenues → profit).",
+      "image": "ch04/slide-28.jpg",
+      "imageHint": "Slide 28 of the chapter 4 PDF"
+    },
+    {
+      "id": "ch04-022",
+      "category": "graphique",
+      "question": "Explain Ryanair's business model (Capsule 4.1).",
+      "answer": "The low-cost ticket is the core, surrounded by additional revenue sources:\n• Extreme unbundling: separate charges for seat, baggage, priority, card payment, food and drinks.\n• Airports and local authorities pay to open and maintain routes.\n• Commissions from partners: car hire, trains and buses, insurance, hotels, events.\n• Advertising: website, in-flight magazine, seat backs.\nIt is the Southwest model, extended.",
+      "image": "ch04/slide-29.jpg",
+      "imageHint": "Slide 29 of the chapter 4 PDF"
+    },
+    {
+      "id": "ch04-023",
+      "category": "definition",
+      "question": "How does game theory frame competitive interaction?",
+      "answer": "Interdependence: my decisions depend on my rival's actual and expected decisions. Framing the game requires identifying:\n1. Players — who are they?\n2. Options — what can each choose?\n3. Payoffs — what does each obtain for every combination of choices?\n4. Sequence — who moves first and who moves next?\nSimple models (e.g. the prisoner's dilemma) predict whether the outcome will be competitive or cooperative; complex models (repeated games) add reputation, deterrence, information and commitment."
+    },
+    {
+      "id": "ch04-024",
+      "category": "tableau",
+      "question": "Prisoner's dilemma (Capsule 4.2): Pepsi and Coca-Cola choose a small or large advertising budget. Find the equilibrium.",
+      "answer": "Payoffs ($ millions, Pepsi ; Coke): both small → 10 ; 10; Pepsi large, Coke small → 15 ; −2; Pepsi small, Coke large → −2 ; 15; both large → 4 ; 4.\nWhatever Coke does, Pepsi does better by spending big (15 > 10; 4 > −2), and Coke reasons the same way. Spending big is a dominant strategy for both, so they end up at (4 ; 4) — the Nash equilibrium — although (10 ; 10) would be better for both.",
+      "image": "ch04/slide-33.jpg",
+      "imageHint": "Slide 33 of the chapter 4 PDF"
+    },
+    {
+      "id": "ch04-025",
+      "category": "definition",
+      "question": "What is a Nash equilibrium, and how can firms escape a bad one?",
+      "answer": "A combination of strategies where no player has an incentive to change its move unilaterally. It is not necessarily the best outcome for the players (e.g. 4 ; 4 in the Coke–Pepsi game).\nWays out: a repeated game (firms see that their campaigns cancel each other out) and deterrence (threatening a reaction changes the payoffs). Managers can improve the outcome by changing the payoffs."
+    },
+    {
+      "id": "ch04-026",
+      "category": "definition",
+      "question": "What are the five strategic moves that change the outcome of competitive games?",
+      "answer": "1. Cooperation (co-opetition)\n2. Deterrence\n3. Commitment\n4. Changing the game\n5. Signalling\nCommon thread: what matters is not only what you do, but what your rival believes you will do."
+    },
+    {
+      "id": "ch04-027",
+      "category": "application",
+      "question": "What is co-opetition? Give the book's example.",
+      "answer": "Firms can be rivals and partners at the same time: they create value together, then compete to capture it. Samsung competes with Apple in smartphones but also sells it components. A competitor can also be your best customer or supplier."
+    },
+    {
+      "id": "ch04-028",
+      "category": "application",
+      "question": "Explain deterrence and the key condition for it to work, with Monsanto's example.",
+      "answer": "Deterrence discourages a competitor's entry with the threat of retaliation; it works only if the threat is credible. Before its NutraSweet patents expired, Monsanto invested in excess production capacity to deter makers of generic aspartame. If the rival thinks it is a bluff, it enters anyway."
+    },
+    {
+      "id": "ch04-029",
+      "category": "application",
+      "question": "What is strategic commitment? Distinguish hard and soft commitments.",
+      "answer": "Reducing one's own options to make a move credible: whoever cannot turn back is taken seriously (Cortés burning his ships; Airbus committing huge investment to the A380 superjumbo, after which Boeing abandoned a competing aircraft).\n• Hard commitments: commitments to aggressive competition.\n• Soft commitments: commitments that moderate competition (e.g. profit commitments)."
+    },
+    {
+      "id": "ch04-030",
+      "category": "application",
+      "question": "What does 'changing the game' mean? Discuss Tesla's 2014 patent decision.",
+      "answer": "Instead of playing better under existing rules, change the rules or the structure of the game. In 2014 Tesla made its patents freely available, giving up part of its advantage to grow the electric-vehicle market — its problem was a market that was too small, not competitors. Open question: with today's Chinese competition, has the bet paid off?"
+    },
+    {
+      "id": "ch04-031",
+      "category": "application",
+      "question": "What is signalling? Give the Procter & Gamble example.",
+      "answer": "Communicating one's intentions — real or feigned — to influence rivals' choices, through announcements, statements and reputation. P&G's long market-share wars in diapers and detergents built a reputation for toughness that also protects it in other markets."
+    },
+    {
+      "id": "ch04-032",
+      "category": "raisonnement",
+      "question": "Does game theory really help strategists? Give pros and cons.",
+      "answer": "Pros: theoretical rigour for competitive analysis; insights beyond intuition; changing payoffs can change the outcome.\nCons: works in simplified situations with restrictive assumptions; real cases may have no equilibrium or too many; results are highly sensitive to small changes in assumptions.\nIt explains the past better than it predicts the future; its real value is forcing you to put yourself in the rival's shoes."
+    },
+    {
+      "id": "ch04-033",
+      "category": "definition",
+      "question": "What is competitive intelligence, and why is it especially important in concentrated industries?",
+      "answer": "The systematic collection of information about rivals in order to forecast their future strategies, predict their reactions to our moves, and influence their behaviour. In concentrated industries (Unilever vs P&G, Coca-Cola vs Pepsi, Costa Coffee vs Starbucks) each rival's moves matter. Limit: the boundary with industrial espionage is not always clear."
+    },
+    {
+      "id": "ch04-034",
+      "category": "definition",
+      "question": "Describe Porter's framework for competitor analysis.",
+      "answer": "Four components feed a prediction of the competitor's behaviour:\n• Current strategy — what is it doing now?\n• Objectives — what does it want to achieve?\n• Assumptions — how does it see itself and the industry?\n• Resources and capabilities — what is it able to do?\nPrediction: what will its next moves be, and how will it react to ours?"
+    },
+    {
+      "id": "ch04-035",
+      "category": "raisonnement",
+      "question": "What are industry recipes, and why can they be a blind spot?",
+      "answer": "Industry recipes (Spender) are beliefs shared by managers in an industry about how to compete and what leads to success. Pro: they make competitors predictable. Con: they blind firms to changes outside the recipe. Nokia kept thinking in terms of hardware and costs while competition shifted to operating systems and apps. In times of 'gale', the shared recipe becomes a risk."
+    },
+    {
+      "id": "ch04-036",
+      "category": "application",
+      "question": "Google attacks the cloud market with price cuts. How will Amazon react, and why?",
+      "answer": "Strongly: AWS generates about 60% of Amazon's operating profit (book figure; about 58% in 2024), so cloud is vital to Amazon, whereas for Google it is one division among many. Principle: the more a market weighs in a rival's objectives, the harder its reaction."
+    },
+    {
+      "id": "ch04-037",
+      "category": "tableau",
+      "question": "Compare segmentation analysis and strategic group analysis.",
+      "answer": "• Segmentation: divides the industry by customers and products (demand side); key question: where is it most attractive to compete?\n• Strategic groups: divides the industry by firms and their strategies (supply side); key question: who follows a similar strategy?\nCommon ground: there are mobility barriers between segments and between groups."
+    },
+    {
+      "id": "ch04-038",
+      "category": "definition",
+      "question": "What are the five stages of segmentation analysis?",
+      "answer": "1. Identify key segmentation variables (product and customer: type, price, area, channel).\n2. Construct a segmentation matrix (cross the two most important variables or combinations).\n3. Analyze segment attractiveness (five forces for each segment).\n4. Identify each segment's key success factors.\n5. Select segment scope: broad or narrow — depending on similarity of KSFs and shared costs.\nGoal: identify attractive segments, choose a strategy for each, decide how many to serve."
+    },
+    {
+      "id": "ch04-039",
+      "category": "application",
+      "question": "How do Nintendo Switch, Pirelli and the car-industry matrix (Capsule 4.3) illustrate segment choice?",
+      "answer": "• Nintendo Switch does not challenge Sony and Microsoft on power: it targets families, casual gamers and portable play.\n• Pirelli focuses on premium and high-performance tyres, where margins are higher.\n• Car segmentation matrix (product types × regions): attractive segments include luxury cars in Asia and Latin America (growing markets) and hybrids/EVs in mature markets.\nChoosing the segment is already a strategy: you can avoid a head-on fight instead of winning it.",
+      "image": "ch04/slide-51.jpg",
+      "imageHint": "Slide 51 of the chapter 4 PDF"
+    },
+    {
+      "id": "ch04-040",
+      "category": "graphique",
+      "question": "Distinguish barriers to entry from barriers to mobility.",
+      "answer": "• Barriers to entry protect the industry from outsiders (e.g. economies of scale, patents).\n• Barriers to mobility protect a segment or strategic group from firms already inside the industry, preventing them from moving to a more profitable segment (e.g. Harley-Davidson struggles to move beyond heavyweight motorcycles).",
+      "image": "ch04/slide-52.jpg",
+      "imageHint": "Slide 52 of the chapter 4 PDF"
+    },
+    {
+      "id": "ch04-041",
+      "category": "raisonnement",
+      "question": "What is a blue ocean strategy, and what are its weaknesses?",
+      "answer": "Kim and Mauborgne: instead of competing in crowded existing segments (red ocean), create new, uncontested market space (blue ocean). Nintendo is close to this logic, bringing non-gamers to video games.\nCritique: duration — if the segment is profitable and barriers are low, competitors arrive and the blue turns red; selection bias — only successes are studied, not those who searched for a blue ocean and failed."
+    },
+    {
+      "id": "ch04-042",
+      "category": "graphique",
+      "question": "What is a strategic group? Interpret the European airline map.",
+      "answer": "A strategic group is a set of firms in the same industry following similar strategies (product range, geographic coverage, channels, vertical integration). On the map (axes: services included in the price, breadth of network), traditional carriers (Lufthansa, Air France-KLM, ITA) form one group and low-cost carriers (Ryanair, easyJet, Wizz Air) another.\nUses: identify the closest competitors, see mobility barriers, discover empty strategic spaces, and understand positioning patterns and resulting competitive interactions.",
+      "image": "ch04/slide-54.jpg",
+      "imageHint": "Slide 54 of the chapter 4 PDF"
+    },
+    {
+      "id": "ch04-043",
+      "category": "raisonnement",
+      "question": "How do network externalities and lock-in change competition and the five forces?",
+      "answer": "• Conquer first, cash in later: give away to get in (Android free), then raise commissions (App Store up to 30%).\n• The five forces change: less power for customers, higher barriers to entry.\n• The battle is at the start: firms compete FOR the market, then little within it.\n• The context reacts: users multi-home across platforms; the EU Digital Markets Act imposes portability and interoperability.\nSwitching costs (purchased apps, photos, contacts) let whoever controls the system raise prices."
+    }
+  ]
+}

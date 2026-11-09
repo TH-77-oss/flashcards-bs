@@ -36,8 +36,57 @@ db.version(2).stores({
   plannedSessions: 'id, day, chapterId, status',
 })
 
+// Fichiers de contenu des chapitres (src/content/ch01.json, ch02.json…).
+// Vite les intègre à l'app au moment de la compilation : ajouter un fichier
+// dans ce dossier suffit pour qu'il soit pris en compte au prochain lancement.
+const CONTENT = Object.values(import.meta.glob('../content/ch*.json', { eager: true, import: 'default' }))
+
+// Fusionne le contenu des chapitres dans la base, sans jamais écraser vos modifications :
+//  - carte absente → ajoutée ;
+//  - carte présente, non modifiée par vous, et dont le fichier a changé de version → mise à jour ;
+//  - carte modifiée ou supprimée par vous (editedByUser) → laissée telle quelle ;
+//  - cartes d'exemple du chapitre, et cartes retirées du fichier → marquées supprimées.
+// Votre historique de réponses reste rattaché aux mêmes identifiants de cartes.
+async function syncContent() {
+  for (const pack of CONTENT) {
+    await db.transaction('rw', db.chapters, db.cards, async () => {
+      const now = Date.now()
+      await db.chapters.update(pack.chapter, { title: pack.title })
+
+      const ids = pack.cards.map((c) => c.id)
+      const current = await db.cards.bulkGet(ids)
+      for (let i = 0; i < pack.cards.length; i++) {
+        const c = pack.cards[i]
+        const cur = current[i]
+        const fields = {
+          chapterId: pack.chapter,
+          category: c.category,
+          question: c.question,
+          answer: c.answer,
+          image: c.image || null,
+          imageHint: c.imageHint || null,
+          contentVersion: pack.version,
+        }
+        if (!cur) {
+          await db.cards.add({ id: c.id, ...fields, imageId: null, source: 'content', deleted: false, createdAt: now, updatedAt: now })
+        } else if (!cur.editedByUser && cur.contentVersion !== pack.version) {
+          await db.cards.update(c.id, { ...fields, updatedAt: now })
+        }
+      }
+
+      const inPack = new Set(ids)
+      const chapterCards = await db.cards.where('chapterId').equals(pack.chapter).toArray()
+      for (const cur of chapterCards) {
+        const obsolete = cur.source === 'seed' || (cur.source === 'content' && !inPack.has(cur.id))
+        if (obsolete && !cur.editedByUser && !cur.deleted) await db.cards.update(cur.id, { deleted: true, updatedAt: now })
+      }
+    })
+  }
+}
+
 // Appelé au démarrage : insère les chapitres et cartes de départ manquants,
-// puis demande au navigateur de protéger les données contre l'effacement.
+// intègre le contenu des chapitres, puis demande au navigateur de protéger
+// les données contre l'effacement.
 export async function initDb() {
   await db.transaction('rw', db.chapters, db.cards, async () => {
     const chapterIds = new Set(await db.chapters.toCollection().primaryKeys())
@@ -50,6 +99,8 @@ export async function initDb() {
     const missingCards = buildSeedCards().filter((c) => !cardIds.has(c.id))
     if (missingCards.length) await db.cards.bulkAdd(missingCards)
   })
+
+  await syncContent()
 
   if (navigator.storage?.persist) {
     try {

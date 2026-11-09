@@ -1,0 +1,257 @@
+{
+  "chapter": 2,
+  "title": "Goals, Values, and Performance",
+  "version": 1,
+  "cards": [
+    {
+      "id": "ch02-001",
+      "category": "definition",
+      "question": "What does value creation mean for a firm, and what are the two ways of creating value?",
+      "answer": "A firm creates value when its output is worth more than the inputs used to produce it.\n• Production: physically transforming lower-value products into higher-value ones (e.g. coffee beans and milk into cappuccinos).\n• Commerce: rearranging products in space and time — moving them from people and places where they are valued less to where they are valued more."
+    },
+    {
+      "id": "ch02-002",
+      "category": "graphique",
+      "question": "Explain this diagram of the difference between profit and value created.",
+      "answer": "Value created = consumer's willingness to pay − real cost of production. It splits into:\n• Consumer surplus: willingness to pay − price paid.\n• Producer surplus: price − real production cost, which itself splits into profit (to owners) and 'rents' to input providers.\nOn the accounting side, total revenue = accounting costs + profit. Profit is therefore only a part of the total value the firm creates.",
+      "image": "ch02/slide-09.jpg",
+      "imageHint": "Slide 9 of the chapter 2 PDF"
+    },
+    {
+      "id": "ch02-003",
+      "category": "definition",
+      "question": "What are 'rents' to input providers?",
+      "answer": "Payments to employees and other owners of productive factors in excess of the minimum required to induce them to supply those inputs. Together with profit, rents make up the producer surplus."
+    },
+    {
+      "id": "ch02-004",
+      "category": "tableau",
+      "question": "Compare shareholder capitalism and stakeholder capitalism.",
+      "answer": "• Shareholder value maximization — the firm should maximize profit. Two principles: firms should operate in the interests of their owners; the efficiency of the market economy depends on firms responding to profit incentives (the 'invisible hand'). Dominant in English-speaking countries.\n• Stakeholder value maximization — the firm should maximize total value created, operating in the interests of all groups that make it up (including society). Long tradition in Asia and continental Europe."
+    },
+    {
+      "id": "ch02-005",
+      "category": "raisonnement",
+      "question": "Why can the pursuit of profit, especially short-term profit, be harmful?",
+      "answer": "Profit is the lifeblood of a business and an indicator of efficiency and effectiveness, needed for long-term survival. But maximizing short-term profit can damage both society and the long-term interests of the firm itself (e.g. underinvestment, reputational damage). As Bakke puts it, profits are like breathing: essential for existence but not the reason for existence."
+    },
+    {
+      "id": "ch02-006",
+      "category": "formule",
+      "question": "Return on sales (ROS): formula and interpretation.",
+      "answer": "ROS = EBIT (operating profit) / Sales.\nIt measures the operating margin on each unit of revenue. In 2020 Roche (pharmaceuticals) had the highest ROS (30.4%) and Walmart one of the lowest (4.0%) — which does not mean Walmart is inefficient: mass retail works on low margins and very high volumes."
+    },
+    {
+      "id": "ch02-007",
+      "category": "formule",
+      "question": "Return on equity (ROE): formula and interpretation.",
+      "answer": "ROE = Net income / Year-end shareholders' equity.\nIt measures the return to shareholders' capital. In 2020 Apple had the highest ROE (73.7%), thanks to an asset-light model and share buybacks (which reduce equity); Toyota had the lowest (10.3%) owing to its capital-intensive structure."
+    },
+    {
+      "id": "ch02-008",
+      "category": "formule",
+      "question": "Return on assets (ROA): formula and interpretation.",
+      "answer": "ROA = EBIT (operating profit) / Total assets, where total assets = fixed assets (tangible, intangible, financial) + current assets (cash, receivables, inventories).\nIt measures how profitably the firm uses all its assets. Apple ranked highest (17.3% in 2020) because it has few physical plants and outsources manufacturing."
+    },
+    {
+      "id": "ch02-009",
+      "category": "tableau",
+      "question": "Why do different profitability measures give different rankings of the world's largest companies?",
+      "answer": "Each ratio captures something different: ROS reflects margins (Roche 30.4% vs Walmart 4.0%), ROE reflects financial structure and buybacks (Apple 73.7% vs Toyota 10.3%), ROA reflects asset intensity (Apple 17.3% vs JPMorgan 0.9%), and return to shareholders reflects market expectations (Apple +185%, Amazon +107%). Business model, capital intensity and financing choices all shift the ranking, so performance should be assessed with several measures.",
+      "image": "ch02/slide-12.jpg",
+      "imageHint": "Slide 12 of the chapter 2 PDF"
+    },
+    {
+      "id": "ch02-010",
+      "category": "formule",
+      "question": "Give the formulas of ROCE, ROA, ROE and the gross, net and operating margins.",
+      "answer": "• ROCE = Operating profit / (Total assets − Current liabilities)\n• ROA = Operating profit / Total assets\n• ROE = Net income / Shareholders' equity\n• Gross margin = (Sales − Cost of goods sold) / Sales\n• Net margin = Net income / Sales\n• Operating margin = Operating profit / Sales"
+    },
+    {
+      "id": "ch02-011",
+      "category": "definition",
+      "question": "What are the levels of accounting profit in an income statement (cost of sales format)?",
+      "answer": "Sales revenue − cost of goods sold = gross profit (industrial gross margin)\n− selling, distribution and general/administrative expenses = EBIT (operating profit)\n± financial income and expenses, extraordinary items = EBT (profit before tax)\n− income taxes = net income"
+    },
+    {
+      "id": "ch02-012",
+      "category": "formule",
+      "question": "Economic profit: formula and two advantages over accounting profit.",
+      "answer": "Economic profit = Operating profit − (WACC × Capital employed), where WACC is the weighted average cost of capital.\nIt is the surplus left after ALL factors of production, including capital, have been paid.\n1. More realistic performance measure: in capital-intensive firms, apparently high profits disappear once the cost of capital is charged.\n2. Better capital allocation between business lines, since it charges the businesses that use capital more intensively."
+    },
+    {
+      "id": "ch02-013",
+      "category": "application",
+      "question": "How did Economic Value Added (EVA) change resource allocation at Diageo?",
+      "answer": "Charging the cost of capital tied up in slow-maturing drinks (Talisker and Lagavulin malt whiskies, Hennessy cognac, Dom Pérignon champagne) showed that these high-margin products were less profitable than believed. Advertising was reallocated to Smirnoff vodka, Gordon's gin, Baileys and other drinks sold within weeks of distillation. EVA analysis also led to eliminating unprofitable products and selling Pillsbury and Burger King, and EVA became the main determinant of bonuses for 1,400 managers."
+    },
+    {
+      "id": "ch02-014",
+      "category": "raisonnement",
+      "question": "Why can a product with a high accounting margin destroy value?",
+      "answer": "Because accounting profit ignores the cost of equity capital. If a product ties up a lot of capital for a long time (e.g. whisky ageing in inventory for years), the capital charge (WACC × capital employed) can exceed its operating profit, so its economic profit is negative even though its margin looks high."
+    },
+    {
+      "id": "ch02-015",
+      "category": "definition",
+      "question": "Define operating cash flow and free cash flow. Why use cash flow as a performance indicator?",
+      "answer": "• Cash flow measures a company's cash transactions.\n• Operating cash flow is roughly approximated by EBITDA (earnings before interest, taxes, depreciation and amortization).\n• Free cash flow = operating cash flow − capital expenditure.\nCash flow is relatively immune to accounting manipulation."
+    },
+    {
+      "id": "ch02-016",
+      "category": "formule",
+      "question": "How is enterprise value calculated with discounted cash flows, and what is the main limit?",
+      "answer": "Over many periods, profit maximization becomes maximization of firm value: V = Σ C_t / (1 + WACC)^t, where C_t is the free cash flow in year t and WACC the weighted average cost of capital (equity + debt), i.e. the net present value of future cash flows.\nLimit: forecasts become less reliable as the horizon lengthens, so cash flows are usually estimated for 5–10 years and a terminal value represents later periods."
+    },
+    {
+      "id": "ch02-017",
+      "category": "formule",
+      "question": "What is the relationship between enterprise value and shareholder value, and why focus on enterprise value?",
+      "answer": "Enterprise value = market capitalization + market value of debt.\nFocusing on enterprise value is useful because the distinction between equity and debt is not always clear-cut, and it concentrates on the real drivers of value, reducing distortions caused by financing choices."
+    },
+    {
+      "id": "ch02-018",
+      "category": "definition",
+      "question": "What are the four uses of performance analysis in strategy?",
+      "answer": "1. Appraising the performance of the firm or a business unit\n2. Diagnosing the causes of unsatisfactory performance\n3. Selecting between alternative strategies\n4. Setting performance targets"
+    },
+    {
+      "id": "ch02-019",
+      "category": "definition",
+      "question": "Distinguish forward-looking and backward-looking performance measures.",
+      "answer": "• Forward-looking: look at future prospects through the stock market — the share price reflects investors' expectations of future results.\n• Backward-looking: assess results already achieved, mainly through accounting and financial ratios."
+    },
+    {
+      "id": "ch02-020",
+      "category": "graphique",
+      "question": "Explain the disaggregation of return on assets.",
+      "answer": "ROA = sales margin × capital (asset) turnover.\n• Sales margin is driven by cost ratios: COGS/Sales, Depreciation/Sales, SG&A/Sales.\n• Turnover is driven by Sales/Fixed assets, Sales/Inventories, Sales/Receivables, Sales/Other current assets.\nThis tree locates the source of a performance gap: margins (costs) or the intensity of asset use.",
+      "image": "ch02/slide-25.jpg",
+      "imageHint": "Slide 25 of the chapter 2 PDF"
+    },
+    {
+      "id": "ch02-021",
+      "category": "application",
+      "question": "Why did UPS earn a higher ROA than FedEx in 2018–2020?",
+      "answer": "UPS's ROA was 13.2% vs 7.1% for FedEx. The disaggregation shows the gap comes from both a higher operating margin and a higher asset turnover. Cost structures differ: UPS is more labour-intensive, while FedEx has higher costs for fuel, maintenance, depreciation and SG&A. UPS's higher capital turnover comes mainly from higher fixed-asset turnover.",
+      "image": "ch02/slide-26.jpg",
+      "imageHint": "Slide 26 of the chapter 2 PDF"
+    },
+    {
+      "id": "ch02-022",
+      "category": "raisonnement",
+      "question": "How do you move from performance diagnosis to strategy formulation?",
+      "answer": "Analyze past performance and diagnose its causes.\n• Unsatisfactory performance: identify the causes, then take operational (short-term) and strategic (long-term) actions.\n• Satisfactory performance: identify the drivers of success, protect strengths and reinforce the advantage.\nFinancial analysis looks backward; strategic analysis looks forward."
+    },
+    {
+      "id": "ch02-023",
+      "category": "definition",
+      "question": "What are the requirements for performance targets and the three approaches to setting them?",
+      "answer": "Targets must be measurable, quantifiable, time-bound and consistent with long-term strategy.\n1. Financial disaggregation: overall financial goals translated into specific targets for each organizational level.\n2. Strategic profit drivers: targets on the drivers of profit (innovation, quality, efficiency, customer satisfaction).\n3. Balanced scorecard: combines financial, strategic and operational objectives."
+    },
+    {
+      "id": "ch02-024",
+      "category": "raisonnement",
+      "question": "What is the main risk of the financial disaggregation approach to target setting?",
+      "answer": "Pursuing short-term financial targets can conflict with long-term value creation (e.g. cutting investment, R&D or quality to hit this year's numbers)."
+    },
+    {
+      "id": "ch02-025",
+      "category": "application",
+      "question": "What does the Boeing case teach about 'obliquity'?",
+      "answer": "Phase 1 — 'building great planes': focus on innovation, technological leadership and large aircraft, with little attention to financial indicators; big investments in the 707, 737, 747 and 777 produced very strong financial results.\nPhase 2 — 'value-based environment': focus on unit costs, ROI and shareholder returns; reduced investment in major civil aviation projects, diversification into defence and satellites → lost leadership in passenger aircraft to Airbus.\nObliquity: profitability is often pursued more effectively indirectly, by targeting the strategic drivers of profit."
+    },
+    {
+      "id": "ch02-026",
+      "category": "definition",
+      "question": "What is the balanced scorecard and what are its four perspectives?",
+      "answer": "A tool (Kaplan and Norton) that combines financial objectives with strategic and operational ones, providing an integrated framework of performance measures cascaded down to business units and departments.\n1. Financial: how do we look to shareholders?\n2. Customer: how do customers see us?\n3. Internal business processes: what must we excel at?\n4. Learning and growth: can we continue to improve and create value?"
+    },
+    {
+      "id": "ch02-027",
+      "category": "graphique",
+      "question": "Interpret the balanced scorecard of the regional airline.",
+      "answer": "The strategy map links the perspectives causally: align ground crews (learning) → improve turnaround time (internal) → on-time flights and low prices (customer) → more customers → higher revenue and lower cost → increased profitability (financial).\nEach objective has measures, targets and initiatives, e.g. on-ground time < 25 minutes and 93% on-time departures (cycle-time optimization); 98% customer satisfaction (quality management, loyalty programme); ground-crew stock ownership 70% in year 1 → 100% in year 6; market value +25% per year.",
+      "image": "ch02/slide-31.jpg",
+      "imageHint": "Slide 31 of the chapter 2 PDF"
+    },
+    {
+      "id": "ch02-028",
+      "category": "definition",
+      "question": "What are corporate values, and what two roles can they play?",
+      "answer": "Values are a set of beliefs that commit the organization to ethical principles and to the interests of stakeholders.\n• They may be mere window dressing for external image.\n• Or they become central to organizational identity, shaping commitment and behaviour and, when shared, part of the corporate culture ('shared values'). McKinsey's 7-S framework places shared values at the centre of organizational effectiveness."
+    },
+    {
+      "id": "ch02-029",
+      "category": "application",
+      "question": "What do Accenture's values illustrate about corporate values?",
+      "answer": "Accenture's values (stewardship, best people, client value creation, one global network, respect for the individual, integrity) show that the real challenge is not identifying values but deciding how far to extend the commitment — e.g. should Accenture support minority rights in China or LGBT rights in Hungary?"
+    },
+    {
+      "id": "ch02-030",
+      "category": "tableau",
+      "question": "Compare the 'firm as property' and 'firm as social entity' views of corporate social responsibility, and Grant's middle way.",
+      "answer": "• Firm as property (Friedman): the firm is a set of assets owned by shareholders; its only responsibility is to increase profits within the rules of the game; everything else is for the state (taxes, laws). Limit: ignores social legitimacy.\n• Firm as social entity: the firm is a community of people and relationships with responsibilities towards society, not only shareholders. Limit: loses sight of the business (Adam Smith: 'It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner…').\n• Grant's middle way: align with society and the environment while remaining true to the business and its profit — CSR becomes strategic (shared value)."
+    },
+    {
+      "id": "ch02-031",
+      "category": "application",
+      "question": "What do News Corporation (2011) and Weinstein (2017) show about the cost of legitimacy?",
+      "answer": "• News Corporation: News of the World, involved in illegal phone hacking, generated only about $85 million of $33 billion revenues, yet the reputational damage wiped about $11 billion off market value.\n• The Weinstein Company collapsed and went bankrupt after the October 2017 revelations.\nSocial judgement can overwhelm a firm, even beyond legal requirements; social media increase this vulnerability."
+    },
+    {
+      "id": "ch02-032",
+      "category": "definition",
+      "question": "What is 'shared value' (Porter and Kramer), and how does it differ from redistribution?",
+      "answer": "Creating economic value in a way that also creates value for society, by targeting specific intersections between the firm's and society's interests — enlarging the pool of value rather than redistributing it.\nCocoa in Côte d'Ivoire: fair trade pays farmers 10–20% more (redistribution), whereas more efficient cultivation can raise farmers' incomes by 300% and reduce chocolate makers' costs (shared value)."
+    },
+    {
+      "id": "ch02-033",
+      "category": "raisonnement",
+      "question": "What are the three arguments for why CSR can pay off?",
+      "answer": "1. Sustainability of the ecosystem the firm depends on (cf. Arie de Geus: the firm as a living organism that survives by adapting to its environment)\n2. Reputation\n3. Licence to operate (social legitimacy)\nThe critical task is to select CSR initiatives at specific intersections between business interests and social needs."
+    },
+    {
+      "id": "ch02-034",
+      "category": "application",
+      "question": "Why did Starbucks' 'Race Together' fail while Unilever's Sustainable Living Plan succeeded?",
+      "answer": "• Starbucks: baristas were asked to discuss race with customers — it failed because of the weak link with the business and the company's lack of competence on the issue.\n• Unilever (from 2010, CEO Paul Polman): environmental goals across about 400 brands, bonuses tied to targets on emissions, waste and energy, with sales doubling — the commitment was linked to the core business and long-term interests, generating innovation, reputation and customer engagement."
+    },
+    {
+      "id": "ch02-035",
+      "category": "raisonnement",
+      "question": "Is CSR always good business? Discuss with examples.",
+      "answer": "No — tensions remain. When social activity is disconnected from the core business it risks becoming mere marketing. Volkswagen (2015) advertised 'clean' diesels while using software to cheat emissions tests: the inconsistency caused a share-price collapse and costs of tens of billions. Patagonia integrates environmental protection into its business and in 2022 transferred ownership to a trust and a non-profit, aligning purpose and use of profits — without eliminating every economic–environmental conflict."
+    },
+    {
+      "id": "ch02-036",
+      "category": "definition",
+      "question": "What is a real option, and why does NPV not capture it?",
+      "answer": "A real option is a right, not an obligation, to take a future decision (like a refundable concert ticket). NPV does not automatically capture uncertainty or the value of future choices. In the Black–Scholes model, more uncertainty and more time increase the option's value, while a higher exercise price reduces it; the binomial model represents choices as a tree of scenarios.\nExample: Shell's small joint-venture investments in hydrogen and fuel cells buy know-how and IP — an option to invest more if the world changes."
+    },
+    {
+      "id": "ch02-037",
+      "category": "definition",
+      "question": "What is stage-gate investment, and how does it relate to venture capital?",
+      "answer": "When investments are irreversible, the project is split into stages; each stage buys the right to decide on the next:\n1. Invest: fund a limited stage with a small initial commitment.\n2. Reassess: at the gate, compare results, costs and new information.\n3. Choose: continue, abandon, modify or wait.\nVenture capital follows this logic — betting on the right to continue and scale if it works (e.g. Hyperloop One raised $160 million by August 2017 from investors including GE, DP World and SNCF)."
+    },
+    {
+      "id": "ch02-038",
+      "category": "definition",
+      "question": "Distinguish growth options from flexibility options, with examples.",
+      "answer": "• Growth options (offensive): small initial investments in several opportunities without full commitment; platforms open new markets (3M applying nanotechnology to dental materials, drugs and adhesives; Snapchat to news, payments and video); joint ventures (Virgin Group; Starbucks in China, buying out its partners in 2017).\n• Flexibility options (defensive): designing projects and plants to adapt to different outputs and circumstances (Fujifilm moving from film to cosmetics and coatings; flexible plants producing several models)."
+    },
+    {
+      "id": "ch02-039",
+      "category": "raisonnement",
+      "question": "What does the Kodak case show about real options?",
+      "answer": "Having an option is not enough: it must be exercised in time. Kodak had digital photography technology from 1975 but did not exercise that option in time, and filed for bankruptcy in 2012."
+    },
+    {
+      "id": "ch02-040",
+      "category": "raisonnement",
+      "question": "Contrast the views of Alfred Sloan and Dennis Bakke on the goal of business.",
+      "answer": "• Sloan (General Motors): the strategic aim of a business is to earn a return on capital; if long-run return is unsatisfactory, the deficiency should be corrected or the activity abandoned.\n• Bakke (AES): profits are to business as breathing is to life — essential for existence but not the purpose of existence.\nThey frame the debate between profit maximization and a broader purpose (shareholder vs stakeholder value)."
+    }
+  ]
+}
