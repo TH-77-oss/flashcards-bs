@@ -11,6 +11,7 @@ import Stats from './pages/Stats.jsx'
 import ChapterStats from './pages/ChapterStats.jsx'
 import Planning from './pages/Planning.jsx'
 import { useAppUsage } from './hooks/useAppUsage.js'
+import UpdatePrompt from './components/UpdatePrompt.jsx'
 
 export default function App() {
   useAppUsage() // compte le temps passé dans l'app, sur toutes les pages
@@ -34,6 +35,7 @@ export default function App() {
         </Routes>
       </main>
       {!fullScreen && <TabBar />}
+      <UpdatePrompt />
     </div>
   )
 }

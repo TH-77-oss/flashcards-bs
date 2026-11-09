@@ -1,0 +1,37 @@
+/* Bandeau de mise à jour, posé au-dessus de la barre d'onglets */
+.update-banner {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: calc(var(--safe-bottom) + 68px);
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 10px 10px 16px;
+  border-radius: 16px;
+  background: #1f2a4a;
+  border: 1px solid #2b3350;
+  color: var(--text);
+  font-size: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+.update-banner span {
+  flex: 1;
+}
+.update-now {
+  height: 40px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #000000;
+  font-weight: 600;
+}
+.update-later {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background: none;
+  color: var(--text-2);
+}
