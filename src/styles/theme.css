@@ -1,0 +1,264 @@
+/* ==========================================================
+   Thème « Nocturne » : toutes les couleurs et tailles du design A.
+   Les variables (--nom) se réutilisent partout avec var(--nom).
+   ========================================================== */
+:root {
+  --bg: #000000;
+  --surface: #1c1c1e;
+  --surface-2: #2c2c2e;
+  --separator: #2c2c2e;
+  --tabbar-bg: #121214;
+  --text: #f5f5f7;
+  --text-2: #98989f;
+  --text-3: #636366;
+  --accent: #7c9cff;
+  --ok: #30d158;
+  --ko: #ffb340;
+
+  /* Couleurs des graphiques et du planning (validées pour le daltonisme) */
+  --chart-blue: #6584ec;
+  --chart-violet: #a06be0;
+  --chart-amber: #c97c30;
+
+  --radius-l: 18px;
+  --radius-m: 14px;
+  --font: -apple-system, 'SF Pro Text', system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  /* Zones sûres de l'iPhone : encoche en haut, barre d'accueil en bas */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  color-scheme: dark;
+}
+
+/* ---------- Base ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent; /* pas de flash gris au toucher */
+  overscroll-behavior: none; /* pas d'effet "élastique" sur toute la page */
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+/* ---------- Structure de l'app ---------- */
+.app {
+  height: 100dvh; /* hauteur réelle de l'écran, barres de Safari comprises */
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1;
+  overflow-y: auto; /* seul le contenu défile, la tab bar reste fixe */
+}
+
+.page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: calc(var(--safe-top) + 24px) 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* ---------- Typographie ---------- */
+.large-title {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.eyebrow {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.muted {
+  color: var(--text-2);
+}
+.small {
+  font-size: 13px;
+}
+.tiny {
+  font-size: 12px;
+}
+
+/* ---------- Composants ---------- */
+.card {
+  background: var(--surface);
+  border-radius: var(--radius-l);
+  padding: 18px;
+}
+
+.button-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border: 0;
+  border-radius: var(--radius-m);
+  background: var(--accent);
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button-primary:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.back-link {
+  align-self: flex-start;
+  color: var(--accent);
+  font-size: 17px;
+  min-height: 44px; /* taille minimale de zone tactile recommandée par Apple */
+  display: flex;
+  align-items: center;
+  margin-top: -12px;
+}
+
+/* Compte à rebours de l'accueil */
+.countdown {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.countdown-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.countdown-value {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--accent);
+}
+
+/* Grille des 3 indicateurs de l'accueil */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.stat {
+  padding: 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: var(--radius-m);
+}
+.stat-value {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Liste groupée façon Réglages iOS */
+.grouped-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: var(--surface);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+}
+.grouped-list li + li {
+  border-top: 1px solid var(--separator);
+}
+.list-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 60px;
+  padding: 10px 14px;
+}
+.list-row:active {
+  background: var(--surface-2);
+}
+.list-row-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.badge {
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  background: var(--surface-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.chevron {
+  color: var(--text-3);
+  display: flex;
+}
+
+/* ---------- Barre d'onglets ---------- */
+.tabbar {
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  background: var(--tabbar-bg);
+  border-top: 1px solid var(--separator);
+  padding-bottom: var(--safe-bottom);
+}
+.tabbar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  height: 56px;
+  font-size: 11px;
+  color: #8e8e93;
+}
+.tabbar-item.is-active {
+  color: var(--accent);
+}
