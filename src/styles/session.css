@@ -113,6 +113,21 @@
   line-height: 1.35;
   letter-spacing: -0.01em;
 }
+.flip-question.has-image {
+  flex: 0 0 auto;
+  margin: 18px 0 14px;
+  font-size: 20px;
+}
+/* Image au recto : prend la place disponible, sans jamais déformer */
+.flip-image {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #ffffff;
+  margin-bottom: 14px;
+}
 .flip-hint {
   text-align: center;
   font-size: 13px;

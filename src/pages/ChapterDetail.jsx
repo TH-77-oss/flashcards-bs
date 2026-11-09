@@ -1,11 +1,15 @@
-// Page d'un chapitre. useParams lit le :id de l'adresse /chapitres/:id.
+// Page d'un chapitre : statistiques, maîtrise, et liste des cartes
+// (toucher une carte pour la modifier, « + Ajouter » pour en créer une).
 import { Link, useParams, Navigate } from 'react-router'
-import { useStats } from '../hooks/useData.js'
+import { useStats, useChapterCards } from '../hooks/useData.js'
+import { CATEGORIES } from '../data/sampleCards.js'
+import '../styles/editor.css'
 
 export default function ChapterDetail() {
   const id = Number(useParams().id)
   const stats = useStats()
-  if (!stats) return <div className="page" />
+  const cards = useChapterCards(id)
+  if (!stats || !cards) return <div className="page" />
 
   const ch = stats.chapters.find((c) => c.id === id)
   if (!ch) return <Navigate to="/chapitres" replace />
@@ -19,6 +23,16 @@ export default function ChapterDetail() {
         <h1 className="large-title">{ch.title}</h1>
         {ch.isMastered && <p className="ok small">✓ Chapitre maîtrisé</p>}
       </header>
+
+      {ch.cards > 0 ? (
+        <Link to={`/session/${ch.id}`} className="button-primary">
+          Réviser ce chapitre ({ch.cards} cartes)
+        </Link>
+      ) : (
+        <button className="button-primary" disabled>
+          Aucune carte pour l’instant
+        </button>
+      )}
 
       <div className="kpi-grid">
         <Kpi value={ch.rate === null ? '—' : `${ch.rate} %`} label="Réussite" />
@@ -42,14 +56,29 @@ export default function ChapterDetail() {
         </p>
       </section>
 
-      {ch.cards > 0 ? (
-        <Link to={`/session/${ch.id}`} className="button-primary">
-          Réviser ce chapitre ({ch.cards} cartes)
+      <div className="section-head">
+        <h2 className="section-title">Cartes ({cards.length})</h2>
+        <Link to={`/cartes/nouvelle/${ch.id}`} className="text-link">
+          + Ajouter
         </Link>
-      ) : (
-        <button className="button-primary" disabled>
-          Aucune carte pour l’instant
-        </button>
+      </div>
+
+      {cards.length > 0 && (
+        <ul className="grouped-list">
+          {cards.map((card) => (
+            <li key={card.id}>
+              <Link to={`/cartes/${card.id}`} className="list-row card-row">
+                <span className="list-row-text">
+                  <span className="card-row-meta">
+                    <span className="mini-chip">{CATEGORIES[card.category] || card.category}</span>
+                    {(card.imageId || card.image) && <span className="muted tiny">· image</span>}
+                  </span>
+                  <span className="card-row-question">{card.question}</span>
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       )}
     </div>
   )
