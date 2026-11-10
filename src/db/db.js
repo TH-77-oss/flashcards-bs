@@ -36,6 +36,20 @@ db.version(2).stores({
   plannedSessions: 'id, day, chapterId, status',
 })
 
+// Version 3 : vos notes personnelles, une par carte. Elles sont dans une table
+// à part : les mises à jour du contenu des chapitres ne les touchent jamais.
+db.version(3).stores({
+  chapters: 'id',
+  cards: 'id, chapterId',
+  sessions: 'id, chapterId, startedAt',
+  answers: 'id, sessionId, cardId, chapterId, day',
+  usageDaily: 'day',
+  images: 'id',
+  settings: 'key',
+  plannedSessions: 'id, day, chapterId, status',
+  notes: 'cardId, updatedAt', // { cardId, text, updatedAt }
+})
+
 // Fichiers de contenu des chapitres (src/content/ch01.json, ch02.json…).
 // Vite les intègre à l'app au moment de la compilation : ajouter un fichier
 // dans ce dossier suffit pour qu'il soit pris en compte au prochain lancement.

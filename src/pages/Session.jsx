@@ -4,11 +4,14 @@
 import { useEffect, useRef, useState } from 'react'
 import { Navigate, useNavigate, useParams } from 'react-router'
 import FlipCard from '../components/FlipCard.jsx'
+import NoteSheet from '../components/NoteSheet.jsx'
+import { useNotesMap } from '../hooks/useNotes.js'
 import { useChapter, useSessionCards } from '../hooks/useData.js'
 import { startSession, endSession, recordAnswer } from '../db/repository.js'
 import { CATEGORIES } from '../data/sampleCards.js'
 import { newId } from '../lib/id.js'
 import '../styles/session.css'
+import '../styles/notes.css'
 
 // Au-delà de 2 minutes sur une carte, on considère que le téléphone a été
 // posé : le temps compté est plafonné.
@@ -53,6 +56,10 @@ function SessionRun({ chapter, initialCards }) {
   // Réponses de CETTE session (pour le bilan) : { idDeCarte: { correct, durationMs } }
   const [answers, setAnswers] = useState({})
   const shownAt = useRef(0) // instant où la carte actuelle est apparue
+  const notes = useNotesMap()
+  const [showHint, setShowHint] = useState(false)
+  const [editingNote, setEditingNote] = useState(false)
+  const noteOpenedAt = useRef(0)
   const sessionId = useRef(null) // la session n'est créée qu'à la première réponse
 
   useEffect(() => {
@@ -70,6 +77,7 @@ function SessionRun({ chapter, initialCards }) {
   function goTo(i) {
     setIndex(i)
     setFlipped(false)
+    setShowHint(false)
     shownAt.current = Date.now()
   }
 
@@ -96,6 +104,16 @@ function SessionRun({ chapter, initialCards }) {
     setCards(shuffle(next))
     setAnswers({})
     goTo(0)
+  }
+
+  // Le temps passé à écrire une note n'est pas compté dans le temps de réponse.
+  function openNote() {
+    noteOpenedAt.current = Date.now()
+    setEditingNote(true)
+  }
+  function closeNote() {
+    shownAt.current += Date.now() - noteOpenedAt.current
+    setEditingNote(false)
   }
 
   function quit() {
@@ -148,6 +166,7 @@ function SessionRun({ chapter, initialCards }) {
   }
 
   const progress = `${Math.round((100 * index) / cards.length)}%`
+  const note = notes?.get(card.id) || null
 
   return (
     <div className="session">
@@ -167,7 +186,22 @@ function SessionRun({ chapter, initialCards }) {
         <div className="progress-fill" style={{ width: progress }} />
       </div>
 
-      <FlipCard card={card} flipped={flipped} onFlip={() => setFlipped((f) => !f)} />
+      <div className="session-tools">
+        {note && !flipped ? (
+          <button className="tool-button" onClick={() => setShowHint((h) => !h)} aria-pressed={showHint}>
+            {showHint ? 'Masquer l’indice' : 'Indice'}
+          </button>
+        ) : (
+          <span />
+        )}
+        <button className="tool-button" onClick={openNote}>
+          {note ? 'Modifier ma note' : '+ Ma note'}
+        </button>
+      </div>
+
+      <FlipCard card={card} flipped={flipped} onFlip={() => setFlipped((f) => !f)} note={note} showHint={showHint} />
+
+      {editingNote && <NoteSheet card={card} initialText={note || ''} onClose={closeNote} />}
 
       {flipped ? (
         <div className="session-actions">

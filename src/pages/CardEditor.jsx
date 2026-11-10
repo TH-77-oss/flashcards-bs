@@ -4,12 +4,15 @@
 import { useRef, useState } from 'react'
 import { Link, Navigate, useNavigate, useParams } from 'react-router'
 import { useCard, useChapters } from '../hooks/useData.js'
+import { useNotesMap } from '../hooks/useNotes.js'
+import NoteSheet from '../components/NoteSheet.jsx'
 import { useImageUrl } from '../hooks/useImageUrl.js'
 import { saveCard, deleteCard, saveImage, deleteImage } from '../db/repository.js'
 import { CATEGORIES } from '../data/sampleCards.js'
 import { compressImage } from '../lib/image.js'
 import { newId } from '../lib/id.js'
 import '../styles/editor.css'
+import '../styles/notes.css'
 
 export default function CardEditor() {
   const { id, chapterId } = useParams()
@@ -38,6 +41,9 @@ function EditorForm({ initial, isNew, chapters }) {
   const [image, setImage] = useState(initial.image)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
+  const [editingNote, setEditingNote] = useState(false)
+  const notes = useNotesMap()
+  const note = !isNew && notes ? notes.get(initial.id) || '' : ''
   // Images ajoutées pendant cette édition : supprimées si on annule.
   const addedImages = useRef([])
 
@@ -174,6 +180,17 @@ function EditorForm({ initial, isNew, chapters }) {
         )}
         <input ref={fileInput} type="file" accept="image/*" hidden onChange={onPickImage} />
       </div>
+
+      {!isNew && (
+        <div className="field">
+          <span className="field-label">Ma note</span>
+          {note && <p className="note-preview">{note}</p>}
+          <button className="button-secondary" onClick={() => setEditingNote(true)}>
+            {note ? 'Modifier ma note' : 'Ajouter une note'}
+          </button>
+        </div>
+      )}
+      {editingNote && <NoteSheet card={initial} initialText={note} onClose={() => setEditingNote(false)} />}
 
       {error && <p className="small ko">{error}</p>}
 

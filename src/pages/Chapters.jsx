@@ -1,6 +1,7 @@
 import { Link } from 'react-router'
 import { useStats } from '../hooks/useData.js'
 import { IconChevron } from '../components/Icons.jsx'
+import '../styles/notes.css'
 
 function subtitle(ch) {
   if (ch.cards === 0) return 'Pas encore de cartes'
@@ -14,8 +15,11 @@ export default function Chapters() {
 
   return (
     <div className="page">
-      <header className="page-header">
+      <header className="page-header title-with-action">
         <h1 className="large-title">Chapitres</h1>
+        <Link to="/notes" className="pill-link">
+          Mes notes
+        </Link>
       </header>
 
       <ul className="grouped-list">

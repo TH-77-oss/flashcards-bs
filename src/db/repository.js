@@ -77,3 +77,16 @@ export async function saveImage({ blob, width, height }) {
 export function deleteImage(id) {
   return db.images.delete(id)
 }
+
+/* ---------- Notes personnelles ---------- */
+
+// Une note par carte. Enregistrer un texte vide supprime la note.
+export function saveNote(cardId, text) {
+  const clean = text.trim()
+  if (!clean) return db.notes.delete(cardId)
+  return db.notes.put({ cardId, text: clean, updatedAt: Date.now() })
+}
+
+export function deleteNote(cardId) {
+  return db.notes.delete(cardId)
+}

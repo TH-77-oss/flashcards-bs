@@ -2,14 +2,18 @@
 // (toucher une carte pour la modifier, « + Ajouter » pour en créer une).
 import { Link, useParams, Navigate } from 'react-router'
 import { useStats, useChapterCards } from '../hooks/useData.js'
+import { useNotesMap } from '../hooks/useNotes.js'
 import { CATEGORIES } from '../data/sampleCards.js'
 import '../styles/editor.css'
+import '../styles/notes.css'
 
 export default function ChapterDetail() {
   const id = Number(useParams().id)
   const stats = useStats()
   const cards = useChapterCards(id)
-  if (!stats || !cards) return <div className="page" />
+  const notes = useNotesMap()
+  if (!stats || !cards || !notes) return <div className="page" />
+  const noteCount = cards.filter((c) => notes.has(c.id)).length
 
   const ch = stats.chapters.find((c) => c.id === id)
   if (!ch) return <Navigate to="/chapitres" replace />
@@ -58,9 +62,16 @@ export default function ChapterDetail() {
 
       <div className="section-head">
         <h2 className="section-title">Cartes ({cards.length})</h2>
-        <Link to={`/cartes/nouvelle/${ch.id}`} className="text-link">
-          + Ajouter
-        </Link>
+        <span className="section-actions">
+          {noteCount > 0 && (
+            <Link to={`/notes#chapitre-${ch.id}`} className="text-link">
+              Notes ({noteCount})
+            </Link>
+          )}
+          <Link to={`/cartes/nouvelle/${ch.id}`} className="text-link">
+            + Ajouter
+          </Link>
+        </span>
       </div>
 
       {cards.length > 0 && (
@@ -72,6 +83,7 @@ export default function ChapterDetail() {
                   <span className="card-row-meta">
                     <span className="mini-chip">{CATEGORIES[card.category] || card.category}</span>
                     {(card.imageId || card.image) && <span className="muted tiny">· image</span>}
+                    {notes.has(card.id) && <span className="note-flag tiny">· note</span>}
                   </span>
                   <span className="card-row-question">{card.question}</span>
                 </span>
