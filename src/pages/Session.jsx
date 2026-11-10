@@ -4,6 +4,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Navigate, useNavigate, useParams, useSearchParams } from 'react-router'
 import { getCourse, sectionCardIds } from '../lib/courses.js'
+import { useDifficultCards } from '../hooks/useInsights.js'
 import FlipCard from '../components/FlipCard.jsx'
 import NoteSheet from '../components/NoteSheet.jsx'
 import { useNotesMap } from '../hooks/useNotes.js'
@@ -33,14 +34,27 @@ function shuffle(list) {
 export default function Session() {
   const param = useParams().chapterId
   const isGlobal = param === 'tout' // adresse /session/tout = révision globale
-  const chapterId = isGlobal ? null : Number(param)
+  const isHard = param === 'difficiles' // adresse /session/difficiles = cartes difficiles
+  const chapterId = isGlobal || isHard ? null : Number(param)
+  const hard = useDifficultCards(20)
   const found = useChapter(chapterId)
   const cards = useSessionCards(chapterId)
   // /session/3?partie=s2 : uniquement les cartes d'une partie du cours
   const partie = useSearchParams()[0].get('partie')
 
-  if (cards === undefined || (!isGlobal && found === undefined)) return <div className="session" /> // chargement
-  if (!isGlobal && !found) return <Navigate to="/chapitres" replace />
+  if (cards === undefined || hard === undefined || (chapterId !== null && found === undefined)) return <div className="session" /> // chargement
+  if (chapterId !== null && !found) return <Navigate to="/chapitres" replace />
+
+  if (isHard) {
+    const ids = new Set(hard.map((h) => h.card.id))
+    return (
+      <SessionRun
+        key="difficiles"
+        chapter={{ id: null, title: 'Cartes difficiles', mode: 'difficiles' }}
+        initialCards={cards.filter((c) => ids.has(c.id))}
+      />
+    )
+  }
 
   const ids = !isGlobal && partie ? sectionCardIds(chapterId, partie) : null
   const section = ids ? getCourse(chapterId).sections.find((s) => s.id === partie) : null
@@ -93,7 +107,7 @@ function SessionRun({ chapter, initialCards }) {
   function ensureSession() {
     if (!sessionId.current) {
       sessionId.current = newId()
-      startSession(sessionId.current, chapter.id)
+      startSession(sessionId.current, chapter.id, chapter.mode || null)
     }
     return sessionId.current
   }
@@ -127,7 +141,7 @@ function SessionRun({ chapter, initialCards }) {
 
   function quit() {
     if (sessionId.current && !done) endSession(sessionId.current)
-    navigate(chapter.id ? `/chapitres/${chapter.id}` : '/planning')
+    navigate(chapter.id ? `/chapitres/${chapter.id}` : chapter.mode === 'difficiles' ? '/stats/difficiles' : '/planning')
   }
 
   if (cards.length === 0) {

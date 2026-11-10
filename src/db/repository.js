@@ -9,14 +9,17 @@ import { dayKey } from '../lib/dates.js'
 // chapterId vaut null pour une révision globale (tous les chapitres).
 // Si une session était prévue aujourd'hui pour ce chapitre, elle est
 // automatiquement marquée « réalisée » et reliée à cette vraie session.
-export async function startSession(id, chapterId) {
+// mode 'difficiles' : session de cartes difficiles, jamais reliée au planning.
+export async function startSession(id, chapterId, mode = null) {
   const today = dayKey()
-  const planned = await db.plannedSessions
+  const planned = mode
+    ? null
+    : await db.plannedSessions
     .where('day')
     .equals(today)
     .filter((p) => p.status === 'planned' && (chapterId === null ? p.kind === 'globale' : p.chapterId === chapterId))
     .first()
-  await db.sessions.add({ id, chapterId, startedAt: Date.now(), endedAt: null, plannedSessionId: planned?.id || null })
+  await db.sessions.add({ id, chapterId, mode, startedAt: Date.now(), endedAt: null, plannedSessionId: planned?.id || null })
   if (planned) await db.plannedSessions.update(planned.id, { status: 'done', doneSessionId: id })
 }
 

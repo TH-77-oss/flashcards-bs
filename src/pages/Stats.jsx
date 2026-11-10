@@ -11,6 +11,7 @@ import BarChart from '../components/charts/BarChart.jsx'
 import Heatmap from '../components/charts/Heatmap.jsx'
 import ChartCard from '../components/charts/ChartCard.jsx'
 import StackedBarChart from '../components/charts/StackedBarChart.jsx'
+import InsightsSections from '../components/charts/InsightsSections.jsx'
 import '../styles/dashboard.css'
 
 const fmtDay = (key) => parseDayKey(key).toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' })
@@ -205,6 +206,8 @@ export default function Stats() {
         />
         <ChapterAxis />
       </ChartCard>
+
+      <InsightsSections />
     </div>
   )
 }

@@ -1,0 +1,104 @@
+/* ==========================================================
+   Statistiques avancées : projection, couverture, cartes difficiles.
+   ========================================================== */
+.projection {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 4px;
+  border-top: 1px solid var(--separator);
+}
+.projection strong {
+  color: var(--text);
+}
+
+.coverage {
+  padding: 8px 14px;
+}
+.coverage-head,
+.coverage-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 56px 92px;
+  align-items: center;
+  gap: 8px;
+}
+.coverage-head {
+  padding: 6px 0;
+}
+.coverage-row {
+  min-height: 44px;
+  border-top: 1px solid var(--separator);
+}
+.coverage-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.coverage-seen {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.coverage-seen .mini-bar {
+  flex: 1;
+  margin-top: 0;
+}
+.mini-bar-fill.blue {
+  background: var(--chart-blue);
+}
+
+.hard-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.hard-mini {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.hard-mini li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  padding: 8px 0;
+  border-top: 1px solid var(--separator);
+}
+.hard-mini li:first-child {
+  border-top: 0;
+}
+.hard-mini-q {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.hard-mini .ko {
+  flex-shrink: 0;
+}
+.as-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hard-preview .button-primary {
+  height: 48px;
+}
+
+/* Page « Cartes difficiles » */
+.insights {
+  gap: 14px;
+}
+.hard-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 14px;
+}
+.hard-row:active {
+  background: var(--surface-2);
+}
+.hard-question {
+  font-size: 15px;
+  line-height: 1.4;
+}

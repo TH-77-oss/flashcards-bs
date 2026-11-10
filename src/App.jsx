@@ -11,6 +11,7 @@ import Stats from './pages/Stats.jsx'
 import ChapterStats from './pages/ChapterStats.jsx'
 import Notes from './pages/Notes.jsx'
 import Course from './pages/Course.jsx'
+import HardCards from './pages/HardCards.jsx'
 import Planning from './pages/Planning.jsx'
 import { useAppUsage } from './hooks/useAppUsage.js'
 import UpdatePrompt from './components/UpdatePrompt.jsx'
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/cartes/:id" element={<CardEditor />} />
           <Route path="/stats" element={<Stats />} />
           <Route path="/stats/chapitre/:id" element={<ChapterStats />} />
+          <Route path="/stats/difficiles" element={<HardCards />} />
           <Route path="/planning" element={<Planning />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
