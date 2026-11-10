@@ -1,0 +1,607 @@
+{
+ "chapter": 1,
+ "version": 1,
+ "title": {
+  "en": "The Concept of Strategy",
+  "fr": "Le concept de stratégie"
+ },
+ "readMinutes": {
+  "en": 12,
+  "fr": 14
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": {
+    "en": "What strategy is — and why it succeeds",
+    "fr": "Ce qu'est la stratégie — et pourquoi elle réussit"
+   },
+   "cards": [
+    "ch01-001",
+    "ch01-002",
+    "ch01-003",
+    "ch01-004",
+    "ch01-005"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "For Grant, a firm's **business strategy** defines how the firm will deploy its **resources and capabilities** within its **competitive environment** to achieve its **long-term goals**, and how it will **organize itself** to implement that strategy."
+     },
+     {
+      "t": "key",
+      "h": "Strategy is not a plan",
+      "x": "Strategy is **not** a detailed plan, a programme of instructions or a forecast to be executed literally. It **is** a unifying thread that links decisions and actions, gives **consistency and direction** over time, and connects the organization with its environment."
+     },
+     {
+      "t": "p",
+      "x": "The chapter opens with two very different success stories — **Queen Elizabeth II** and **Lady Gaga** — to show that successful strategies share four common elements:"
+     },
+     {
+      "t": "list",
+      "x": [
+       "**Clear, consistent, long-term goals**",
+       "**Profound understanding of the competitive environment**",
+       "**Objective appraisal of resources**",
+       "**Effective implementation** — coordinating and leading 'ecosystems' of people and supporting organizations"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "Lady Gaga",
+      "x": "Total commitment to her career since 2005 (goals); awareness of the new economics of the music industry, of the marketing potential of social networks and of the needs of Generations Y and Z (environment); reliance on the creative talents of the Haus of Gaga (resources), effectively coordinated (implementation)."
+     },
+     {
+      "t": "p",
+      "x": "Success at the top often comes at a price: high achievers are **single-minded**, putting career goals ahead of friendship, love, leisure, knowledge or spiritual fulfilment. The result can be great success alongside failure in other areas of life (Howard Hughes, Elvis Presley, Tiger Woods, Richard Nixon…). Most people need **broader goals** — Covey lists career, partner, family, friends and spiritual search."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Pour Grant, la **stratégie d'entreprise** (*business strategy*) définit comment l'entreprise va déployer ses **ressources et compétences** (*resources and capabilities*) dans son **environnement concurrentiel** pour atteindre ses **objectifs de long terme**, et comment elle va **s'organiser** pour mettre en œuvre cette stratégie."
+     },
+     {
+      "t": "key",
+      "h": "La stratégie n'est pas un plan",
+      "x": "La stratégie n'est **pas** un plan détaillé, un programme d'instructions ni une prévision à exécuter à la lettre. C'est un **fil conducteur** qui relie décisions et actions, donne **cohérence et direction** dans le temps, et fait le lien entre l'organisation et son environnement."
+     },
+     {
+      "t": "p",
+      "x": "Le chapitre s'ouvre sur deux réussites très différentes — **la reine Elizabeth II** et **Lady Gaga** — pour montrer que les stratégies gagnantes partagent quatre éléments communs :"
+     },
+     {
+      "t": "list",
+      "x": [
+       "**Des objectifs clairs, cohérents et de long terme** (*clear, consistent, long-term goals*)",
+       "**Une compréhension profonde de l'environnement concurrentiel**",
+       "**Une évaluation objective des ressources** (*objective appraisal of resources*)",
+       "**Une mise en œuvre efficace** (*effective implementation*) — coordonner et diriger des « écosystèmes » de personnes et d'organisations partenaires"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "Lady Gaga",
+      "x": "Engagement total dans sa carrière depuis 2005 (objectifs) ; conscience de la nouvelle économie de l'industrie musicale, du potentiel marketing des réseaux sociaux et des attentes des générations Y et Z (environnement) ; appui sur les talents créatifs de la Haus of Gaga (ressources), coordonnés efficacement (mise en œuvre)."
+     },
+     {
+      "t": "p",
+      "x": "Le succès au sommet a souvent un prix : les grands gagnants sont **obsessionnels** (*single-minded*), faisant passer leur carrière avant l'amitié, l'amour, les loisirs, le savoir ou l'épanouissement spirituel. Le résultat peut être un immense succès accompagné d'échecs ailleurs (Howard Hughes, Elvis Presley, Tiger Woods, Richard Nixon…). La plupart des gens ont besoin d'**objectifs plus larges** — Covey cite la carrière, le partenaire, la famille, les amis et la quête spirituelle."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2",
+   "title": {
+    "en": "Strategic fit",
+    "fr": "L'adéquation stratégique (strategic fit)"
+   },
+   "cards": [
+    "ch01-006",
+    "ch01-007",
+    "ch01-008",
+    "ch01-009",
+    "ch01-010",
+    "ch01-011"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "image",
+      "src": "ch01/slide-10.jpg",
+      "x": "Strategy as the link between the firm and its industry environment."
+     },
+     {
+      "t": "p",
+      "x": "Grant's basic framework places strategy **between the firm** (goals and values, resources and capabilities, structure and systems) **and the industry environment** (competitors, customers, suppliers). Strategy is the bridge: it must be consistent with both."
+     },
+     {
+      "t": "key",
+      "h": "Strategic fit",
+      "x": "The consistency of a strategy with **both the external environment and the internal environment** (goals, values, resources, capabilities). A common cause of business failure is a strategy that lacks consistency with one or the other."
+     },
+     {
+      "t": "p",
+      "x": "Grant criticizes **SWOT analysis** because it forces an arbitrary classification: the same factor can be a strength *and* a weakness (a strong, distinctive brand image), or an opportunity *and* a threat (the pandemic for a coffee chain). The simple **internal / external** distinction is more useful for formulating strategy."
+     },
+     {
+      "t": "p",
+      "x": "Fit also matters **inside** the firm. For **Porter**, 'strategy is the creation of a unique and differentiated position involving a different set of activities'. The firm is an **activity system**: a strategy is effective when its activities are aligned into a **coherent, self-reinforcing system**."
+     },
+     {
+      "t": "image",
+      "src": "ch01/slide-14.jpg",
+      "x": "Ryanair's activity system, built around low operating costs."
+     },
+     {
+      "t": "example",
+      "h": "Ryanair as an activity system",
+      "x": "The hub is **low operating costs**. Around it: a single aircraft type (Boeing 737), 25-minute turnarounds, high aircraft utilization, secondary airports, point-to-point routes, a no-frills offering with separate charges for extras, high labour productivity and flexibility, single class with no assigned seats, direct sales only, internet check-in, limited baggage. Each activity reinforces the others — e.g. one aircraft type and no baggage transfers allow quick turnarounds → high utilization → low costs → low prices."
+     },
+     {
+      "t": "p",
+      "x": "Strategic fit belongs to **contingency theory**: there is no single best way to organize or manage — the best way depends on the circumstances, especially on the characteristics of the environment."
+     }
+    ],
+    "fr": [
+     {
+      "t": "image",
+      "src": "ch01/slide-10.jpg",
+      "x": "La stratégie comme lien entre l'entreprise et son environnement sectoriel."
+     },
+     {
+      "t": "p",
+      "x": "Le cadre de base de Grant place la stratégie **entre l'entreprise** (objectifs et valeurs, ressources et compétences, structure et systèmes) **et l'environnement sectoriel** (*industry environment* : concurrents, clients, fournisseurs). La stratégie est le pont : elle doit être cohérente avec les deux."
+     },
+     {
+      "t": "key",
+      "h": "Adéquation stratégique (strategic fit)",
+      "x": "La cohérence d'une stratégie avec **l'environnement externe et l'environnement interne** (objectifs, valeurs, ressources, compétences). Une cause fréquente d'échec est une stratégie incohérente avec l'un ou l'autre."
+     },
+     {
+      "t": "p",
+      "x": "Grant critique l'**analyse SWOT** parce qu'elle impose un classement arbitraire : un même facteur peut être une force *et* une faiblesse (une image de marque forte et très typée), ou une opportunité *et* une menace (la pandémie pour une chaîne de cafés). La simple distinction **interne / externe** est plus utile pour formuler la stratégie."
+     },
+     {
+      "t": "p",
+      "x": "L'adéquation compte aussi **à l'intérieur** de l'entreprise. Pour **Porter**, « la stratégie consiste à créer une position unique et différenciée, impliquant un ensemble d'activités différent ». L'entreprise est un **système d'activités** (*activity system*) : une stratégie est efficace quand ses activités s'alignent en un **système cohérent qui se renforce lui-même**."
+     },
+     {
+      "t": "image",
+      "src": "ch01/slide-14.jpg",
+      "x": "Le système d'activités de Ryanair, construit autour de coûts d'exploitation bas."
+     },
+     {
+      "t": "example",
+      "h": "Ryanair, un système d'activités",
+      "x": "Au centre : des **coûts d'exploitation bas** (*low operating costs*). Autour : un seul type d'avion (Boeing 737), des rotations de 25 minutes, une forte utilisation des appareils, des aéroports secondaires, des liaisons point à point, une offre sans frais superflus (*no-frills*) avec suppléments payants, une forte productivité et flexibilité du personnel, une classe unique sans places attribuées, la vente directe uniquement, l'enregistrement en ligne, des bagages limités. Chaque activité renforce les autres — un seul type d'avion et pas de transfert de bagages permettent des rotations rapides → forte utilisation → coûts bas → prix bas."
+     },
+     {
+      "t": "p",
+      "x": "L'adéquation stratégique relève de la **théorie de la contingence** : il n'existe pas de meilleure façon unique d'organiser ou de diriger — elle dépend des circonstances, en particulier des caractéristiques de l'environnement."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3",
+   "title": {
+    "en": "Origins, definitions and evolution",
+    "fr": "Origines, définitions et évolution"
+   },
+   "cards": [
+    "ch01-012",
+    "ch01-013",
+    "ch01-014",
+    "ch01-015",
+    "ch01-016",
+    "ch01-017"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "The concept comes from the **military**: **strategy** is the overall plan for deploying resources to establish a favourable position, while **tactics** is a scheme for a specific, single action. The analogy is limited: in war the aim is usually to defeat the enemy, whereas in business rivals can **coexist and even collaborate**."
+     },
+     {
+      "t": "key",
+      "h": "Two classic definitions",
+      "x": "**Chandler** (1962): 'the determination of the long-run goals and objectives of an enterprise, and the adoption of courses of action and the allocation of resources necessary for carrying out these goals'.\n**Rumelt** (2011): 'a coherent response to an important challenge'.\nCommon elements: setting goals, allocating resources, establishing consistency."
+     },
+     {
+      "t": "p",
+      "x": "**Strategic decisions** have three characteristics: they are **important**, they involve a **significant commitment of resources**, and they are **not easily reversible**."
+     },
+     {
+      "t": "list",
+      "h": "Evolution of strategic management",
+      "x": [
+       "**1950s — financial budgeting**: managing financial resources",
+       "**1960s — corporate planning**: long-term planning of the future",
+       "**1980s — strategic planning / competitive strategy**: managing competition",
+       "**1990s — resource-based view**: exploiting resources and capabilities",
+       "**2000s onwards — turbulence and complexity**: adapting, innovating, managing change"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "The emphasis has shifted from **strategy as plan** — medium-term forecasts and detailed specifications, suited to stable, predictable environments — to **strategy as direction** — guidelines, consistency, flexibility and responsiveness, suited to turbulent environments. Strategy has become a **compass** rather than a detailed plan."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Le concept vient du **domaine militaire** : la **stratégie** est le plan d'ensemble pour déployer les ressources afin d'obtenir une position favorable, tandis que la **tactique** est un schéma pour une action précise et ponctuelle. L'analogie a ses limites : à la guerre, le but est généralement de vaincre l'ennemi, alors qu'en affaires les rivaux peuvent **coexister et même collaborer**."
+     },
+     {
+      "t": "key",
+      "h": "Deux définitions classiques",
+      "x": "**Chandler** (1962) : « la détermination des buts et objectifs de long terme d'une entreprise, l'adoption des lignes d'action et l'allocation des ressources nécessaires pour atteindre ces buts ».\n**Rumelt** (2011) : « une réponse cohérente à un défi important » (*a coherent response to an important challenge*).\nÉléments communs : fixer des objectifs, allouer des ressources, assurer la cohérence."
+     },
+     {
+      "t": "p",
+      "x": "Les **décisions stratégiques** ont trois caractéristiques : elles sont **importantes**, elles engagent **des ressources significatives** et elles sont **difficilement réversibles**."
+     },
+     {
+      "t": "list",
+      "h": "Évolution du management stratégique",
+      "x": [
+       "**Années 1950 — budget financier** (*financial budgeting*) : gérer les ressources financières",
+       "**Années 1960 — planification d'entreprise** (*corporate planning*) : planifier l'avenir à long terme",
+       "**Années 1980 — planification stratégique / stratégie concurrentielle** : gérer la concurrence",
+       "**Années 1990 — approche par les ressources** (*resource-based view*) : exploiter ressources et compétences",
+       "**Depuis les années 2000 — turbulence et complexité** : s'adapter, innover, gérer le changement"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "L'accent est passé de la **stratégie comme plan** — prévisions à moyen terme et spécifications détaillées, adaptées à un environnement stable et prévisible — à la **stratégie comme direction** — lignes directrices, cohérence, flexibilité et réactivité, adaptées à un environnement turbulent. La stratégie est devenue une **boussole** plutôt qu'un plan détaillé."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4",
+   "title": {
+    "en": "Why firms need strategy — and how they state it",
+    "fr": "Pourquoi les entreprises ont besoin d'une stratégie — et comment elles l'énoncent"
+   },
+   "cards": [
+    "ch01-018",
+    "ch01-019",
+    "ch01-020",
+    "ch01-021",
+    "ch01-022"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "list",
+      "h": "Three roles of strategy",
+      "x": [
+       "**Decision support**: simplifies decisions, integrates knowledge and makes analytical tools usable",
+       "**Coordinating device**: aligns the actions of many people; a means of communication and a forum for discussion",
+       "**Target**: focuses the organization on long-term goals, motivating and inspiring people"
+      ]
+     },
+     {
+      "t": "list",
+      "h": "Four types of strategy statement (Collis and Rukstad)",
+      "x": [
+       "**Mission** — 'Why do we exist?'",
+       "**Values** — 'What do we believe in and how will we behave?'",
+       "**Vision** — 'What do we want to be?'",
+       "**Strategy statement** — 'What is our competitive game plan?' (objectives, business scope, advantage)"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "Zoom and Carlsberg",
+      "x": "**Zoom**: objective — make Zoom meetings better than in-person meetings; growth through retaining and expanding existing customers, acquiring new ones, innovating the platform, accelerating international expansion and growing the partner ecosystem.\n**Carlsberg**: purpose — better beers at the heart of moments that bring people together; ambition — successful, professional, attractive; priorities — growth (alcohol-free brews, Asia), shareholder value, a winning culture."
+     },
+     {
+      "t": "key",
+      "h": "Reality check",
+      "x": "Strategy is ultimately realized as **action**, so compare statements with behaviour: **where the firm invests** (capital expenditure by segment and geography in the notes to the financial statements), **which technologies** it develops (patent filings) and **which products, projects and appointments** it announces (press releases, trade press). This reveals any gap between rhetoric and reality."
+     }
+    ],
+    "fr": [
+     {
+      "t": "list",
+      "h": "Trois rôles de la stratégie",
+      "x": [
+       "**Aide à la décision** (*decision support*) : simplifie les choix, intègre les connaissances et rend les outils d'analyse utilisables",
+       "**Outil de coordination** (*coordinating device*) : aligne les actions de nombreuses personnes ; moyen de communication et lieu de discussion",
+       "**Cible** (*target*) : concentre l'organisation sur les objectifs de long terme, motive et inspire"
+      ]
+     },
+     {
+      "t": "list",
+      "h": "Quatre types d'énoncés stratégiques (Collis et Rukstad)",
+      "x": [
+       "**Mission** — « Pourquoi existons-nous ? »",
+       "**Valeurs** — « En quoi croyons-nous et comment nous comporterons-nous ? »",
+       "**Vision** — « Que voulons-nous devenir ? »",
+       "**Énoncé de stratégie** (*strategy statement*) — « Quel est notre plan de jeu concurrentiel ? » (objectifs, périmètre d'activité, avantage)"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "Zoom et Carlsberg",
+      "x": "**Zoom** : objectif — rendre les réunions Zoom meilleures que les réunions en présentiel ; croissance en fidélisant et développant les clients existants, en conquérant de nouveaux clients, en innovant sur la plateforme, en accélérant l'expansion internationale et en développant l'écosystème de partenaires.\n**Carlsberg** : raison d'être — de meilleures bières au cœur des moments qui rassemblent ; ambition — réussir, être professionnel, être attractif ; priorités — la croissance (bières sans alcool, Asie), la création de valeur pour l'actionnaire, une culture gagnante."
+     },
+     {
+      "t": "key",
+      "h": "Confronter discours et réalité (reality check)",
+      "x": "La stratégie se réalise finalement par l'**action** : il faut donc comparer les déclarations aux comportements — **où l'entreprise investit** (investissements par segment et par zone géographique dans l'annexe des comptes), **quelles technologies** elle développe (dépôts de brevets) et **quels produits, projets et nominations** elle annonce (communiqués, presse spécialisée). On révèle ainsi l'écart éventuel entre le discours et la réalité."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s5",
+   "title": {
+    "en": "Corporate strategy and business strategy",
+    "fr": "Stratégie corporate et stratégie d'activité"
+   },
+   "cards": [
+    "ch01-023",
+    "ch01-024",
+    "ch01-025",
+    "ch01-026"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "The goal of strategy is a **rate of profit above the cost of capital**. It has two sources:"
+     },
+     {
+      "t": "list",
+      "x": [
+       "**Industry attractiveness** → **corporate strategy**: *where* to compete? It defines the firm's scope (industries and markets): diversification, vertical integration, acquisitions, new ventures, allocation of resources between businesses. Responsibility of **top management**.",
+       "**Competitive advantage** → **business (competitive) strategy**: *how* to compete in a given industry or market, building an advantage over rivals. Mainly the responsibility of **senior managers of divisions and subsidiaries**."
+      ]
+     },
+     {
+      "t": "p",
+      "x": "The two levels are **intertwined**: the scope of the business influences the sources of competitive advantage, and the nature of the advantage determines the industries in which the firm can succeed. The course emphasizes business strategy, because creating competitive advantage is the critical requirement for success."
+     },
+     {
+      "t": "key",
+      "h": "Describing a strategy: static and dynamic",
+      "x": "**Static — strategy as positioning** (competing for the present): where are we competing (product-market, geographic and vertical scope)? How (cost or differentiation, distinctive resources and capabilities)?\n**Dynamic — strategy as direction** (preparing for the future): what do we want to become (vision), to achieve (mission, performance goals), and how will we get there (development guidelines, investment and R&D priorities, organic growth, M&A, alliances)?\nReconciling the two is **'competing with dual strategies'** (Abell)."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Le but de la stratégie est un **taux de profit supérieur au coût du capital** (*cost of capital*). Il a deux sources :"
+     },
+     {
+      "t": "list",
+      "x": [
+       "**L'attractivité du secteur** (*industry attractiveness*) → **stratégie corporate** (*corporate strategy*) : *où* être en concurrence ? Elle définit le périmètre de l'entreprise (secteurs et marchés) : diversification, intégration verticale, acquisitions, nouvelles activités, allocation des ressources entre activités. Responsabilité de la **direction générale**.",
+       "**L'avantage concurrentiel** (*competitive advantage*) → **stratégie d'activité / concurrentielle** (*business strategy*) : *comment* rivaliser dans un secteur ou un marché donné, en construisant un avantage sur les rivaux. Responsabilité surtout des **dirigeants des divisions et filiales**."
+      ]
+     },
+     {
+      "t": "p",
+      "x": "Les deux niveaux sont **imbriqués** : le périmètre d'activité influence les sources d'avantage concurrentiel, et la nature de l'avantage détermine les secteurs où l'entreprise peut réussir. Le cours privilégie la stratégie d'activité, car créer un avantage concurrentiel est la condition décisive du succès."
+     },
+     {
+      "t": "key",
+      "h": "Décrire une stratégie : statique et dynamique",
+      "x": "**Statique — la stratégie comme positionnement** (rivaliser dans le présent) : où sommes-nous en concurrence (périmètre produit-marché, géographique et vertical) ? Comment (coûts ou différenciation, ressources et compétences distinctives) ?\n**Dynamique — la stratégie comme direction** (préparer l'avenir) : que voulons-nous devenir (vision), atteindre (mission, objectifs de performance), et comment y parvenir (lignes de développement, priorités d'investissement et de R&D, croissance organique, fusions-acquisitions, alliances) ?\nConcilier les deux, c'est **« rivaliser avec une double stratégie »** (*competing with dual strategies*, Abell)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s6",
+   "title": {
+    "en": "How strategy is made: design vs emergence",
+    "fr": "Comment se fait la stratégie : conception ou émergence"
+   },
+   "cards": [
+    "ch01-027",
+    "ch01-028",
+    "ch01-029",
+    "ch01-030"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "image",
+      "src": "ch01/slide-30.jpg",
+      "x": "Mintzberg: intended, emergent and realized strategy."
+     },
+     {
+      "t": "p",
+      "x": "**Mintzberg** distinguishes **strategy as design** (rational planning and choice), which produces the **intended strategy**, from **strategy as process** (many decision makers responding to many external and internal forces), which produces the **emergent strategy**. The **realized strategy** combines the intended strategy actually implemented with the emergent strategy."
+     },
+     {
+      "t": "list",
+      "h": "Mintzberg's three fallacies of strategic planning",
+      "x": [
+       "**Prediction**: the future is unknown, so strategy cannot rest on forecasts",
+       "**Detachment**: formulation cannot be separated from implementation",
+       "**Formalization**: formalization impedes flexibility, spontaneity, intuition and learning"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "Instagram vs Nokia",
+      "x": "Instagram combined **listening to the market** with **execution agility**, reaching global scale and dominance. Nokia suffered from **strategic inertia** and blindness to a changing context, and fell rapidly from leadership. Winning strategies combine intention with **emergent learning**."
+     },
+     {
+      "t": "key",
+      "h": "Planned emergence (Grant)",
+      "x": "A synthesis of design and emergence. In **stable** environments, formal planning and long-term plans work; in **turbulent** ones, flexibility and emergent adaptation are needed. Top management sets a few memorable **strategic principles** for overall direction and **simple rules** (clear decision criteria) to guide decentralized choices; middle managers play a key role in **enactment**."
+     }
+    ],
+    "fr": [
+     {
+      "t": "image",
+      "src": "ch01/slide-30.jpg",
+      "x": "Mintzberg : stratégie délibérée, émergente et réalisée."
+     },
+     {
+      "t": "p",
+      "x": "**Mintzberg** distingue la **stratégie comme conception** (*strategy as design* : planification rationnelle et choix), qui produit la **stratégie délibérée** (*intended strategy*), de la **stratégie comme processus** (*strategy as process* : de nombreux décideurs réagissant à de multiples forces externes et internes), qui produit la **stratégie émergente** (*emergent strategy*). La **stratégie réalisée** (*realized strategy*) combine la partie de la stratégie délibérée effectivement mise en œuvre et la stratégie émergente."
+     },
+     {
+      "t": "list",
+      "h": "Les trois illusions de la planification selon Mintzberg",
+      "x": [
+       "**La prédiction** (*fallacy of prediction*) : l'avenir est inconnu, la stratégie ne peut reposer sur des prévisions",
+       "**Le détachement** (*fallacy of detachment*) : on ne peut séparer la formulation de la mise en œuvre",
+       "**La formalisation** (*fallacy of formalization*) : la formalisation freine la flexibilité, la spontanéité, l'intuition et l'apprentissage"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "Instagram contre Nokia",
+      "x": "Instagram a combiné **l'écoute du marché** et **l'agilité d'exécution**, jusqu'à une envergure mondiale et une position dominante. Nokia a souffert d'**inertie stratégique** et d'aveuglement face à un contexte qui changeait, et a rapidement perdu son leadership. Les stratégies gagnantes combinent l'intention et **l'apprentissage émergent**."
+     },
+     {
+      "t": "key",
+      "h": "L'émergence planifiée (planned emergence, Grant)",
+      "x": "Une synthèse entre conception et émergence. En environnement **stable**, la planification formelle et les plans à long terme fonctionnent ; en environnement **turbulent**, il faut de la flexibilité et une adaptation émergente. La direction fixe quelques **principes stratégiques** faciles à retenir pour la direction d'ensemble, et des **règles simples** (critères de décision clairs) pour guider les choix décentralisés ; les cadres intermédiaires jouent un rôle clé dans la **mise en acte** (*enactment*)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s7",
+   "title": {
+    "en": "Strategic analysis: what it can do and how it is applied",
+    "fr": "L'analyse stratégique : ce qu'elle peut faire et comment l'appliquer"
+   },
+   "cards": [
+    "ch01-031",
+    "ch01-032"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "Strategic analysis **can** improve decisions, protect against biases, organize discussion and build consensus. It **cannot** provide an algorithm for the optimal strategy, give the answers (it helps ask the right questions), replace intuition and creativity, or offer certainty in novel situations. **Analysis + experience + intuition** beat experience or intuition alone."
+     },
+     {
+      "t": "list",
+      "h": "Stages in applying strategic analysis",
+      "x": [
+       "**Set the strategic agenda**: identify the current strategy and appraise performance",
+       "**Analyze the situation**: diagnose performance, industry analysis, analysis of resources and capabilities",
+       "**Formulate** the strategy",
+       "**Implement** the strategy"
+      ]
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "L'analyse stratégique **peut** améliorer les décisions, protéger contre les biais, structurer la discussion et construire un consensus. Elle **ne peut pas** fournir un algorithme de la stratégie optimale, donner les réponses (elle aide à poser les bonnes questions), remplacer l'intuition et la créativité, ni offrir une certitude dans des situations nouvelles. **Analyse + expérience + intuition** valent mieux que l'expérience ou l'intuition seules."
+     },
+     {
+      "t": "list",
+      "h": "Les étapes de l'analyse stratégique",
+      "x": [
+       "**Fixer l'agenda stratégique** : identifier la stratégie actuelle et évaluer la performance",
+       "**Analyser la situation** : diagnostic de performance, analyse du secteur, analyse des ressources et compétences",
+       "**Formuler** la stratégie",
+       "**Mettre en œuvre** la stratégie"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s8",
+   "title": {
+    "en": "Strategy in non-profit organizations",
+    "fr": "La stratégie dans les organisations à but non lucratif"
+   },
+   "cards": [
+    "ch01-033",
+    "ch01-034",
+    "ch01-035",
+    "ch01-036",
+    "ch01-037"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "The benefits of strategic management also apply to **non-profit organizations**: better decision making, coordination and performance targets. Grant distinguishes organizations that **charge users** in a competitive environment, those providing **free services** in a competitive environment, and those **sheltered from competition**."
+     },
+     {
+      "t": "list",
+      "h": "How the analysis changes",
+      "x": [
+       "**Goals and performance**: critical for all — mission, objectives and KPIs must be consistent",
+       "**Competitive environment**: same tools as for-profits for those charging users; for free services, the key arena is the **market for funding**; for sheltered organizations it matters less, though **inter-agency competition for public funds** remains",
+       "**Resources and capabilities**: essential for all",
+       "**Implementation**: organizational design, performance management and leadership apply to every organization"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "Non-profit goals are often **multiple, broad and hard to measure** (e.g. Harvard's mission), so planning must closely align mission, objectives, resource allocation and performance indicators."
+     },
+     {
+      "t": "example",
+      "h": "The UN and Italy's third sector",
+      "x": "The **UN** long operated without true commercial rivals, but ad hoc bodies and parallel alliances (such as the 'Board of Peace') act as de facto institutional competitors, eroding its authority, funding and monopoly in mediating conflicts.\nIn Italy, the **Third Sector Code** (arts. 55–57, Legislative Decree 117/2017) introduced **co-programming and co-design** with public administrations: besides *where* and *how* to compete, a third question arises — **with whom to collaborate** to pursue the mission."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Les bénéfices du management stratégique valent aussi pour les **organisations à but non lucratif** : meilleures décisions, coordination et objectifs de performance. Grant distingue celles qui **font payer les usagers** dans un environnement concurrentiel, celles qui fournissent des **services gratuits** dans un environnement concurrentiel, et celles **à l'abri de la concurrence**."
+     },
+     {
+      "t": "list",
+      "h": "Ce qui change dans l'analyse",
+      "x": [
+       "**Objectifs et performance** : essentiels pour toutes — mission, objectifs et indicateurs clés (*KPIs*) doivent être cohérents",
+       "**Environnement concurrentiel** : mêmes outils que pour les entreprises lucratives pour celles qui font payer ; pour les services gratuits, l'arène clé est le **marché du financement** ; pour celles à l'abri de la concurrence, il compte moins, mais la **concurrence entre organismes pour les fonds publics** demeure",
+       "**Ressources et compétences** : essentielles pour toutes",
+       "**Mise en œuvre** : design organisationnel, pilotage de la performance et leadership s'appliquent à toute organisation"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "Les objectifs des organisations non lucratives sont souvent **multiples, larges et difficiles à mesurer** (par exemple la mission de Harvard) : la planification doit donc aligner étroitement mission, objectifs, allocation des ressources et indicateurs de performance."
+     },
+     {
+      "t": "example",
+      "h": "L'ONU et le tiers secteur italien",
+      "x": "L'**ONU** a longtemps fonctionné sans véritable rival, mais des organes ad hoc et des alliances parallèles (comme le « Board of Peace ») agissent comme des concurrents institutionnels de fait, qui érodent son autorité, ses financements et son monopole dans la médiation des conflits.\nEn Italie, le **Code du tiers secteur** (art. 55 à 57, décret législatif 117/2017) a introduit la **co-programmation et la co-conception** avec l'administration publique : au-delà de *où* et *comment* rivaliser, une troisième question apparaît — **avec qui collaborer** pour poursuivre la mission."
+     }
+    ]
+   }
+  }
+ ],
+ "takeaways": {
+  "en": [
+   "Strategy is a **unifying thread** giving consistency and direction — not a detailed plan.",
+   "Successful strategies share **four elements**: clear long-term goals, understanding of the environment, objective appraisal of resources, effective implementation.",
+   "**Strategic fit** with both the external and internal environment is essential; inside the firm, activities should form a **self-reinforcing system** (Ryanair).",
+   "Superior profitability comes from **industry attractiveness** (corporate strategy: where to compete) and **competitive advantage** (business strategy: how to compete).",
+   "Realized strategy = **intended** + **emergent** strategy (Mintzberg); Grant's answer is **planned emergence**.",
+   "Strategic analysis supports — but does not replace — **experience and intuition**; it also applies to **non-profits**."
+  ],
+  "fr": [
+   "La stratégie est un **fil conducteur** qui donne cohérence et direction — pas un plan détaillé.",
+   "Les stratégies gagnantes partagent **quatre éléments** : objectifs clairs de long terme, compréhension de l'environnement, évaluation objective des ressources, mise en œuvre efficace.",
+   "L'**adéquation stratégique** avec l'environnement externe et interne est essentielle ; à l'intérieur, les activités doivent former un **système qui se renforce** (Ryanair).",
+   "La rentabilité supérieure vient de l'**attractivité du secteur** (stratégie corporate : où rivaliser) et de l'**avantage concurrentiel** (stratégie d'activité : comment rivaliser).",
+   "Stratégie réalisée = stratégie **délibérée** + stratégie **émergente** (Mintzberg) ; la réponse de Grant est l'**émergence planifiée**.",
+   "L'analyse stratégique soutient — sans les remplacer — **l'expérience et l'intuition** ; elle s'applique aussi aux **organisations non lucratives**."
+  ]
+ }
+}

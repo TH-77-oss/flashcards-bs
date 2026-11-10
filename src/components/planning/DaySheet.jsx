@@ -7,6 +7,7 @@ import { parseDayKey } from '../../lib/dates.js'
 import { KINDS, DAILY_BUDGET_MIN } from '../../domain/scheduler.js'
 import { addPlannedSession, updatePlannedSession, deletePlannedSession, toggleDone, postpone } from '../../db/planning.js'
 import SessionForm from './SessionForm.jsx'
+import { getCourse } from '../../lib/courses.js'
 import { KIND_COLOR, sessionTitle } from './kinds.js'
 
 export default function DaySheet({ day, sessions, chapters, titles, today }) {
@@ -84,6 +85,8 @@ function PlanItem({ p, titles, today, onEdit }) {
   const missed = !done && p.day < today
   const status = done ? 'Réalisée' : missed ? 'Manquée' : 'Prévue'
   const canLaunch = !done && p.day === today
+  // Une découverte commence par la lecture du cours, s'il existe pour ce chapitre.
+  const launchTo = p.kind === 'decouverte' && p.chapterId && getCourse(p.chapterId) ? `/cours/${p.chapterId}` : `/session/${p.chapterId ?? 'tout'}`
 
   return (
     <li className="plan-item">
@@ -108,7 +111,7 @@ function PlanItem({ p, titles, today, onEdit }) {
         </span>
       </span>
       {canLaunch && (
-        <Link to={`/session/${p.chapterId ?? 'tout'}`} className="launch">
+        <Link to={launchTo} className="launch">
           Lancer
         </Link>
       )}

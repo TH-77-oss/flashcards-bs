@@ -2,7 +2,8 @@
 // on se note, puis un bilan s'affiche à la fin.
 // Chaque réponse est enregistrée immédiatement dans la base locale.
 import { useEffect, useRef, useState } from 'react'
-import { Navigate, useNavigate, useParams } from 'react-router'
+import { Navigate, useNavigate, useParams, useSearchParams } from 'react-router'
+import { getCourse, sectionCardIds } from '../lib/courses.js'
 import FlipCard from '../components/FlipCard.jsx'
 import NoteSheet from '../components/NoteSheet.jsx'
 import { useNotesMap } from '../hooks/useNotes.js'
@@ -35,15 +36,23 @@ export default function Session() {
   const chapterId = isGlobal ? null : Number(param)
   const found = useChapter(chapterId)
   const cards = useSessionCards(chapterId)
+  // /session/3?partie=s2 : uniquement les cartes d'une partie du cours
+  const partie = useSearchParams()[0].get('partie')
 
   if (cards === undefined || (!isGlobal && found === undefined)) return <div className="session" /> // chargement
   if (!isGlobal && !found) return <Navigate to="/chapitres" replace />
 
-  const chapter = isGlobal ? { id: null, title: 'Révision globale' } : found
-  const initialCards = isGlobal ? shuffle(cards).slice(0, GLOBAL_SIZE) : cards
+  const ids = !isGlobal && partie ? sectionCardIds(chapterId, partie) : null
+  const section = ids ? getCourse(chapterId).sections.find((s) => s.id === partie) : null
+  const chapter = isGlobal
+    ? { id: null, title: 'Révision globale' }
+    : section
+      ? { ...found, title: `${found.title} · partie ${getCourse(chapterId).sections.indexOf(section) + 1}` }
+      : found
+  const initialCards = isGlobal ? shuffle(cards).slice(0, GLOBAL_SIZE) : ids ? cards.filter((c) => ids.has(c.id)) : cards
 
-  // key : si on change de chapitre, la session repart de zéro.
-  return <SessionRun key={chapter.id ?? 'tout'} chapter={chapter} initialCards={initialCards} />
+  // key : si on change de chapitre ou de partie, la session repart de zéro.
+  return <SessionRun key={`${chapter.id ?? 'tout'}-${partie || ''}`} chapter={chapter} initialCards={initialCards} />
 }
 
 function SessionRun({ chapter, initialCards }) {

@@ -1,0 +1,595 @@
+{
+ "chapter": 4,
+ "version": 1,
+ "title": {
+  "en": "Further Topics in Industry and Competitive Analysis",
+  "fr": "Approfondissements de l'analyse sectorielle et concurrentielle"
+ },
+ "readMinutes": {
+  "en": 16,
+  "fr": 18
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": {
+    "en": "The limits of industry analysis",
+    "fr": "Les limites de l'analyse sectorielle"
+   },
+   "cards": [
+    "ch04-001",
+    "ch04-002",
+    "ch04-003",
+    "ch04-004",
+    "ch04-005",
+    "ch04-006"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "The chapter's guiding question: are the five forces enough to understand an industry? Answer: **no, but they remain the starting point.** The five forces show how much of the value created stays with the industry's firms — a **snapshot** of structure at a given moment, which says nothing about the complements with which value is created."
+     },
+     {
+      "t": "key",
+      "h": "How much does the industry matter?",
+      "x": "The industry explains **less than 20%** of the variance in **ROA** between firms. Differences **within** an industry are larger than differences **between** industries, so what the firm does (resources, capabilities, strategy) matters more than where it is. Same industry, opposite fates: **Ryanair** (low cost, one aircraft type, among Europe's most profitable airlines) vs **Alitalia** (flag carrier, years of losses and bailouts, ceased operations in 2021)."
+     },
+     {
+      "t": "p",
+      "x": "**Grant's defence**: industry analysis also identifies **competitive threats**, **attractive segments** and **sources of competitive advantage**. But it works best under three conditions — a **stable structure**, competition **in** the market (not **for** the market) and **clear boundaries**."
+     },
+     {
+      "t": "list",
+      "h": "Breeze or gale?",
+      "x": [
+       "**Porter — the breeze**: structure → conduct → performance; structure shapes the intensity of competition and hence potential profitability",
+       "**Schumpeter — the gale of creative destruction**: innovation overturns structure; profits are the **temporary reward** of the innovator"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "**Hypercompetition** (D'Aveni): intense and rapid competitive moves in which firms must quickly build new advantages and erode rivals' ones; for **Rita McGrath**, 'transient advantage is the new normal'. Grant is cautious — there is no consistent evidence that structures are less stable than before — and the five forces remain useful to predict how structural change affects profitability. In a moving industry, take **several snapshots**: in mobile phones, Nokia led in 2005, the iPhone and App Store arrived in 2007–08, value shifted to operating systems, and today two platforms dominate (iOS and Android)."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "La question directrice du chapitre : les cinq forces suffisent-elles pour comprendre un secteur ? Réponse : **non, mais elles restent le point de départ.** Elles montrent quelle part de la valeur créée reste aux entreprises du secteur — une **photographie** de la structure à un moment donné, qui ne dit rien des compléments avec lesquels la valeur est créée."
+     },
+     {
+      "t": "key",
+      "h": "Quel est le poids du secteur ?",
+      "x": "Le secteur explique **moins de 20 %** des écarts de **ROA** entre entreprises. Les différences **au sein** d'un secteur sont plus fortes que les différences **entre** secteurs : ce que fait l'entreprise (ressources, compétences, stratégie) compte plus que le secteur où elle se trouve. Même secteur, destins opposés : **Ryanair** (low cost, un seul type d'avion, parmi les compagnies les plus rentables d'Europe) contre **Alitalia** (compagnie nationale, années de pertes et de sauvetages publics, cessation d'activité en 2021)."
+     },
+     {
+      "t": "p",
+      "x": "**La défense de Grant** : l'analyse sectorielle sert aussi à identifier les **menaces concurrentielles**, les **segments attractifs** et les **sources d'avantage concurrentiel**. Mais elle fonctionne mieux à trois conditions — une **structure stable**, une concurrence **dans** le marché (et non **pour** le marché) et des **frontières claires**."
+     },
+     {
+      "t": "list",
+      "h": "Brise ou tempête ?",
+      "x": [
+       "**Porter — la brise** : structure → comportement → performance (*structure-conduct-performance*) ; la structure détermine l'intensité de la concurrence et donc la rentabilité potentielle",
+       "**Schumpeter — la tempête de la destruction créatrice** (*creative destruction*) : l'innovation bouleverse la structure ; les profits sont la **récompense temporaire** de l'innovateur"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "L'**hypercompétition** (*hypercompetition*, D'Aveni) : des mouvements concurrentiels intenses et rapides, où les entreprises doivent vite construire de nouveaux avantages et éroder ceux des rivaux ; pour **Rita McGrath**, « l'avantage transitoire est la nouvelle norme » (*transient advantage*). Grant reste prudent — rien ne prouve de façon cohérente que les structures soient moins stables qu'avant — et les cinq forces restent utiles pour prévoir l'effet des changements de structure sur la rentabilité. Dans un secteur en mouvement, il faut prendre **plusieurs photographies** : dans la téléphonie mobile, Nokia domine en 2005, l'iPhone et l'App Store arrivent en 2007-2008, la valeur passe aux systèmes d'exploitation, et deux plateformes dominent aujourd'hui (iOS et Android)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2",
+   "title": {
+    "en": "Winner-take-all markets and industry boundaries",
+    "fr": "Marchés « winner-take-all » et frontières du secteur"
+   },
+   "cards": [
+    "ch04-007",
+    "ch04-008",
+    "ch04-009",
+    "ch04-043"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "key",
+      "h": "Network externalities",
+      "x": "A product with **network externalities** is worth more the more people use it: more users → more value → even more users (eBay, Facebook). This creates **winner-take-all** markets. For Grant, 'the analysis of the dynamics of competitive advantage takes precedence over conventional industry analysis'."
+     },
+     {
+      "t": "example",
+      "h": "Users, profits or both?",
+      "x": "**Apple** wins profits, not users: over **85%** of smartphone net profits (2020) with a much smaller share of units. **Android** phones win users (about 7 in 10) but less than 15% of profits. **Nvidia** wins both: roughly 80–90% of the AI-chip market (2024–25 estimates) with a gross margin around 75%."
+     },
+     {
+      "t": "p",
+      "x": "**Lock-in** follows: firms conquer first and cash in later (Android given away, then App Store commissions of up to 30%); customers lose power and entry barriers rise; competition is **for** the market at the start, then weak **within** it. The context reacts: users multi-home, and the EU **Digital Markets Act** imposes portability and interoperability. Switching costs (purchased apps, photos, contacts) let whoever controls the system raise prices."
+     },
+     {
+      "t": "p",
+      "x": "**Where does an industry end?** For the manager of a large gym, rivals may be other local gyms (narrow boundary) or also training apps, yoga studios, Decathlon, public pools, parks and spas (wide boundary, with digital entrants from other industries). There is no single right answer: the boundary is chosen by the analyst, 'broad or narrow depending on the question'."
+     }
+    ],
+    "fr": [
+     {
+      "t": "key",
+      "h": "Les externalités de réseau",
+      "x": "Un produit à **externalités de réseau** (*network externalities*) vaut d'autant plus qu'il a d'utilisateurs : plus d'utilisateurs → plus de valeur → encore plus d'utilisateurs (eBay, Facebook). Cela crée des marchés où **le gagnant rafle tout** (*winner-take-all*). Pour Grant, « l'analyse de la dynamique de l'avantage concurrentiel prime sur l'analyse sectorielle classique »."
+     },
+     {
+      "t": "example",
+      "h": "Les utilisateurs, les profits ou les deux ?",
+      "x": "**Apple** gagne les profits, pas les utilisateurs : plus de **85 %** des profits nets des smartphones (2020) pour une part bien plus faible des ventes. Les téléphones **Android** gagnent les utilisateurs (environ 7 sur 10) mais moins de 15 % des profits. **Nvidia** gagne les deux : environ 80 à 90 % du marché des puces d'IA (estimations 2024-2025) avec une marge brute d'environ 75 %."
+     },
+     {
+      "t": "p",
+      "x": "Il en découle un **verrouillage** (*lock-in*) : on conquiert d'abord, on encaisse ensuite (Android offert, puis commissions de l'App Store jusqu'à 30 %) ; les clients perdent du pouvoir et les barrières à l'entrée montent ; on rivalise **pour** le marché au début, puis peu **dans** le marché. Le contexte réagit : les utilisateurs utilisent plusieurs plateformes, et le **Digital Markets Act** européen impose portabilité et interopérabilité. Les coûts de changement (applications achetées, photos, contacts) permettent à celui qui contrôle le système d'augmenter ses prix."
+     },
+     {
+      "t": "p",
+      "x": "**Où s'arrête un secteur ?** Pour le directeur d'une grande salle de sport, les concurrents peuvent être les autres salles du quartier (frontière étroite) ou aussi les applications d'entraînement, les studios de yoga, Decathlon, la piscine municipale, le parc et les spas (frontière large, avec des entrants numériques venus d'autres secteurs). Il n'y a pas de bonne réponse unique : c'est l'analyste qui choisit la frontière, « large ou étroite selon la question »."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3",
+   "title": {
+    "en": "Complements, platforms and ecosystems",
+    "fr": "Compléments, plateformes et écosystèmes"
+   },
+   "cards": [
+    "ch04-010",
+    "ch04-011",
+    "ch04-012",
+    "ch04-013",
+    "ch04-014"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "**Substitutes take value away; complements add it.** A smartphone needs an operating system, apps, a mobile network and electricity — and the largest profits go to the owners of the operating systems (**Apple and Google**). The key question is how value is shared among complements. For Porter (2008), complements are not a sixth force but a **factor** acting through the five forces."
+     },
+     {
+      "t": "key",
+      "h": "The rule of complements",
+      "x": "**'Monopolize your piece, commoditize the others.'** If your piece is scarce and hard to replace, margins concentrate there, while competing suppliers of the other pieces drive their prices down. **Android**: Google owns the OS, while over 1,000 phone makers and 2.6 million apps compete as commodities. It requires **intellectual property** to protect the scarce piece."
+     },
+     {
+      "t": "p",
+      "x": "**Platforms** are **two-sided markets** connecting, for example, users and developers, buyers and sellers, or viewers and advertisers. **Cross-side externalities** (more users attract more developers and vice versa) push them towards winner-take-all."
+     },
+     {
+      "t": "key",
+      "h": "Business ecosystems",
+      "x": "'A community of organizations, institutions and individuals that influence the firm', marked by **co-dependence** and **continuous evolution**. Digital: Android, Amazon, Uber. Traditional: Toyota's supplier network, the Danish wind-power cluster.\nWinning platform ecosystems (BCG) go through three stages: **seize the opportunity** (rapid penetration to critical mass — Android free to manufacturers), **evolve the model** (Play Store, services, TV, cars, watches), **lock in leadership** (rules for manufacturers, standards for developers)."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "**Les substituts retirent de la valeur ; les compléments en ajoutent.** Un smartphone a besoin d'un système d'exploitation, d'applications, d'un réseau mobile et d'électricité — et les plus gros profits vont aux propriétaires des systèmes d'exploitation (**Apple et Google**). La question clé est le partage de la valeur entre compléments. Pour Porter (2008), les compléments ne sont pas une sixième force mais un **facteur** qui agit à travers les cinq forces."
+     },
+     {
+      "t": "key",
+      "h": "La règle des compléments",
+      "x": "**« Monopolisez votre pièce, banalisez les autres »** (*monopolize your piece, commoditize the others*). Si votre pièce est rare et difficile à remplacer, les marges s'y concentrent, tandis que la concurrence entre fournisseurs des autres pièces fait baisser leurs prix. **Android** : Google possède le système, tandis que plus de 1 000 fabricants de téléphones et 2,6 millions d'applications se concurrencent comme des produits banalisés. Il faut une **propriété intellectuelle** pour protéger la pièce rare."
+     },
+     {
+      "t": "p",
+      "x": "Les **plateformes** sont des **marchés biface** (*two-sided markets*) qui relient par exemple utilisateurs et développeurs, acheteurs et vendeurs, ou spectateurs et annonceurs. Les **externalités croisées** (plus d'utilisateurs attirent plus de développeurs et inversement) les poussent vers le « winner-take-all »."
+     },
+     {
+      "t": "key",
+      "h": "Les écosystèmes d'affaires",
+      "x": "« Une communauté d'organisations, d'institutions et d'individus qui influencent l'entreprise », marquée par la **codépendance** et une **évolution continue**. Numériques : Android, Amazon, Uber. Traditionnels : le réseau de fournisseurs de Toyota, le cluster éolien danois.\nLes écosystèmes de plateforme gagnants (BCG) passent par trois étapes : **saisir l'opportunité** (pénétration rapide jusqu'à la masse critique — Android offert aux fabricants), **faire évoluer le modèle** (Play Store, services, TV, voitures, montres), **consolider le leadership** (règles pour les fabricants, standards pour les développeurs)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4",
+   "title": {
+    "en": "Capturing value: bottlenecks and bounds",
+    "fr": "Capter la valeur : goulets d'étranglement et limites"
+   },
+   "cards": [
+    "ch04-015",
+    "ch04-016",
+    "ch04-017",
+    "ch04-018",
+    "ch04-019",
+    "ch04-020"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "image",
+      "src": "ch04/slide-22.jpg",
+      "x": "The bottleneck decides the output of the whole line."
+     },
+     {
+      "t": "key",
+      "h": "The bottleneck",
+      "x": "With stations producing 100, 100, **40** and 100 pieces per hour, the line produces 40: the slowest station decides. In an ecosystem, the **bottleneck** is the component that limits the performance of the whole (poor quality, insufficient performance, limited supply) — and **whoever occupies it captures the largest share of value**. Bottlenecks move: in US residential solar, the constraint shifted from **consumer credit** (won by financiers and leasing) to **installation**, then to **mounting systems**."
+     },
+     {
+      "t": "image",
+      "src": "ch04/slide-24.jpg",
+      "x": "Upper and lower bounds of the value a firm can capture."
+     },
+     {
+      "t": "key",
+      "h": "Upper and lower bounds",
+      "x": "**Upper bound**: the firm's marginal contribution to the current ecosystem — what would be lost without it. **Lower bound**: what it could obtain in an alternative ecosystem. If A, B and C generate €100 and B and C alone €60, A's upper bound is €40; if A could earn €25 elsewhere, then **€25 ≤ value of A ≤ €40**, and the share is negotiated in between."
+     },
+     {
+      "t": "p",
+      "x": "**Competitive initiatives** move the bounds (more value for the current network raises the upper bound, e.g. exclusive technology from €40 to €50; more value for an alternative network raises the lower bound). **Persuasive initiatives** keep the bounds fixed and move up within the zone (A obtains €35 instead of €30). A bottleneck captures so much because **both bounds are high**: the ecosystem stops without it, and every alternative network wants it — today, AI chips designed by **Nvidia** and manufactured by **TSMC**."
+     },
+     {
+      "t": "example",
+      "h": "Iris Ceramica Group: transient advantage in practice",
+      "x": "The Sassuolo-district firm (founded 1961) repeats a cycle: **invest** in new plants with suppliers (large-slab lines with Sacmi) → **exploit** exclusivity for a few years → the technology **diffuses** as suppliers sell it to everyone → **reinvest** in the next one (Active Surfaces with the University of Milan, a green-hydrogen 'H2 Factory'). By contrast, **Tesla** (2014) opened its patents immediately to grow the EV market."
+     }
+    ],
+    "fr": [
+     {
+      "t": "image",
+      "src": "ch04/slide-22.jpg",
+      "x": "Le goulet d'étranglement décide de la production de toute la ligne."
+     },
+     {
+      "t": "key",
+      "h": "Le goulet d'étranglement (bottleneck)",
+      "x": "Avec des postes produisant 100, 100, **40** et 100 pièces par heure, la ligne en produit 40 : c'est le poste le plus lent qui décide. Dans un écosystème, le **goulet d'étranglement** est le composant qui limite la performance de l'ensemble (qualité médiocre, performance insuffisante, offre limitée) — et **celui qui l'occupe capte la plus grande part de la valeur**. Les goulets se déplacent : dans le solaire résidentiel américain, la contrainte est passée du **crédit à la consommation** (gagné par les financeurs et le leasing) à l'**installation**, puis aux **systèmes de fixation**."
+     },
+     {
+      "t": "image",
+      "src": "ch04/slide-24.jpg",
+      "x": "Limites supérieure et inférieure de la valeur captable."
+     },
+     {
+      "t": "key",
+      "h": "Limite supérieure et limite inférieure",
+      "x": "**Limite supérieure** (*upper bound*) : la contribution marginale de l'entreprise à l'écosystème actuel — ce qui serait perdu sans elle. **Limite inférieure** (*lower bound*) : ce qu'elle pourrait obtenir dans un écosystème alternatif. Si A, B et C génèrent 100 € et B et C seuls 60 €, la limite supérieure de A est 40 € ; si A pouvait obtenir 25 € ailleurs, alors **25 € ≤ valeur de A ≤ 40 €**, et la part se négocie entre les deux."
+     },
+     {
+      "t": "p",
+      "x": "Les **initiatives concurrentielles** (*competitive initiatives*) déplacent les limites (plus de valeur pour le réseau actuel relève la limite supérieure, par exemple une technologie exclusive de 40 à 50 € ; plus de valeur pour un réseau alternatif relève la limite inférieure). Les **initiatives persuasives** (*persuasive initiatives*) laissent les limites inchangées et font monter dans la zone (A obtient 35 € au lieu de 30). Un goulet capte autant parce que **ses deux limites sont hautes** : l'écosystème s'arrête sans lui, et tous les réseaux alternatifs le veulent — aujourd'hui, les puces d'IA conçues par **Nvidia** et fabriquées par **TSMC**."
+     },
+     {
+      "t": "example",
+      "h": "Iris Ceramica Group : l'avantage transitoire en pratique",
+      "x": "L'entreprise du district de Sassuolo (fondée en 1961) répète un cycle : **investir** dans de nouvelles installations avec ses fournisseurs (lignes de grandes dalles avec Sacmi) → **exploiter** l'exclusivité quelques années → la technologie se **diffuse** quand les fournisseurs la vendent à tous → **réinvestir** dans la suivante (Active Surfaces avec l'Université de Milan, une « H2 Factory » à l'hydrogène vert). À l'inverse, **Tesla** (2014) a ouvert ses brevets immédiatement pour faire grandir le marché de la voiture électrique."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s5",
+   "title": {
+    "en": "Business models",
+    "fr": "Le modèle d'affaires"
+   },
+   "cards": [
+    "ch04-021",
+    "ch04-022"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "image",
+      "src": "ch04/slide-28.jpg",
+      "x": "The business model (Teece; business model canvas)."
+     },
+     {
+      "t": "key",
+      "h": "Business model (Teece)",
+      "x": "The firm is an **infrastructure** applied to **customers** through a **value proposition** that generates **revenues** at a **cost** that allows a **profit**. The **business model canvas** organizes it into infrastructure (key partners, activities, resources), offering (value proposition), customers (segments, relationships, channels) and financial sustainability (costs, revenues, profit)."
+     },
+     {
+      "t": "image",
+      "src": "ch04/slide-29.jpg",
+      "x": "Capsule 4.1: Ryanair's business model."
+     },
+     {
+      "t": "example",
+      "h": "Capsule 4.1: Ryanair",
+      "x": "Around the **low-cost ticket**: **extreme unbundling** (separate charges for seats, baggage, priority, card payment, food and drinks); **airports and local authorities** that pay to open and keep routes; **commissions from partners** (car hire, trains and buses, insurance, hotels, events); **advertising** (website, in-flight magazine, seat backs). It is the Southwest model, extended."
+     }
+    ],
+    "fr": [
+     {
+      "t": "image",
+      "src": "ch04/slide-28.jpg",
+      "x": "Le modèle d'affaires (Teece ; business model canvas)."
+     },
+     {
+      "t": "key",
+      "h": "Le modèle d'affaires (business model, Teece)",
+      "x": "L'entreprise est une **infrastructure** appliquée à des **clients** au moyen d'une **proposition de valeur** (*value proposition*) qui génère des **revenus** à un **coût** permettant un **profit**. Le **business model canvas** l'organise en infrastructure (partenaires clés, activités, ressources), offre (proposition de valeur), clients (segments, relations, canaux) et soutenabilité économique et financière (coûts, revenus, profit)."
+     },
+     {
+      "t": "image",
+      "src": "ch04/slide-29.jpg",
+      "x": "Capsule 4.1 : le modèle d'affaires de Ryanair."
+     },
+     {
+      "t": "example",
+      "h": "Capsule 4.1 : Ryanair",
+      "x": "Autour du **billet à bas prix** : un **dégroupage extrême** (*unbundling* : sièges, bagages, priorité, paiement par carte, boissons et repas payants) ; des **aéroports et collectivités locales** qui paient pour ouvrir et maintenir des lignes ; des **commissions des partenaires** (location de voitures, trains et bus, assurances, hôtels, événements) ; la **publicité** (site, magazine de bord, dossiers de sièges). C'est le modèle Southwest, poussé plus loin."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s6",
+   "title": {
+    "en": "Game theory and competitive interaction",
+    "fr": "Théorie des jeux et interaction concurrentielle"
+   },
+   "cards": [
+    "ch04-023",
+    "ch04-024",
+    "ch04-025",
+    "ch04-026",
+    "ch04-027",
+    "ch04-028",
+    "ch04-029",
+    "ch04-030",
+    "ch04-031",
+    "ch04-032"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "Game theory starts from **interdependence**: my decisions depend on my rival's actual and expected decisions. Framing a game means identifying the **players**, their **options**, the **payoffs** of each combination and the **sequence** of moves. Simple models (the prisoner's dilemma) predict whether the outcome will be competitive or cooperative; complex models (repeated games) add reputation, deterrence, information and commitment."
+     },
+     {
+      "t": "image",
+      "src": "ch04/slide-33.jpg",
+      "x": "Capsule 4.2: the prisoner's dilemma between Pepsi and Coca-Cola."
+     },
+     {
+      "t": "key",
+      "h": "Prisoner's dilemma and Nash equilibrium",
+      "x": "Advertising payoffs ($ millions, Pepsi ; Coke): both small → **10 ; 10**; one large and one small → **15 ; −2** or **−2 ; 15**; both large → **4 ; 4**. Whatever Coke does, Pepsi gains by spending big (15 > 10, 4 > −2), and vice versa, so both end at **(4 ; 4)** — a **Nash equilibrium**: no player gains by changing its move alone, even though (10 ; 10) would be better for both. Ways out: **repeated games** (firms see that campaigns cancel out) and **deterrence** (a threatened reaction changes the payoffs)."
+     },
+     {
+      "t": "list",
+      "h": "Five strategic moves",
+      "x": [
+       "**Cooperation (co-opetition)**: rivals can be partners — Samsung competes with Apple in smartphones and sells it components",
+       "**Deterrence**: discouraging entry with a **credible** threat — Monsanto built excess capacity before its NutraSweet patents expired",
+       "**Commitment**: limiting one's own options to make a move credible — Cortés burning his ships; Airbus's A380 investment led Boeing to drop a rival aircraft. **Hard** commitments signal aggressive competition, **soft** ones moderate it",
+       "**Changing the game**: changing the rules or structure — Tesla opened its patents in 2014 to grow the EV market",
+       "**Signalling**: communicating real or feigned intentions — P&G's share wars in diapers and detergents built a reputation for toughness"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "Common thread: what matters is not only what you do, but **what your rival believes you will do**. Game theory brings rigour and insights beyond intuition, and shows that changing payoffs changes outcomes — but it relies on restrictive assumptions, real cases may have no equilibrium or many, and results are sensitive to assumptions. It explains the past better than it predicts the future; its real value is **putting yourself in your rival's shoes**."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "La théorie des jeux part de l'**interdépendance** : mes décisions dépendent des décisions réelles et anticipées de mon rival. Structurer un jeu, c'est identifier les **joueurs**, leurs **options**, les **gains** (*payoffs*) de chaque combinaison et la **séquence** des coups. Les modèles simples (le dilemme du prisonnier) prédisent si l'issue sera concurrentielle ou coopérative ; les modèles complexes (jeux répétés) ajoutent la réputation, la dissuasion, l'information et l'engagement."
+     },
+     {
+      "t": "image",
+      "src": "ch04/slide-33.jpg",
+      "x": "Capsule 4.2 : le dilemme du prisonnier entre Pepsi et Coca-Cola."
+     },
+     {
+      "t": "key",
+      "h": "Dilemme du prisonnier et équilibre de Nash",
+      "x": "Gains publicitaires (millions de $, Pepsi ; Coca) : deux petits budgets → **10 ; 10** ; un gros et un petit → **15 ; −2** ou **−2 ; 15** ; deux gros budgets → **4 ; 4**. Quoi que fasse Coca, Pepsi gagne à dépenser beaucoup (15 > 10, 4 > −2), et inversement : les deux finissent en **(4 ; 4)** — un **équilibre de Nash** (*Nash equilibrium*) : aucun joueur ne gagne à changer seul sa décision, alors que (10 ; 10) serait meilleur pour les deux. Pour en sortir : les **jeux répétés** (on voit que les campagnes s'annulent) et la **dissuasion** (menacer de réagir modifie les gains)."
+     },
+     {
+      "t": "list",
+      "h": "Cinq mouvements stratégiques",
+      "x": [
+       "**La coopération (coopétition, *co-opetition*)** : des rivaux peuvent être partenaires — Samsung concurrence Apple dans les smartphones et lui vend des composants",
+       "**La dissuasion** (*deterrence*) : décourager l'entrée par une menace **crédible** — Monsanto a construit des surcapacités avant l'expiration de ses brevets sur le NutraSweet",
+       "**L'engagement** (*commitment*) : réduire ses propres options pour rendre un coup crédible — Cortés brûle ses navires ; l'investissement d'Airbus dans l'A380 conduit Boeing à renoncer à un avion concurrent. Les engagements **durs** (*hard*) annoncent une concurrence agressive, les engagements **doux** (*soft*) la modèrent",
+       "**Changer le jeu** (*changing the game*) : modifier les règles ou la structure — Tesla ouvre ses brevets en 2014 pour faire grandir le marché de la voiture électrique",
+       "**La signalisation** (*signalling*) : communiquer des intentions réelles ou feintes — les guerres de parts de marché de P&G dans les couches et les lessives lui ont forgé une réputation de dureté"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "Fil conducteur : ce qui compte n'est pas seulement ce que vous faites, mais **ce que votre rival croit que vous ferez**. La théorie des jeux apporte de la rigueur et des intuitions au-delà du simple bon sens, et montre qu'en changeant les gains on change l'issue — mais elle repose sur des hypothèses restrictives, les cas réels ont parfois aucun ou trop d'équilibres, et les résultats sont sensibles aux hypothèses. Elle explique mieux le passé qu'elle ne prédit l'avenir ; sa vraie valeur est de **se mettre à la place du rival**."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s7",
+   "title": {
+    "en": "Competitor analysis",
+    "fr": "L'analyse des concurrents"
+   },
+   "cards": [
+    "ch04-033",
+    "ch04-034",
+    "ch04-035",
+    "ch04-036"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "In concentrated industries (Unilever vs P&G, Coca-Cola vs Pepsi, Costa Coffee vs Starbucks), the rival matters. **Competitive intelligence** is the systematic collection of information on rivals to **forecast their strategies**, **predict their reactions** to our moves and **influence their behaviour** — without crossing into industrial espionage."
+     },
+     {
+      "t": "key",
+      "h": "Porter's competitor analysis framework",
+      "x": "Four components — **current strategy** (what is it doing?), **objectives** (what does it want?), **assumptions** (how does it see itself and the industry?) and **resources and capabilities** (what can it do?) — feed a **prediction** of its next moves and of how it will react to ours."
+     },
+     {
+      "t": "p",
+      "x": "**Industry recipes** (Spender) are beliefs shared by an industry's managers about how to compete. They make rivals predictable but can blind them to change: **Nokia** kept thinking in terms of hardware and costs while competition moved to operating systems and apps."
+     },
+     {
+      "t": "example",
+      "h": "How will Amazon react?",
+      "x": "If Google attacks cloud computing with price cuts, Amazon will react **strongly**: AWS generates about **60%** of Amazon's operating profit (book figure; about 58% in 2024), whereas for Google cloud is one division among many. The more a market weighs in a rival's objectives, the harder its reaction."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Dans les secteurs concentrés (Unilever contre P&G, Coca-Cola contre Pepsi, Costa Coffee contre Starbucks), le rival compte. La **veille concurrentielle** (*competitive intelligence*) est la collecte systématique d'informations sur les rivaux pour **prévoir leurs stratégies**, **anticiper leurs réactions** à nos actions et **influencer leur comportement** — sans basculer dans l'espionnage industriel."
+     },
+     {
+      "t": "key",
+      "h": "Le modèle d'analyse des concurrents de Porter",
+      "x": "Quatre composantes — **stratégie actuelle** (que fait-il ?), **objectifs** (que veut-il ?), **hypothèses** (*assumptions* : comment se voit-il, lui et le secteur ?) et **ressources et compétences** (que peut-il faire ?) — alimentent une **prévision** de ses prochains coups et de ses réactions aux nôtres."
+     },
+     {
+      "t": "p",
+      "x": "Les **recettes sectorielles** (*industry recipes*, Spender) sont des croyances partagées par les dirigeants d'un secteur sur la façon de rivaliser. Elles rendent les concurrents prévisibles mais peuvent les aveugler : **Nokia** raisonnait en matériel et en coûts alors que la concurrence se déplaçait vers les systèmes d'exploitation et les applications."
+     },
+     {
+      "t": "example",
+      "h": "Comment Amazon réagira-t-il ?",
+      "x": "Si Google attaque le cloud par des baisses de prix, Amazon réagira **fortement** : AWS génère environ **60 %** du résultat d'exploitation d'Amazon (chiffre du livre ; environ 58 % en 2024), alors que pour Google le cloud n'est qu'une division parmi d'autres. Plus un marché pèse dans les objectifs d'un rival, plus sa réaction sera dure."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s8",
+   "title": {
+    "en": "Inside the industry: segmentation and strategic groups",
+    "fr": "Dans le secteur : segmentation et groupes stratégiques"
+   },
+   "cards": [
+    "ch04-037",
+    "ch04-038",
+    "ch04-039",
+    "ch04-040",
+    "ch04-041",
+    "ch04-042"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "Two ways to look inside an industry: **segmentation** divides it by **customers and products** (demand side — where is it most attractive to compete?); **strategic groups** divide it by **firms and their strategies** (supply side — who follows a similar strategy?). In both cases, **mobility barriers** separate segments and groups."
+     },
+     {
+      "t": "list",
+      "h": "Five stages of segmentation analysis",
+      "x": [
+       "**Identify segmentation variables** (product and customer: type, price, area, channel)",
+       "**Construct a segmentation matrix** (cross the two most important variables)",
+       "**Analyze segment attractiveness** (five forces for each segment)",
+       "**Identify each segment's key success factors**",
+       "**Select segment scope**: broad or narrow, depending on similar KSFs and shared costs"
+      ]
+     },
+     {
+      "t": "image",
+      "src": "ch04/slide-51.jpg",
+      "x": "Capsule 4.3: the automobile segmentation matrix."
+     },
+     {
+      "t": "example",
+      "h": "Choosing where to compete",
+      "x": "**Nintendo Switch** does not challenge Sony and Microsoft on power: it targets families, casual gamers and portable play. **Pirelli** focuses on premium and high-performance tyres, where margins are higher. In the **car segmentation matrix** (Capsule 4.3), attractive segments include luxury cars in Asia and Latin America and hybrids/EVs in mature markets. Choosing the segment is already a strategy: you can **avoid** a head-on fight rather than win it."
+     },
+     {
+      "t": "key",
+      "h": "Barriers to entry vs barriers to mobility",
+      "x": "**Barriers to entry** protect the industry from outsiders (economies of scale, patents). **Barriers to mobility** protect a segment or group from firms already in the industry — Harley-Davidson struggles to move beyond heavyweight motorcycles."
+     },
+     {
+      "t": "p",
+      "x": "**Blue ocean strategy** (Kim and Mauborgne) urges firms to leave crowded red oceans for new, uncontested market space — Nintendo brought non-gamers to video games. Two critiques: **duration** (if the segment is profitable and barriers are low, rivals arrive and the blue turns red) and **selection bias** (only successes are studied)."
+     },
+     {
+      "t": "image",
+      "src": "ch04/slide-54.jpg",
+      "x": "Strategic groups in European air transport."
+     },
+     {
+      "t": "p",
+      "x": "A **strategic group** is a set of firms in the same industry with similar strategies (product range, geographic coverage, channels, vertical integration). In European airlines (axes: services included in the price, breadth of network), **traditional carriers** (Lufthansa, Air France-KLM, ITA) and **low-cost carriers** (Ryanair, easyJet, Wizz Air) form two groups. Strategic group maps help find the **closest competitors**, see **mobility barriers** and discover **empty strategic spaces**."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Deux façons de regarder à l'intérieur d'un secteur : la **segmentation** le découpe par **clients et produits** (côté demande — où est-il le plus intéressant de rivaliser ?) ; les **groupes stratégiques** le découpent par **entreprises et stratégies** (côté offre — qui suit une stratégie similaire ?). Dans les deux cas, des **barrières à la mobilité** séparent segments et groupes."
+     },
+     {
+      "t": "list",
+      "h": "Les cinq étapes de l'analyse de segmentation",
+      "x": [
+       "**Identifier les variables de segmentation** (produit et client : type, prix, zone, canal)",
+       "**Construire une matrice de segmentation** (croiser les deux variables les plus importantes)",
+       "**Analyser l'attractivité des segments** (cinq forces pour chaque segment)",
+       "**Identifier les facteurs clés de succès de chaque segment**",
+       "**Choisir l'étendue** (*segment scope*) : large ou étroite, selon la similitude des KSF et les coûts partagés"
+      ]
+     },
+     {
+      "t": "image",
+      "src": "ch04/slide-51.jpg",
+      "x": "Capsule 4.3 : la matrice de segmentation automobile."
+     },
+     {
+      "t": "example",
+      "h": "Choisir où rivaliser",
+      "x": "La **Nintendo Switch** ne défie pas Sony et Microsoft sur la puissance : elle vise les familles, les joueurs occasionnels et le jeu nomade. **Pirelli** se concentre sur les pneus premium et haute performance, où les marges sont plus élevées. Dans la **matrice de segmentation automobile** (Capsule 4.3), les segments attractifs sont notamment les voitures de luxe en Asie et en Amérique latine, et les hybrides et électriques dans les marchés matures. Choisir son segment est déjà une stratégie : on peut **éviter** l'affrontement direct plutôt que le gagner."
+     },
+     {
+      "t": "key",
+      "h": "Barrières à l'entrée et barrières à la mobilité",
+      "x": "Les **barrières à l'entrée** protègent le secteur des entreprises extérieures (économies d'échelle, brevets). Les **barrières à la mobilité** (*mobility barriers*) protègent un segment ou un groupe des entreprises déjà présentes dans le secteur — Harley-Davidson a du mal à sortir des motos lourdes."
+     },
+     {
+      "t": "p",
+      "x": "La **stratégie Océan bleu** (*blue ocean strategy*, Kim et Mauborgne) invite à quitter les océans rouges saturés pour créer un espace de marché nouveau, sans concurrents — Nintendo a amené aux jeux vidéo des non-joueurs. Deux critiques : la **durée** (si le segment est rentable et les barrières faibles, les rivaux arrivent et le bleu devient rouge) et le **biais de sélection** (on n'étudie que les réussites)."
+     },
+     {
+      "t": "image",
+      "src": "ch04/slide-54.jpg",
+      "x": "Les groupes stratégiques du transport aérien européen."
+     },
+     {
+      "t": "p",
+      "x": "Un **groupe stratégique** (*strategic group*) est un ensemble d'entreprises d'un même secteur aux stratégies proches (gamme, couverture géographique, canaux, intégration verticale). Dans l'aérien européen (axes : services inclus dans le prix, étendue du réseau), les **compagnies traditionnelles** (Lufthansa, Air France-KLM, ITA) et les **compagnies low cost** (Ryanair, easyJet, Wizz Air) forment deux groupes. Les cartes de groupes stratégiques aident à repérer les **concurrents les plus proches**, à voir les **barrières à la mobilité** et à découvrir des **espaces stratégiques vides**."
+     }
+    ]
+   }
+  }
+ ],
+ "takeaways": {
+  "en": [
+   "The industry explains **less than 20%** of profit differences: firm strategy matters more — but the five forces remain the **starting point**.",
+   "In fast-moving or **winner-take-all** industries (network externalities, lock-in), take several snapshots and analyze the **dynamics** of advantage.",
+   "**Complements** add value; 'monopolize your piece, commoditize the others'; platforms are **two-sided markets** within **ecosystems**.",
+   "Value goes to the **bottleneck**; a firm's share lies between its **lower bound** (alternatives) and **upper bound** (marginal contribution).",
+   "Game theory: the **prisoner's dilemma** leads to a poor **Nash equilibrium**; five moves (cooperation, deterrence, commitment, changing the game, signalling) can change payoffs.",
+   "Look inside the industry with **segmentation** and **strategic groups**, separated by **mobility barriers**."
+  ],
+  "fr": [
+   "Le secteur explique **moins de 20 %** des écarts de profit : la stratégie de l'entreprise compte davantage — mais les cinq forces restent le **point de départ**.",
+   "Dans les secteurs rapides ou **« winner-take-all »** (externalités de réseau, verrouillage), prendre plusieurs photographies et analyser la **dynamique** de l'avantage.",
+   "Les **compléments** ajoutent de la valeur ; « monopolisez votre pièce, banalisez les autres » ; les plateformes sont des **marchés biface** au sein d'**écosystèmes**.",
+   "La valeur va au **goulet d'étranglement** ; la part d'une entreprise se situe entre sa **limite inférieure** (alternatives) et sa **limite supérieure** (contribution marginale).",
+   "Théorie des jeux : le **dilemme du prisonnier** mène à un **équilibre de Nash** médiocre ; cinq mouvements (coopération, dissuasion, engagement, changer le jeu, signalisation) peuvent modifier les gains.",
+   "Regarder à l'intérieur du secteur avec la **segmentation** et les **groupes stratégiques**, séparés par des **barrières à la mobilité**."
+  ]
+ }
+}

@@ -3,15 +3,20 @@
 import { Link, useParams, Navigate } from 'react-router'
 import { useStats, useChapterCards } from '../hooks/useData.js'
 import { useNotesMap } from '../hooks/useNotes.js'
+import { getCourse } from '../lib/courses.js'
+import { useCourseRead } from '../hooks/useCourse.js'
 import { CATEGORIES } from '../data/sampleCards.js'
 import '../styles/editor.css'
 import '../styles/notes.css'
+import '../styles/course.css'
 
 export default function ChapterDetail() {
   const id = Number(useParams().id)
   const stats = useStats()
   const cards = useChapterCards(id)
   const notes = useNotesMap()
+  const course = getCourse(id)
+  const courseRead = useCourseRead(id)
   if (!stats || !cards || !notes) return <div className="page" />
   const noteCount = cards.filter((c) => notes.has(c.id)).length
 
@@ -27,6 +32,13 @@ export default function ChapterDetail() {
         <h1 className="large-title">{ch.title}</h1>
         {ch.isMastered && <p className="ok small">✓ Chapitre maîtrisé</p>}
       </header>
+
+      {course && (
+        <Link to={`/cours/${ch.id}`} className="button-secondary course-link">
+          <span>Lire le cours (FR / EN)</span>
+          <span className={courseRead ? 'ok small' : 'muted small'}>{courseRead ? '✓ Lu' : `${course.readMinutes.fr} min`}</span>
+        </Link>
+      )}
 
       {ch.cards > 0 ? (
         <Link to={`/session/${ch.id}`} className="button-primary">

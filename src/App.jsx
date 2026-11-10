@@ -10,6 +10,7 @@ import CardEditor from './pages/CardEditor.jsx'
 import Stats from './pages/Stats.jsx'
 import ChapterStats from './pages/ChapterStats.jsx'
 import Notes from './pages/Notes.jsx'
+import Course from './pages/Course.jsx'
 import Planning from './pages/Planning.jsx'
 import { useAppUsage } from './hooks/useAppUsage.js'
 import UpdatePrompt from './components/UpdatePrompt.jsx'
@@ -17,7 +18,7 @@ import UpdatePrompt from './components/UpdatePrompt.jsx'
 export default function App() {
   useAppUsage() // compte le temps passé dans l'app, sur toutes les pages
   const { pathname } = useLocation()
-  const fullScreen = pathname.startsWith('/session') || pathname.startsWith('/cartes')
+  const fullScreen = pathname.startsWith('/session') || pathname.startsWith('/cartes') || pathname.startsWith('/cours')
 
   return (
     <div className="app">
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/chapitres" element={<Chapters />} />
           <Route path="/chapitres/:id" element={<ChapterDetail />} />
           <Route path="/notes" element={<Notes />} />
+          <Route path="/cours/:id" element={<Course />} />
           <Route path="/session/:chapterId" element={<Session />} />
           <Route path="/cartes/nouvelle/:chapterId" element={<CardEditor />} />
           <Route path="/cartes/:id" element={<CardEditor />} />

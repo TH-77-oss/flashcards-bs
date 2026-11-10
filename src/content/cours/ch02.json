@@ -1,0 +1,555 @@
+{
+ "chapter": 2,
+ "version": 1,
+ "title": {
+  "en": "Goals, Values, and Performance",
+  "fr": "Objectifs, valeurs et performance"
+ },
+ "readMinutes": {
+  "en": 13,
+  "fr": 15
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": {
+    "en": "Value creation and the goal of the firm",
+    "fr": "La création de valeur et la finalité de l'entreprise"
+   },
+   "cards": [
+    "ch02-001",
+    "ch02-002",
+    "ch02-003",
+    "ch02-004",
+    "ch02-005",
+    "ch02-040"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "A firm **creates value** when its output is worth more than the inputs used to produce it. It can do so through **production** (physically transforming products, e.g. coffee beans and milk into cappuccinos) or **commerce** (moving products in space and time to where they are valued more)."
+     },
+     {
+      "t": "image",
+      "src": "ch02/slide-09.jpg",
+      "x": "Profit versus value created."
+     },
+     {
+      "t": "key",
+      "h": "Value created vs profit",
+      "x": "Value created = consumer's **willingness to pay** − real cost of production. It splits into **consumer surplus** (willingness to pay − price) and **producer surplus** (price − real cost). Producer surplus is shared between **profit** (to the owners) and **rents** — payments to employees and other input providers above the minimum needed to obtain their inputs. Profit is only part of the value a firm creates."
+     },
+     {
+      "t": "list",
+      "h": "Whose interests?",
+      "x": [
+       "**Shareholder value maximization**: the firm should maximize profit, because it operates for its owners and the market economy works through profit incentives (the 'invisible hand'). Dominant in English-speaking countries.",
+       "**Stakeholder value maximization**: the firm should maximize total value created, in the interest of all the groups that make it up, including society. Long tradition in Asia and continental Europe."
+      ]
+     },
+     {
+      "t": "p",
+      "x": "Profit is the **lifeblood** of a business and an indicator of efficiency, needed for long-term survival. But maximizing **short-term** profit can harm society and the firm itself. **Sloan** (GM) saw the strategic aim of a business as earning a return on capital; **Bakke** (AES) answered that profits are like breathing — essential for existence, but not its purpose."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Une entreprise **crée de la valeur** (*value creation*) quand sa production vaut plus que les ressources utilisées pour la produire. Elle peut le faire par la **production** (transformer physiquement des biens, par exemple des grains de café et du lait en cappuccinos) ou par le **commerce** (déplacer les produits dans l'espace et le temps vers là où ils ont plus de valeur)."
+     },
+     {
+      "t": "image",
+      "src": "ch02/slide-09.jpg",
+      "x": "Profit et valeur créée."
+     },
+     {
+      "t": "key",
+      "h": "Valeur créée et profit",
+      "x": "Valeur créée = **disposition à payer** du client (*willingness to pay*) − coût réel de production. Elle se répartit entre le **surplus du consommateur** (*consumer surplus* : disposition à payer − prix) et le **surplus du producteur** (*producer surplus* : prix − coût réel). Le surplus du producteur se partage entre le **profit** (pour les propriétaires) et des **rentes** (*rents*) — paiements aux salariés et autres fournisseurs de ressources au-delà du minimum nécessaire pour les obtenir. Le profit n'est qu'une partie de la valeur créée."
+     },
+     {
+      "t": "list",
+      "h": "Dans l'intérêt de qui ?",
+      "x": [
+       "**Maximisation de la valeur actionnariale** (*shareholder value*) : l'entreprise doit maximiser le profit, car elle agit pour ses propriétaires et l'économie de marché fonctionne par les incitations du profit (la « main invisible »). Dominant dans les pays anglophones.",
+       "**Maximisation de la valeur pour les parties prenantes** (*stakeholder value*) : l'entreprise doit maximiser la valeur totale créée, dans l'intérêt de tous les groupes qui la composent, y compris la société. Longue tradition en Asie et en Europe continentale."
+      ]
+     },
+     {
+      "t": "p",
+      "x": "Le profit est le **moteur vital** (*lifeblood*) de l'entreprise et un indicateur d'efficacité, nécessaire à sa survie à long terme. Mais maximiser le profit **à court terme** peut nuire à la société et à l'entreprise elle-même. Pour **Sloan** (GM), le but stratégique d'une entreprise est de rémunérer le capital ; **Bakke** (AES) répond que les profits sont comme la respiration — indispensables pour exister, mais pas la raison d'exister."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2",
+   "title": {
+    "en": "Measuring profitability",
+    "fr": "Mesurer la rentabilité"
+   },
+   "cards": [
+    "ch02-006",
+    "ch02-007",
+    "ch02-008",
+    "ch02-009",
+    "ch02-010",
+    "ch02-011"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "Accounting profit appears at several levels of the income statement: sales − cost of goods sold = **gross profit**; − selling, distribution and administrative expenses = **EBIT** (operating profit); ± financial items = **EBT** (profit before tax); − taxes = **net income**."
+     },
+     {
+      "t": "image",
+      "src": "ch02/slide-24.jpg",
+      "x": "Main profitability ratios."
+     },
+     {
+      "t": "list",
+      "h": "Key ratios",
+      "x": [
+       "**ROS** (return on sales) = EBIT / Sales — the operating margin",
+       "**ROE** (return on equity) = Net income / Shareholders' equity — the return to shareholders",
+       "**ROA** (return on assets) = Operating profit / Total assets — how profitably all assets are used",
+       "**ROCE** (return on capital employed) = Operating profit / (Total assets − Current liabilities)",
+       "**Gross margin** = (Sales − COGS) / Sales; **net margin** = Net income / Sales; **operating margin** = Operating profit / Sales"
+      ]
+     },
+     {
+      "t": "image",
+      "src": "ch02/slide-12.jpg",
+      "x": "Profitability of some of the world's largest companies (2020)."
+     },
+     {
+      "t": "example",
+      "h": "Different measures, different rankings (2020)",
+      "x": "**Roche** has the highest ROS (30.4%) while **Walmart** has one of the lowest (4.0%) — mass retail works on thin margins and huge volumes. **Apple** has the highest ROE (73.7%), helped by an asset-light model and share buybacks, versus **Toyota**'s 10.3% in a capital-intensive industry. Apple also leads on ROA (17.3%), because it has few physical plants and outsources production. Business model, capital intensity and financing choices all shift the ranking, so several measures are needed."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Le profit comptable apparaît à plusieurs niveaux du compte de résultat : chiffre d'affaires − coût des ventes = **marge brute** (*gross profit*) ; − frais commerciaux, de distribution et administratifs = **EBIT** (résultat d'exploitation, *operating profit*) ; ± éléments financiers = **EBT** (résultat avant impôt) ; − impôts = **résultat net** (*net income*)."
+     },
+     {
+      "t": "image",
+      "src": "ch02/slide-24.jpg",
+      "x": "Les principaux ratios de rentabilité."
+     },
+     {
+      "t": "list",
+      "h": "Ratios clés",
+      "x": [
+       "**ROS** (rentabilité des ventes, *return on sales*) = EBIT / Chiffre d'affaires — la marge opérationnelle",
+       "**ROE** (rentabilité des capitaux propres, *return on equity*) = Résultat net / Capitaux propres — la rémunération des actionnaires",
+       "**ROA** (rentabilité des actifs, *return on assets*) = Résultat d'exploitation / Total des actifs — l'efficacité de l'ensemble des actifs",
+       "**ROCE** (rentabilité des capitaux employés, *return on capital employed*) = Résultat d'exploitation / (Total des actifs − Dettes à court terme)",
+       "**Marge brute** = (CA − coût des ventes) / CA ; **marge nette** = Résultat net / CA ; **marge opérationnelle** = Résultat d'exploitation / CA"
+      ]
+     },
+     {
+      "t": "image",
+      "src": "ch02/slide-12.jpg",
+      "x": "Rentabilité de quelques-unes des plus grandes entreprises mondiales (2020)."
+     },
+     {
+      "t": "example",
+      "h": "Des mesures différentes, des classements différents (2020)",
+      "x": "**Roche** a le ROS le plus élevé (30,4 %) et **Walmart** l'un des plus bas (4,0 %) — la grande distribution vit de marges faibles et de volumes énormes. **Apple** a le ROE le plus élevé (73,7 %), grâce à un modèle léger en actifs (*asset-light*) et aux rachats d'actions, contre 10,3 % pour **Toyota** dans un secteur à forte intensité capitalistique. Apple est aussi en tête en ROA (17,3 %), car elle possède peu d'usines et externalise la production. Modèle d'affaires, intensité capitalistique et choix de financement modifient le classement : il faut plusieurs mesures."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3",
+   "title": {
+    "en": "Economic profit, cash flow and enterprise value",
+    "fr": "Profit économique, flux de trésorerie et valeur d'entreprise"
+   },
+   "cards": [
+    "ch02-012",
+    "ch02-013",
+    "ch02-014",
+    "ch02-015",
+    "ch02-016",
+    "ch02-017"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "key",
+      "h": "Economic profit",
+      "x": "**Economic profit = Operating profit − (WACC × Capital employed)**, where WACC is the weighted average cost of capital. It is the surplus left after **all** factors of production, including capital, have been paid. It gives a more realistic picture of performance (in capital-intensive firms, apparently high profits can vanish) and improves **capital allocation** between businesses."
+     },
+     {
+      "t": "example",
+      "h": "Diageo and EVA",
+      "x": "Charging the cost of capital tied up in slow-maturing drinks (Talisker and Lagavulin malt whiskies, Hennessy cognac, Dom Pérignon champagne) showed they were less profitable than their margins suggested. Advertising was shifted to Smirnoff, Gordon's and Baileys — drinks sold within weeks of distillation. EVA analysis also led to selling Pillsbury and Burger King, and became the main basis of bonuses for 1,400 managers."
+     },
+     {
+      "t": "p",
+      "x": "**Cash flow** measures cash transactions and is relatively immune to accounting manipulation. Operating cash flow is roughly approximated by **EBITDA**; **free cash flow** = operating cash flow − capital expenditure."
+     },
+     {
+      "t": "key",
+      "h": "Enterprise value",
+      "x": "Over many periods, maximizing profit becomes maximizing the **value of the firm**: V = Σ Cₜ / (1 + WACC)ᵗ — the net present value of future free cash flows. Because forecasts become unreliable over long horizons, cash flows are usually estimated for 5–10 years plus a **terminal value**.\n**Enterprise value = market capitalization + market value of debt.** Focusing on it avoids distortions from the split between equity and debt and concentrates on the real drivers of value."
+     }
+    ],
+    "fr": [
+     {
+      "t": "key",
+      "h": "Le profit économique",
+      "x": "**Profit économique = Résultat d'exploitation − (WACC × Capitaux employés)**, où le WACC est le coût moyen pondéré du capital (*weighted average cost of capital*). C'est le surplus restant une fois rémunérés **tous** les facteurs de production, capital compris. Il donne une image plus réaliste de la performance (dans les entreprises très capitalistiques, des profits apparemment élevés peuvent disparaître) et améliore l'**allocation du capital** entre activités."
+     },
+     {
+      "t": "example",
+      "h": "Diageo et l'EVA",
+      "x": "Imputer le coût du capital immobilisé dans les alcools à vieillissement long (whiskies Talisker et Lagavulin, cognac Hennessy, champagne Dom Pérignon) a montré qu'ils étaient moins rentables que leurs marges ne le laissaient penser. La publicité a été réorientée vers Smirnoff, Gordon's et Baileys — vendus quelques semaines après la distillation. L'analyse EVA (*Economic Value Added*) a aussi conduit à céder Pillsbury et Burger King, et est devenue la base principale des primes de 1 400 managers."
+     },
+     {
+      "t": "p",
+      "x": "Les **flux de trésorerie** (*cash flow*) mesurent les mouvements de trésorerie et sont peu sensibles aux manipulations comptables. Le flux de trésorerie d'exploitation est approché par l'**EBITDA** ; le **flux de trésorerie disponible** (*free cash flow*) = flux d'exploitation − investissements (*capital expenditure*)."
+     },
+     {
+      "t": "key",
+      "h": "La valeur d'entreprise",
+      "x": "Sur plusieurs périodes, maximiser le profit revient à maximiser la **valeur de l'entreprise** : V = Σ Cₜ / (1 + WACC)ᵗ — la valeur actuelle nette des flux de trésorerie disponibles futurs. Comme les prévisions deviennent peu fiables à long terme, on estime généralement les flux sur 5 à 10 ans, plus une **valeur terminale** (*terminal value*).\n**Valeur d'entreprise (*enterprise value*) = capitalisation boursière + valeur de marché de la dette.** Raisonner sur elle évite les distorsions liées au partage entre fonds propres et dette et se concentre sur les vrais moteurs de valeur."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4",
+   "title": {
+    "en": "Using performance analysis to diagnose",
+    "fr": "Utiliser l'analyse de performance pour diagnostiquer"
+   },
+   "cards": [
+    "ch02-018",
+    "ch02-019",
+    "ch02-020",
+    "ch02-021",
+    "ch02-022"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "list",
+      "h": "Four uses of performance analysis",
+      "x": [
+       "**Appraising** the performance of the firm or a business unit",
+       "**Diagnosing** the causes of unsatisfactory performance",
+       "**Selecting** between alternative strategies",
+       "**Setting** performance targets"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "**Forward-looking** measures rely on the stock market (the share price reflects expectations of future results); **backward-looking** measures assess results already achieved through accounting ratios."
+     },
+     {
+      "t": "image",
+      "src": "ch02/slide-25.jpg",
+      "x": "Disaggregating return on assets."
+     },
+     {
+      "t": "key",
+      "h": "Disaggregating ROA",
+      "x": "**ROA = sales margin × capital (asset) turnover.** The margin depends on cost ratios (COGS/Sales, Depreciation/Sales, SG&A/Sales); turnover depends on Sales/Fixed assets, Sales/Inventories, Sales/Receivables and Sales/Other current assets. The tree shows whether a performance gap comes from **costs** or from the **intensity of asset use**."
+     },
+     {
+      "t": "example",
+      "h": "UPS vs FedEx (2018–2020)",
+      "x": "UPS earned a ROA of **13.2%** versus **7.1%** for FedEx, thanks to both a higher operating margin and a higher asset turnover. UPS is more labour-intensive; FedEx bears higher fuel, maintenance, depreciation and SG&A costs. UPS's higher capital turnover comes mainly from **fixed-asset turnover**."
+     },
+     {
+      "t": "p",
+      "x": "From diagnosis to strategy: if performance is **unsatisfactory**, identify the causes and take operational (short-term) and strategic (long-term) action; if it is **satisfactory**, identify the drivers of success, protect strengths and reinforce the advantage. Financial analysis looks backward; strategic analysis looks forward."
+     }
+    ],
+    "fr": [
+     {
+      "t": "list",
+      "h": "Quatre usages de l'analyse de performance",
+      "x": [
+       "**Évaluer** la performance de l'entreprise ou d'une unité",
+       "**Diagnostiquer** les causes d'une performance insuffisante",
+       "**Choisir** entre stratégies alternatives",
+       "**Fixer** des objectifs de performance"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "Les mesures **prospectives** (*forward-looking*) s'appuient sur la Bourse (le cours de l'action reflète les anticipations de résultats futurs) ; les mesures **rétrospectives** (*backward-looking*) évaluent les résultats déjà obtenus à l'aide des ratios comptables."
+     },
+     {
+      "t": "image",
+      "src": "ch02/slide-25.jpg",
+      "x": "La décomposition de la rentabilité des actifs."
+     },
+     {
+      "t": "key",
+      "h": "Décomposer le ROA",
+      "x": "**ROA = marge sur les ventes × rotation du capital (des actifs)** (*sales margin × asset turnover*). La marge dépend des ratios de coûts (coût des ventes/CA, amortissements/CA, frais commerciaux et généraux/CA) ; la rotation dépend de CA/immobilisations, CA/stocks, CA/créances et CA/autres actifs courants. L'arbre montre si un écart de performance vient des **coûts** ou de l'**intensité d'utilisation des actifs**."
+     },
+     {
+      "t": "example",
+      "h": "UPS contre FedEx (2018-2020)",
+      "x": "UPS obtient un ROA de **13,2 %** contre **7,1 %** pour FedEx, grâce à une marge opérationnelle plus élevée et à une meilleure rotation des actifs. UPS est plus intensive en main-d'œuvre ; FedEx supporte des coûts plus élevés de carburant, de maintenance, d'amortissements et de frais généraux. La meilleure rotation du capital d'UPS vient surtout de la **rotation des immobilisations** (*fixed-asset turnover*)."
+     },
+     {
+      "t": "p",
+      "x": "Du diagnostic à la stratégie : si la performance est **insuffisante**, identifier les causes et agir au niveau opérationnel (court terme) et stratégique (long terme) ; si elle est **satisfaisante**, identifier les facteurs de succès, protéger les forces et renforcer l'avantage. L'analyse financière regarde en arrière ; l'analyse stratégique regarde en avant."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s5",
+   "title": {
+    "en": "Setting performance targets",
+    "fr": "Fixer des objectifs de performance"
+   },
+   "cards": [
+    "ch02-023",
+    "ch02-024",
+    "ch02-025",
+    "ch02-026",
+    "ch02-027"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "Targets must be **measurable, quantifiable, time-bound** and consistent with long-term strategy. Three approaches:"
+     },
+     {
+      "t": "list",
+      "x": [
+       "**Financial disaggregation**: overall financial goals translated into targets for each level of the organization — at the risk of short-term targets conflicting with long-term value creation",
+       "**Strategic profit drivers**: targets set on the drivers of profit (innovation, quality, efficiency, customer satisfaction)",
+       "**Balanced scorecard**: combines financial, strategic and operational objectives"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "Boeing and obliquity",
+      "x": "While Boeing focused on **'building great planes'** — innovation and large aircraft (707, 737, 747, 777) — its financial results were excellent. When it moved to a **'value-based environment'** (unit costs, ROI, shareholder returns), it cut investment in civil aviation, diversified into defence and satellites, and lost leadership to Airbus. **Obliquity**: profitability is often pursued more effectively *indirectly*, by targeting its strategic drivers."
+     },
+     {
+      "t": "key",
+      "h": "The balanced scorecard (Kaplan and Norton)",
+      "x": "An integrated set of measures cascaded down to units and departments, along four perspectives: **financial** (how do we look to shareholders?), **customer** (how do customers see us?), **internal business processes** (what must we excel at?), **learning and growth** (can we continue to improve and create value?)."
+     },
+     {
+      "t": "image",
+      "src": "ch02/slide-31.jpg",
+      "x": "Balanced scorecard for a regional airline."
+     },
+     {
+      "t": "p",
+      "x": "In the regional airline example, the **strategy map** links the perspectives causally: aligning ground crews (learning) improves turnaround time (internal), which delivers on-time flights and low prices (customer), more customers, higher revenue and lower cost (financial). Each objective has measures, targets and initiatives — e.g. on-ground time under 25 minutes, 98% customer satisfaction, ground-crew stock ownership rising from 70% to 100%."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Les objectifs doivent être **mesurables, quantifiables, datés** et cohérents avec la stratégie de long terme. Trois approches :"
+     },
+     {
+      "t": "list",
+      "x": [
+       "**Décomposition financière** (*financial disaggregation*) : les objectifs financiers globaux sont traduits en objectifs pour chaque niveau de l'organisation — au risque que des objectifs de court terme contredisent la création de valeur à long terme",
+       "**Leviers stratégiques du profit** (*strategic profit drivers*) : objectifs fixés sur les moteurs du profit (innovation, qualité, efficacité, satisfaction client)",
+       "**Tableau de bord prospectif** (*balanced scorecard*) : combine objectifs financiers, stratégiques et opérationnels"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "Boeing et l'obliquité",
+      "x": "Tant que Boeing se concentrait sur **« construire de grands avions »** — innovation et gros porteurs (707, 737, 747, 777) — ses résultats financiers étaient excellents. Quand l'entreprise est passée à un **« environnement fondé sur la valeur »** (*value-based environment* : coûts unitaires, ROI, rendement pour l'actionnaire), elle a réduit ses investissements dans l'aviation civile, s'est diversifiée dans la défense et les satellites, et a perdu son leadership au profit d'Airbus. **Obliquité** (*obliquity*) : la rentabilité se poursuit souvent plus efficacement *indirectement*, en visant ses leviers stratégiques."
+     },
+     {
+      "t": "key",
+      "h": "Le tableau de bord prospectif (Kaplan et Norton)",
+      "x": "Un ensemble intégré d'indicateurs déclinés jusqu'aux unités et services, selon quatre perspectives : **financière** (comment nous voient les actionnaires ?), **clients** (comment nous voient les clients ?), **processus internes** (en quoi devons-nous exceller ?), **apprentissage et croissance** (pouvons-nous continuer à progresser et à créer de la valeur ?)."
+     },
+     {
+      "t": "image",
+      "src": "ch02/slide-31.jpg",
+      "x": "Tableau de bord prospectif d'une compagnie aérienne régionale."
+     },
+     {
+      "t": "p",
+      "x": "Dans l'exemple de la compagnie régionale, la **carte stratégique** (*strategy map*) relie les perspectives par des liens de cause à effet : aligner les équipes au sol (apprentissage) améliore le temps de rotation (processus internes), ce qui donne des vols à l'heure et des prix bas (clients), plus de clients, plus de revenus et moins de coûts (finance). Chaque objectif a ses indicateurs, cibles et initiatives — par exemple moins de 25 minutes au sol, 98 % de satisfaction client, une part du personnel au sol actionnaire passant de 70 % à 100 %."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s6",
+   "title": {
+    "en": "Values and corporate social responsibility",
+    "fr": "Valeurs et responsabilité sociale de l'entreprise"
+   },
+   "cards": [
+    "ch02-028",
+    "ch02-029",
+    "ch02-030",
+    "ch02-031",
+    "ch02-032",
+    "ch02-033",
+    "ch02-034",
+    "ch02-035"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "**Values** are beliefs that commit the organization to ethical principles and to its stakeholders. They can be mere **window dressing**, or become central to identity and part of the culture (**shared values**, at the centre of McKinsey's 7-S framework). **Accenture**'s values show that the real challenge is how far to extend the commitment (e.g. minority rights in China, LGBT rights in Hungary)."
+     },
+     {
+      "t": "list",
+      "h": "Three views of the firm's responsibility",
+      "x": [
+       "**Firm as property** (Friedman): the firm belongs to its shareholders and its only responsibility is to increase profits within the rules of the game — but this ignores social legitimacy",
+       "**Firm as social entity**: a community with responsibilities towards society — but it risks losing sight of the business (Adam Smith's butcher, brewer and baker act out of self-interest, not benevolence)",
+       "**Grant's middle way**: align with society and the environment while remaining true to the business — **strategic CSR**"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "The cost of legitimacy",
+      "x": "**News of the World** (illegal phone hacking) generated about $85 million of News Corporation's $33 billion revenue, yet the reputational damage cut about **$11 billion** from its market value. **The Weinstein Company** collapsed after the 2017 revelations. Social judgement can overwhelm a firm, and social media magnify this."
+     },
+     {
+      "t": "key",
+      "h": "Shared value (Porter and Kramer)",
+      "x": "Creating economic value in a way that also creates value for society, at specific intersections of business and social interests — **enlarging the pool** rather than redistributing it. In Côte d'Ivoire cocoa, fair trade pays farmers 10–20% more (redistribution), whereas more efficient cultivation can raise their incomes by **300%** and lower chocolate makers' costs. CSR pays off through the **sustainability of the ecosystem** (de Geus: the firm as a living organism), **reputation** and the **licence to operate**."
+     },
+     {
+      "t": "example",
+      "h": "When CSR works — and when it does not",
+      "x": "Starbucks' **'Race Together'** failed: weak link to the business, no relevant expertise. Unilever's **Sustainable Living Plan** (from 2010, Paul Polman) set environmental goals across about 400 brands, tied bonuses to emissions, waste and energy targets, and accompanied a doubling of sales. **Volkswagen** (2015) cheated diesel emissions tests while advertising clean cars — a share-price collapse and costs of tens of billions. **Patagonia** transferred its ownership to a trust and a non-profit in 2022."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Les **valeurs** sont des convictions qui engagent l'organisation envers des principes éthiques et ses parties prenantes. Elles peuvent n'être qu'une **vitrine** (*window dressing*), ou devenir centrales dans l'identité et la culture (**valeurs partagées**, *shared values*, au centre du modèle 7-S de McKinsey). Les valeurs d'**Accenture** montrent que le vrai défi est de savoir jusqu'où étendre l'engagement (droits des minorités en Chine, droits LGBT en Hongrie)."
+     },
+     {
+      "t": "list",
+      "h": "Trois visions de la responsabilité de l'entreprise",
+      "x": [
+       "**L'entreprise comme propriété** (*firm as property*, Friedman) : elle appartient à ses actionnaires et sa seule responsabilité est d'accroître ses profits dans le respect des règles du jeu — mais cela ignore la légitimité sociale",
+       "**L'entreprise comme entité sociale** (*firm as social entity*) : une communauté responsable envers la société — mais elle risque de perdre de vue son activité (le boucher, le brasseur et le boulanger d'Adam Smith agissent par intérêt, non par bienveillance)",
+       "**La voie médiane de Grant** : s'aligner sur la société et l'environnement tout en restant fidèle à son activité — la **RSE stratégique**"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "Le coût de la légitimité",
+      "x": "**News of the World** (piratage téléphonique illégal) représentait environ 85 millions de dollars sur les 33 milliards de chiffre d'affaires de News Corporation, mais l'atteinte à la réputation a fait perdre environ **11 milliards** de capitalisation. **The Weinstein Company** s'est effondrée après les révélations de 2017. Le jugement social peut submerger une entreprise, et les réseaux sociaux l'amplifient."
+     },
+     {
+      "t": "key",
+      "h": "La valeur partagée (shared value, Porter et Kramer)",
+      "x": "Créer de la valeur économique d'une manière qui crée aussi de la valeur pour la société, aux points de rencontre entre intérêts de l'entreprise et besoins sociaux — **agrandir le gâteau** plutôt que le redistribuer. Pour le cacao en Côte d'Ivoire, le commerce équitable paie les producteurs 10 à 20 % de plus (redistribution), alors qu'une culture plus efficace peut augmenter leurs revenus de **300 %** et réduire les coûts des chocolatiers. La RSE est payante par la **pérennité de l'écosystème** (de Geus : l'entreprise comme organisme vivant), la **réputation** et la **licence d'exploitation** (*licence to operate*)."
+     },
+     {
+      "t": "example",
+      "h": "Quand la RSE fonctionne — et quand elle échoue",
+      "x": "**« Race Together »** de Starbucks a échoué : lien faible avec l'activité, aucune compétence sur le sujet. Le **Sustainable Living Plan** d'Unilever (dès 2010, Paul Polman) a fixé des objectifs environnementaux pour environ 400 marques, lié les primes aux objectifs d'émissions, de déchets et d'énergie, et accompagné un doublement des ventes. **Volkswagen** (2015) truquait les tests d'émissions de ses diesels tout en vantant des voitures propres — effondrement de l'action et coûts de plusieurs dizaines de milliards. **Patagonia** a transféré sa propriété à un trust et une association en 2022."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s7",
+   "title": {
+    "en": "Real options",
+    "fr": "Les options réelles"
+   },
+   "cards": [
+    "ch02-036",
+    "ch02-037",
+    "ch02-038",
+    "ch02-039"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "key",
+      "h": "Real options",
+      "x": "A **real option** is a right, not an obligation, to take a future decision. **NPV** does not capture the value of flexibility under uncertainty. In the **Black–Scholes** model, more uncertainty and more time increase an option's value, while a higher exercise price reduces it; the **binomial model** represents choices as a tree of scenarios. Shell's small joint ventures in hydrogen and fuel cells buy know-how — an option to invest more if the world changes."
+     },
+     {
+      "t": "p",
+      "x": "**Stage-gate** investment splits an irreversible project into stages: invest in a limited stage, reassess at the gate, then continue, abandon, modify or wait. **Venture capital** works this way (Hyperloop One raised $160 million by August 2017 from investors including GE, DP World and SNCF)."
+     },
+     {
+      "t": "list",
+      "h": "Two families of options",
+      "x": [
+       "**Growth options** (offensive): small initial investments in several opportunities — platforms opening new markets (3M's nanotechnology in dental materials, drugs and adhesives; Snapchat in news, payments and video), joint ventures (Virgin Group; Starbucks in China, buying out its partners in 2017)",
+       "**Flexibility options** (defensive): projects and plants designed to adapt (Fujifilm moving from film into cosmetics and coatings; flexible plants producing several models)"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "Kodak",
+      "x": "Having an option is not enough — it must be **exercised in time**. Kodak had digital photography technology from 1975 but failed to act on it, and filed for bankruptcy in 2012."
+     }
+    ],
+    "fr": [
+     {
+      "t": "key",
+      "h": "Les options réelles",
+      "x": "Une **option réelle** (*real option*) est un droit, et non une obligation, de prendre une décision future. La **VAN** (*NPV*) ne capte pas la valeur de la flexibilité en situation d'incertitude. Dans le modèle de **Black-Scholes**, plus d'incertitude et plus de temps augmentent la valeur de l'option, tandis qu'un prix d'exercice plus élevé la réduit ; le **modèle binomial** représente les choix sous forme d'arbre de scénarios. Les petites coentreprises de Shell dans l'hydrogène et les piles à combustible lui apportent du savoir-faire — une option pour investir davantage si le monde change."
+     },
+     {
+      "t": "p",
+      "x": "L'investissement **par étapes** (*stage-gate*) découpe un projet irréversible en phases : investir dans une étape limitée, réévaluer au point de décision, puis continuer, abandonner, modifier ou attendre. Le **capital-risque** (*venture capital*) fonctionne ainsi (Hyperloop One a levé 160 millions de dollars en août 2017 auprès d'investisseurs dont GE, DP World et la SNCF)."
+     },
+     {
+      "t": "list",
+      "h": "Deux familles d'options",
+      "x": [
+       "**Options de croissance** (*growth options*, offensives) : petits investissements initiaux dans plusieurs opportunités — plateformes ouvrant de nouveaux marchés (nanotechnologies de 3M dans les matériaux dentaires, les médicaments et les adhésifs ; Snapchat dans l'actualité, les paiements et la vidéo), coentreprises (Virgin Group ; Starbucks en Chine, qui rachète ses partenaires en 2017)",
+       "**Options de flexibilité** (*flexibility options*, défensives) : projets et usines conçus pour s'adapter (Fujifilm passant de la pellicule aux cosmétiques et aux revêtements ; usines flexibles produisant plusieurs modèles)"
+      ]
+     },
+     {
+      "t": "example",
+      "h": "Kodak",
+      "x": "Avoir une option ne suffit pas — il faut l'**exercer à temps**. Kodak possédait la technologie de la photo numérique dès 1975 mais ne l'a pas exploitée, et a fait faillite en 2012."
+     }
+    ]
+   }
+  }
+ ],
+ "takeaways": {
+  "en": [
+   "Value created = **willingness to pay − cost**; profit is only the owners' share of it.",
+   "Use **several ratios** (ROS, ROE, ROA, ROCE): business model and capital intensity change the ranking.",
+   "**Economic profit** deducts the cost of capital (WACC × capital employed); firm value is the **NPV of future free cash flows**.",
+   "**Disaggregating ROA** (margin × turnover) locates the causes of a performance gap (UPS vs FedEx).",
+   "Targets: financial disaggregation, strategic profit drivers, **balanced scorecard**; profit is often best pursued **obliquely** (Boeing).",
+   "Strategic **CSR** and **shared value** pay off when linked to the core business; **real options** capture the value of flexibility."
+  ],
+  "fr": [
+   "Valeur créée = **disposition à payer − coût** ; le profit n'en est que la part des propriétaires.",
+   "Utiliser **plusieurs ratios** (ROS, ROE, ROA, ROCE) : modèle d'affaires et intensité capitalistique changent le classement.",
+   "Le **profit économique** déduit le coût du capital (WACC × capitaux employés) ; la valeur de l'entreprise est la **VAN des flux de trésorerie disponibles futurs**.",
+   "**Décomposer le ROA** (marge × rotation) permet de localiser les causes d'un écart de performance (UPS contre FedEx).",
+   "Objectifs : décomposition financière, leviers stratégiques, **tableau de bord prospectif** ; le profit se poursuit souvent mieux **indirectement** (obliquité, Boeing).",
+   "La **RSE stratégique** et la **valeur partagée** sont payantes quand elles sont liées au cœur de métier ; les **options réelles** valorisent la flexibilité."
+  ]
+ }
+}

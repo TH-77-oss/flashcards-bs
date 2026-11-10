@@ -1,0 +1,581 @@
+{
+ "chapter": 3,
+ "version": 1,
+ "title": {
+  "en": "Industry Analysis: The Fundamentals",
+  "fr": "L'analyse sectorielle : les fondamentaux"
+ },
+ "readMinutes": {
+  "en": 15,
+  "fr": 17
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": {
+    "en": "From the external environment to industry profitability",
+    "fr": "De l'environnement externe à la rentabilité du secteur"
+   },
+   "cards": [
+    "ch03-001",
+    "ch03-002",
+    "ch03-003",
+    "ch03-004",
+    "ch03-005",
+    "ch03-006",
+    "ch03-043"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "Industry analysis serves both levels of strategy: **corporate strategy** (in which industries to operate, how to allocate resources between them) and **business strategy** (how to compete in the chosen industry). Its objectives are to **understand industry structure**, **assess change** and **link the industry to the firm** (boundaries, positioning, key success factors)."
+     },
+     {
+      "t": "p",
+      "x": "**PEST** analysis (political, economic, social, technological) is a starting point, not an endless checklist: a trend matters only if it changes relationships with **customers, suppliers and competitors** — the core of the industry environment."
+     },
+     {
+      "t": "key",
+      "h": "Value and its distribution",
+      "x": "**Value created = willingness to pay − cost**; **consumer surplus = willingness to pay − price**; **producer margin = price − cost**. In the umbrella example (WTP €20, cost €5), a price of €15 leaves a €10 margin; more competition (price €8) cuts it to €3; a more powerful supplier (cost €7) cuts it to €1. The value created is unchanged — competitive conditions decide **who captures it**."
+     },
+     {
+      "t": "image",
+      "src": "ch03/slide-07.jpg",
+      "x": "Average ROCE of US industries, 2008–2018."
+     },
+     {
+      "t": "p",
+      "x": "Profitability therefore varies greatly between industries: average **ROCE** 2008–2018 of 64.5% in tobacco, 53.0% in computers and peripherals, 26.6% in software, but 15.5% in airlines, 11.1% in food distribution, 5.3% in autos and 3.4% in wireless telecoms. Structure matters: **monopoly**, **oligopoly** or **perfect competition** (where excess returns disappear). As Buffett notes, when brilliant management meets bad industry economics, it is the industry's reputation that stays intact."
+     },
+     {
+      "t": "key",
+      "h": "ROCE (formula used in this chapter)",
+      "x": "**ROCE = EBIT / (Shareholders' equity + Long-term debt) × 100.** Example: EBIT €150,000 on capital employed of €600,000 → ROCE 25%. Industry profitability is judged against the **cost of capital**."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "L'analyse sectorielle (*industry analysis*) sert les deux niveaux de stratégie : la **stratégie corporate** (dans quels secteurs opérer, comment répartir les ressources) et la **stratégie d'activité** (comment rivaliser dans le secteur choisi). Ses objectifs : **comprendre la structure du secteur**, **évaluer les changements** et **relier le secteur à l'entreprise** (frontières, positionnement, facteurs clés de succès)."
+     },
+     {
+      "t": "p",
+      "x": "L'analyse **PEST** (politique, économique, social, technologique) est un point de départ, pas une liste sans fin : une tendance ne compte que si elle modifie les relations avec les **clients, fournisseurs et concurrents** — le cœur de l'environnement sectoriel."
+     },
+     {
+      "t": "key",
+      "h": "La valeur et son partage",
+      "x": "**Valeur créée = disposition à payer − coût** ; **surplus du consommateur = disposition à payer − prix** ; **marge du producteur = prix − coût**. Dans l'exemple du parapluie (disposition à payer 20 €, coût 5 €), un prix de 15 € laisse 10 € de marge ; plus de concurrence (prix 8 €) la réduit à 3 € ; un fournisseur plus puissant (coût 7 €) la réduit à 1 €. La valeur créée ne change pas — ce sont les conditions de concurrence qui décident **qui la capte**."
+     },
+     {
+      "t": "image",
+      "src": "ch03/slide-07.jpg",
+      "x": "ROCE moyen de secteurs américains, 2008-2018."
+     },
+     {
+      "t": "p",
+      "x": "La rentabilité varie donc fortement entre secteurs : **ROCE** moyen 2008-2018 de 64,5 % dans le tabac, 53,0 % dans les ordinateurs et périphériques, 26,6 % dans les logiciels, mais 15,5 % dans le transport aérien, 11,1 % dans la distribution alimentaire, 5,3 % dans l'automobile et 3,4 % dans les télécoms sans fil. La structure compte : **monopole**, **oligopole** ou **concurrence parfaite** (où les rendements excédentaires disparaissent). Comme le dit Buffett, quand une direction brillante affronte un secteur aux fondamentaux défavorables, c'est la réputation du secteur qui reste intacte."
+     },
+     {
+      "t": "key",
+      "h": "Le ROCE (formule du chapitre)",
+      "x": "**ROCE = EBIT / (Capitaux propres + Dette à long terme) × 100.** Exemple : EBIT de 150 000 € pour 600 000 € de capitaux employés → ROCE de 25 %. La rentabilité d'un secteur se juge par rapport au **coût du capital**."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2",
+   "title": {
+    "en": "Porter's Five Forces: substitutes and entry",
+    "fr": "Les cinq forces de Porter : substituts et entrée"
+   },
+   "cards": [
+    "ch03-007",
+    "ch03-008",
+    "ch03-009",
+    "ch03-010",
+    "ch03-011",
+    "ch03-012",
+    "ch03-013",
+    "ch03-014",
+    "ch03-015",
+    "ch03-016",
+    "ch03-017"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "image",
+      "src": "ch03/slide-09.jpg",
+      "x": "Porter's Five Forces framework."
+     },
+     {
+      "t": "p",
+      "x": "Industry profitability is not random: it is shaped by **five forces**. **Horizontal competition** comes from the threat of **entry**, the threat of **substitutes** and **rivalry** among existing firms; **vertical competition** from the bargaining power of **suppliers** and **buyers**. Brandenburger and Nalebuff (*Co-opetition*, 1996) add a sixth force: **complements**."
+     },
+     {
+      "t": "p",
+      "x": "**Substitutes.** When few close substitutes exist, demand is **inelastic** (Grant cites gasoline and cigarettes) and firms can raise prices; when alternatives are close, demand is **elastic** and pricing power is limited. The threat depends on buyers' **propensity to substitute** and on the substitute's **price-performance**: high-speed rail vs flights (London–Paris, Madrid–Barcelona, Beijing–Shanghai), digital photography vs Kodak film, streaming vs DVD rental, messaging apps vs SMS. The internet destroyed profitability in travel agencies, newspapers (−58% printed dailies 2016–2025) and bookstores. A substitute may come from **another industry**."
+     },
+     {
+      "t": "p",
+      "x": "**Entry.** High profits attract entry: new supply → lower prices → margins pushed towards the competitive return. With low barriers, entry can be massive — US breweries rose from 284 (1990) to 4,269 (2017), UK breweries from 241 to 892, despite falling consumption."
+     },
+     {
+      "t": "key",
+      "h": "Contestable markets",
+      "x": "A market with **no significant barriers to entry or exit**, where the mere **threat** of entry keeps prices near the competitive level. With low **sunk costs** (non-recoverable investments), entrants can practise **'hit-and-run'** entry. Example: a single-operator air route — if aircraft can easily be redeployed, the incumbent keeps fares moderate."
+     },
+     {
+      "t": "list",
+      "h": "Seven barriers to entry",
+      "x": [
+       "**Capital requirements** — Boeing–Airbus in large jets vs pizza franchising",
+       "**Economies of scale** — entrants start small with higher unit costs (car industry)",
+       "**Absolute cost advantages** — access to resources, experience, learning (TSMC)",
+       "**Product differentiation** — brand recognition and loyalty (Coca-Cola and Pepsi)",
+       "**Access to distribution** — limited shelf space; the internet can bypass it (Dollar Shave Club)",
+       "**Governmental and legal barriers** — licences, patents, copyright (taxis, banks, telecoms)",
+       "**Retaliation** — price cuts, advertising, legal action; fare wars on contested routes"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "The **height** of a barrier measures the cost disadvantage of entrants relative to incumbents. Barriers are not equally effective against everyone: a start-up may be stopped, but a **diversifying entrant** with transferable resources may not — Google challenged Microsoft in browsers and Apple in smartphones."
+     }
+    ],
+    "fr": [
+     {
+      "t": "image",
+      "src": "ch03/slide-09.jpg",
+      "x": "Le modèle des cinq forces de Porter."
+     },
+     {
+      "t": "p",
+      "x": "La rentabilité d'un secteur n'est pas le fruit du hasard : elle est déterminée par **cinq forces**. La **concurrence horizontale** vient de la menace d'**entrée**, de la menace des **substituts** et de la **rivalité** entre concurrents existants ; la **concurrence verticale** vient du pouvoir de négociation des **fournisseurs** et des **clients** (*buyers*). Brandenburger et Nalebuff (*Co-opetition*, 1996) ajoutent une sixième force : les **compléments** (*complements*)."
+     },
+     {
+      "t": "p",
+      "x": "**Les substituts.** Quand il existe peu de substituts proches, la demande est **inélastique** (Grant cite l'essence et les cigarettes) et les entreprises peuvent augmenter leurs prix ; quand les alternatives sont proches, la demande est **élastique** et le pouvoir de fixation des prix est limité. La menace dépend de la **propension des clients à substituer** et du **rapport prix-performance** du substitut : TGV contre avion (Londres-Paris, Madrid-Barcelone, Pékin-Shanghai), photo numérique contre pellicule Kodak, streaming contre location de DVD, messageries contre SMS. Internet a détruit la rentabilité des agences de voyages, des journaux (−58 % de quotidiens imprimés 2016-2025) et des librairies. Un substitut peut venir d'**un autre secteur**."
+     },
+     {
+      "t": "p",
+      "x": "**L'entrée.** Des profits élevés attirent de nouveaux entrants : offre nouvelle → prix plus bas → marges ramenées vers le rendement concurrentiel. Avec des barrières faibles, l'entrée peut être massive — les brasseries américaines passent de 284 (1990) à 4 269 (2017), les britanniques de 241 à 892, malgré une consommation en baisse."
+     },
+     {
+      "t": "key",
+      "h": "Les marchés contestables (contestable markets)",
+      "x": "Un marché **sans barrières significatives à l'entrée ni à la sortie**, où la seule **menace** d'entrée maintient les prix près du niveau concurrentiel. Avec de faibles **coûts irrécupérables** (*sunk costs*), un entrant peut pratiquer une entrée **« hit-and-run »** (entrer, profiter, sortir). Exemple : une liaison aérienne à opérateur unique — si les avions peuvent être facilement redéployés, l'opérateur en place garde des tarifs modérés."
+     },
+     {
+      "t": "list",
+      "h": "Les sept barrières à l'entrée",
+      "x": [
+       "**Besoins en capitaux** (*capital requirements*) — Boeing-Airbus dans les gros porteurs contre une franchise de pizzerias",
+       "**Économies d'échelle** — l'entrant démarre petit avec des coûts unitaires plus élevés (automobile)",
+       "**Avantages de coûts absolus** (*absolute cost advantages*) — accès aux ressources, expérience, apprentissage (TSMC)",
+       "**Différenciation des produits** — notoriété et fidélité à la marque (Coca-Cola et Pepsi)",
+       "**Accès à la distribution** — linéaires limités ; Internet permet de contourner (Dollar Shave Club)",
+       "**Barrières réglementaires et légales** — licences, brevets, droits d'auteur (taxis, banques, télécoms)",
+       "**Représailles** (*retaliation*) — baisses de prix, publicité, actions en justice ; guerres tarifaires sur les lignes disputées"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "La **hauteur** d'une barrière mesure le désavantage de coût de l'entrant par rapport aux entreprises en place (*incumbents*). Les barrières ne sont pas efficaces contre tous : une start-up peut être arrêtée, mais pas forcément un **entrant diversifié** doté de ressources transférables — Google a défié Microsoft dans les navigateurs et Apple dans les smartphones."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3",
+   "title": {
+    "en": "Rivalry among existing competitors",
+    "fr": "La rivalité entre concurrents existants"
+   },
+   "cards": [
+    "ch03-018",
+    "ch03-019"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "list",
+      "h": "Five factors driving rivalry",
+      "x": [
+       "**Concentration** (measured by the concentration ratio): few players can limit price wars — Coca-Cola and Pepsi, Bloomberg and Reuters",
+       "**Diversity of competitors**: firms similar in goals, costs and strategies keep price discipline more easily — hence OPEC's coordination problems",
+       "**Product differentiation**: similar offerings push competition onto price — commodities vs perfumes, pharmaceuticals, restaurants, consulting",
+       "**Excess capacity and exit barriers**: unused capacity triggers discounting — European cars, semiconductors, shipping",
+       "**Cost conditions**: with high fixed costs, firms accept marginal business to cover variable costs — airlines, bulk carriers"
+      ]
+     },
+     {
+      "t": "key",
+      "h": "The excess-capacity mechanism",
+      "x": "Unused capacity → discounts to cover at least variable costs → lower margins. If **exit barriers** keep capacity in the industry, the pressure lasts. Rivalry results from the **interaction** of these factors: no single indicator explains profitability."
+     }
+    ],
+    "fr": [
+     {
+      "t": "list",
+      "h": "Cinq facteurs de rivalité",
+      "x": [
+       "**La concentration** (mesurée par le ratio de concentration) : peu d'acteurs peuvent limiter les guerres de prix — Coca-Cola et Pepsi, Bloomberg et Reuters",
+       "**La diversité des concurrents** : des entreprises proches par leurs objectifs, coûts et stratégies maintiennent plus facilement la discipline des prix — d'où les difficultés de coordination de l'OPEP",
+       "**La différenciation des produits** : des offres similaires font porter la concurrence sur le prix — matières premières contre parfums, médicaments, restaurants, conseil",
+       "**Les surcapacités et barrières à la sortie** (*excess capacity, exit barriers*) : la capacité inutilisée déclenche des rabais — automobile européenne, semi-conducteurs, transport maritime",
+       "**Les conditions de coûts** : avec des coûts fixes élevés, les entreprises acceptent des affaires marginales pour couvrir leurs coûts variables — compagnies aériennes, vraquiers"
+      ]
+     },
+     {
+      "t": "key",
+      "h": "Le mécanisme de la surcapacité",
+      "x": "Capacité inutilisée → rabais pour couvrir au moins les coûts variables → marges plus faibles. Si des **barrières à la sortie** maintiennent la capacité dans le secteur, la pression dure. La rivalité résulte de l'**interaction** de ces facteurs : aucun indicateur isolé n'explique la rentabilité."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4",
+   "title": {
+    "en": "The bargaining power of buyers and suppliers",
+    "fr": "Le pouvoir de négociation des clients et des fournisseurs"
+   },
+   "cards": [
+    "ch03-020",
+    "ch03-021",
+    "ch03-022",
+    "ch03-023",
+    "ch03-024",
+    "ch03-025",
+    "ch03-026"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "Buyers' power depends on two factors: **price sensitivity** (how much price matters in their choice) and **relative bargaining power** (how far they can impose prices and conditions). The analysis is **symmetric** for suppliers: the industry's firms become the buyers of inputs."
+     },
+     {
+      "t": "list",
+      "h": "What raises price sensitivity",
+      "x": [
+       "**Importance of the item in total cost** — aluminium for beverage can makers",
+       "**Price transparency** — comparison sites (Idealo, Trivago, Skyscanner) reduce information asymmetry",
+       "**Low switching costs** — when switching is costly or risky (enterprise ERP vs a phone operator), customers tolerate price rises"
+      ]
+     },
+     {
+      "t": "list",
+      "h": "Determinants of buyers' bargaining power",
+      "x": [
+       "**Size and concentration** of buyers",
+       "**Standardization** of the product",
+       "**Switching costs**",
+       "**Influence of the product on the quality of the buyer's output** (low for zip fasteners)",
+       "**Threat of backward integration** — Apple Silicon replaced Intel processors in Macs from 2020",
+       "**Large retailers** — Walmart and Italian buying groups negotiate terms and develop private labels"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "**Suppliers** are powerful when inputs are **critical or technically complex**, alternatives are few, they control an **essential resource or channel**, they can **integrate forward** (Pirelli stores), or they coordinate through a **cartel** — a formal or informal agreement between independent firms to limit competition (OPEC, coffee, agricultural cooperatives). Examples: Intel, disk and LCD makers and Microsoft in PCs; spectrum licences auctioned to telecom operators; trade unions in autos, steel and airlines."
+     },
+     {
+      "t": "image",
+      "src": "ch03/slide-26.jpg",
+      "x": "Strategic suppliers: concentration of resources reduces bargaining leverage."
+     },
+     {
+      "t": "example",
+      "h": "Strategic suppliers today",
+      "x": "**Semiconductors** (ASML, TSMC, Nvidia): technological monopoly. **Aircraft** (Airbus, Boeing): structural duopoly with multi-year orders. **App stores** (Apple, Google): access gatekeepers charging high commissions. **Energy**: geo-supply vulnerability. Control of a critical input or channel shifts value towards the supplier."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Le pouvoir des clients dépend de deux facteurs : la **sensibilité au prix** (*price sensitivity* : le poids du prix dans leur choix) et le **pouvoir de négociation relatif** (*relative bargaining power* : leur capacité à imposer prix et conditions). L'analyse est **symétrique** pour les fournisseurs : les entreprises du secteur deviennent alors les acheteuses des ressources."
+     },
+     {
+      "t": "list",
+      "h": "Ce qui accroît la sensibilité au prix",
+      "x": [
+       "**Le poids du produit dans le coût total** — l'aluminium pour les fabricants de canettes",
+       "**La transparence des prix** — les comparateurs (Idealo, Trivago, Skyscanner) réduisent l'asymétrie d'information",
+       "**De faibles coûts de changement** (*switching costs*) — quand changer est coûteux ou risqué (ERP d'entreprise contre opérateur téléphonique), le client tolère les hausses de prix"
+      ]
+     },
+     {
+      "t": "list",
+      "h": "Déterminants du pouvoir de négociation des clients",
+      "x": [
+       "**Taille et concentration** des clients",
+       "**Standardisation** du produit",
+       "**Coûts de changement**",
+       "**Influence du produit sur la qualité du produit final du client** (faible pour les fermetures éclair)",
+       "**Menace d'intégration en amont** (*backward integration*) — Apple Silicon remplace les processeurs Intel dans les Mac dès 2020",
+       "**La grande distribution** — Walmart et les centrales d'achat italiennes négocient les conditions et développent des marques de distributeur (*private labels*)"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "Les **fournisseurs** sont puissants quand les ressources sont **critiques ou techniquement complexes**, que les alternatives sont rares, qu'ils contrôlent une **ressource ou un canal essentiel**, qu'ils peuvent **s'intégrer en aval** (*forward integration* : boutiques Pirelli) ou se coordonner en **cartel** — un accord formel ou informel entre entreprises indépendantes pour limiter la concurrence (OPEP, café, coopératives agricoles). Exemples : Intel, les fabricants de disques et d'écrans et Microsoft dans les PC ; les licences de fréquences vendues aux enchères aux opérateurs télécoms ; les syndicats dans l'automobile, la sidérurgie et l'aérien."
+     },
+     {
+      "t": "image",
+      "src": "ch03/slide-26.jpg",
+      "x": "Fournisseurs stratégiques : la concentration des ressources réduit le levier de négociation."
+     },
+     {
+      "t": "example",
+      "h": "Les fournisseurs stratégiques aujourd'hui",
+      "x": "**Semi-conducteurs** (ASML, TSMC, Nvidia) : monopole technologique. **Avions** (Airbus, Boeing) : duopole structurel avec commandes pluriannuelles. **Magasins d'applications** (Apple, Google) : gardiens de l'accès (*gatekeepers*) aux commissions élevées. **Énergie** : vulnérabilité géopolitique des approvisionnements. Contrôler une ressource ou un canal critique déplace la valeur vers le fournisseur."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s5",
+   "title": {
+    "en": "Applying industry analysis: platforms and forecasting",
+    "fr": "Appliquer l'analyse sectorielle : plateformes et prévision"
+   },
+   "cards": [
+    "ch03-027",
+    "ch03-028",
+    "ch03-029",
+    "ch03-030"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "To apply the model, identify every actor in the value chain (producers, buyers, input suppliers, substitute producers) and assign each the relevant competitive force — one actor can play several roles."
+     },
+     {
+      "t": "example",
+      "h": "Video streaming",
+      "x": "**Rivalry — high** (Netflix, Disney+, Prime Video compete for subscribers and exclusive content; cancelling is easy). **Entry — medium** (heavy investment, but big tech and media groups can leverage existing resources). **Supplier power — high** (studios, creators, sports-rights holders). **Buyer power — high** (users compare, share and switch easily). **Substitutes — high** (YouTube, TikTok, video games and social networks compete for attention)."
+     },
+     {
+      "t": "p",
+      "x": "In **food delivery** (Glovo, Deliveroo, Just Eat), the platform intermediates between restaurants, riders and customers: its power depends on **controlling access to demand** and on the alternatives each party has."
+     },
+     {
+      "t": "key",
+      "h": "Forecasting industry profitability",
+      "x": "1. Explain current profitability from the **current structure**. 2. Identify the **trends** changing structure (differentiation vs standardization, technology, substitutes, buyer behaviour, firms' strategies). 3. Assess their **effects on the five forces** and on profitability. Some forces strengthen and others weaken: this calls for **judgement**, not mechanical addition — current profits are not a reliable guide."
+     },
+     {
+      "t": "image",
+      "src": "ch03/slide-33.jpg",
+      "x": "Capsule 3.2: the future of the world automobile industry."
+     },
+     {
+      "t": "p",
+      "x": "**Capsule 3.2 — autos.** Profitability of the top eight carmakers fell in 2016–2020. For 2021–2025, new substitutes driven by environmental policy, new EV entrants, persistent rivalry despite M&A and new software suppliers all point to **lower future profitability**, despite potential new revenue streams."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Pour appliquer le modèle, il faut identifier chaque acteur de la filière (producteurs, clients, fournisseurs de ressources, producteurs de substituts) et lui attribuer la force concurrentielle correspondante — un même acteur peut jouer plusieurs rôles."
+     },
+     {
+      "t": "example",
+      "h": "Le streaming vidéo",
+      "x": "**Rivalité — forte** (Netflix, Disney+, Prime Video se disputent abonnés et contenus exclusifs ; résilier est facile). **Entrée — moyenne** (investissements lourds, mais les géants de la tech et des médias peuvent mobiliser leurs ressources). **Pouvoir des fournisseurs — fort** (studios, auteurs, détenteurs de droits sportifs). **Pouvoir des clients — fort** (les utilisateurs comparent, partagent et changent facilement). **Substituts — forts** (YouTube, TikTok, jeux vidéo et réseaux sociaux se disputent l'attention)."
+     },
+     {
+      "t": "p",
+      "x": "Dans la **livraison de repas** (Glovo, Deliveroo, Just Eat), la plateforme est l'intermédiaire entre restaurants, livreurs et clients : son pouvoir dépend du **contrôle de l'accès à la demande** et des alternatives dont dispose chaque partie."
+     },
+     {
+      "t": "key",
+      "h": "Prévoir la rentabilité d'un secteur",
+      "x": "1. Expliquer la rentabilité actuelle par la **structure actuelle**. 2. Identifier les **tendances** qui modifient la structure (différenciation ou standardisation, technologie, substituts, comportement d'achat, stratégies des entreprises). 3. Évaluer leurs **effets sur les cinq forces** et sur la rentabilité. Certaines forces se renforcent, d'autres s'affaiblissent : il faut un **jugement**, pas une addition mécanique — les profits actuels ne sont pas un guide fiable."
+     },
+     {
+      "t": "image",
+      "src": "ch03/slide-33.jpg",
+      "x": "Capsule 3.2 : l'avenir de l'industrie automobile mondiale."
+     },
+     {
+      "t": "p",
+      "x": "**Capsule 3.2 — automobile.** La rentabilité des huit premiers constructeurs a baissé en 2016-2020. Pour 2021-2025, les nouveaux substituts liés aux politiques environnementales, l'arrivée de constructeurs de véhicules électriques, une rivalité persistante malgré les fusions et de nouveaux fournisseurs de logiciels annoncent une **rentabilité future plus faible**, malgré de possibles nouvelles sources de revenus."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s6",
+   "title": {
+    "en": "From analysis to strategy",
+    "fr": "De l'analyse à la stratégie"
+   },
+   "cards": [
+    "ch03-031",
+    "ch03-032",
+    "ch03-033"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "Once the pressures on margins are identified, managers can either **alter industry structure** (change the balance of power or the rules) or **position the firm** where it is less exposed to adverse forces — turning passive analysis into active choice."
+     },
+     {
+      "t": "example",
+      "h": "Altering industry structure",
+      "x": "**Consolidation**: between 2000 and 2006, Vale, Rio Tinto and BHP came to control about 75% of world iron-ore exports, and iron-ore prices rose 400%; in 2016–2017 Western chemical producers merged and shifted towards specialty chemicals. **Raising switching costs**: frequent-flyer programmes. **Controlling scarce assets**: slots and gates at hub airports. **Legal barriers**: the AMA's control over medical-school places supports doctors' fees."
+     },
+     {
+      "t": "example",
+      "h": "Repositioning",
+      "x": "Digital substitutes pushed music retailers towards protected niches (vinyl, classical, country and old hits for collectors and older buyers). **Edward Jones** kept local offices for clients needing complex advice while E*Trade offered zero-commission online trading. **John Lewis**, hit by Amazon, repositioned towards restaurants, spas and services. Positioning can exploit intangibles such as **trust and experience**."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Une fois identifiées les pressions sur les marges, les dirigeants peuvent soit **modifier la structure du secteur** (changer le rapport de forces ou les règles), soit **positionner l'entreprise** là où elle est moins exposée aux forces défavorables — l'analyse passive devient un choix actif."
+     },
+     {
+      "t": "example",
+      "h": "Modifier la structure du secteur",
+      "x": "**Consolidation** : entre 2000 et 2006, Vale, Rio Tinto et BHP en viennent à contrôler environ 75 % des exportations mondiales de minerai de fer, dont le prix augmente de 400 % ; en 2016-2017, les chimistes occidentaux fusionnent et se tournent vers la chimie de spécialité. **Accroître les coûts de changement** : programmes de fidélité des compagnies aériennes. **Contrôler des actifs rares** : créneaux et portes dans les aéroports pivots (*hubs*). **Barrières légales** : le contrôle par l'AMA des places en faculté de médecine soutient les honoraires des médecins."
+     },
+     {
+      "t": "example",
+      "h": "Se repositionner",
+      "x": "Les substituts numériques ont poussé les disquaires vers des niches protégées (vinyles, classique, country et anciens succès pour collectionneurs et clients plus âgés). **Edward Jones** a gardé ses agences locales pour les clients ayant besoin de conseil complexe, face au courtage en ligne sans commission d'E*Trade. **John Lewis**, touché par Amazon, s'est repositionné vers la restauration, les spas et les services. Le positionnement peut valoriser des éléments immatériels comme la **confiance et l'expérience**."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s7",
+   "title": {
+    "en": "Defining industry and market boundaries",
+    "fr": "Définir les frontières du secteur et du marché"
+   },
+   "cards": [
+    "ch03-034",
+    "ch03-035",
+    "ch03-036",
+    "ch03-037",
+    "ch03-038"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "p",
+      "x": "An **industry** is a broad group of firms linked on the supply side (e.g. packaging); a **market** is where buyers and sellers exchange a defined product (e.g. aluminium cans). Statistical codes (SIC, ATECO) are too generic and rigid: banking includes mortgages and investment banking, which serve different customers. The relevant market is defined by **substitutability**."
+     },
+     {
+      "t": "list",
+      "x": [
+       "**Demand-side substitutability**: if price rises, do customers switch? Ferrari customers would not switch to ordinary cars — Ferrari competes in **ultra-luxury cars**",
+       "**Supply-side substitutability**: how easily could other producers convert their plants? Fridges and dishwashers are not substitutes for consumers, but Whirlpool and Electrolux use the same motors, machinery and logistics — one **major-appliances** industry",
+       "**Geographical boundaries — the price test**: compare prices across countries net of taxes; if gaps trigger **arbitrage** (customers buy abroad, firms sell where margins are higher), barriers collapse into one interconnected market"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "Boundaries are a **continuum** — direct rivals, broader competitors, distant substitutes — and the line depends on the decision at hand (e.g. independent cinema → multiplex → streaming)."
+     }
+    ],
+    "fr": [
+     {
+      "t": "p",
+      "x": "Un **secteur** (*industry*) est un large ensemble d'entreprises liées du côté de l'offre (par exemple l'emballage) ; un **marché** (*market*) est le lieu où acheteurs et vendeurs échangent un produit défini (par exemple les canettes en aluminium). Les nomenclatures statistiques (SIC, ATECO) sont trop générales et rigides : la banque regroupe les prêts immobiliers et la banque d'investissement, qui servent des clients différents. Le marché pertinent se définit par la **substituabilité**."
+     },
+     {
+      "t": "list",
+      "x": [
+       "**Substituabilité côté demande** (*demand-side*) : si le prix augmente, les clients changent-ils de produit ? Les clients de Ferrari ne passeraient pas à une voiture ordinaire — Ferrari est sur le marché des **voitures de très grand luxe**",
+       "**Substituabilité côté offre** (*supply-side*) : avec quelle facilité d'autres producteurs pourraient-ils reconvertir leurs usines ? Réfrigérateurs et lave-vaisselle ne sont pas substituables pour le consommateur, mais Whirlpool et Electrolux utilisent les mêmes moteurs, machines et logistique — un seul secteur du **gros électroménager**",
+       "**Frontières géographiques — le test du prix** : comparer les prix entre pays hors taxes ; si les écarts déclenchent un **arbitrage** (les clients achètent à l'étranger, les entreprises vendent là où les marges sont plus fortes), les barrières tombent et un marché unique se forme"
+      ]
+     },
+     {
+      "t": "p",
+      "x": "Les frontières forment un **continuum** — rivaux directs, concurrents élargis, substituts lointains — et la limite dépend de la décision à prendre (par exemple cinéma indépendant → multiplexe → streaming)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s8",
+   "title": {
+    "en": "Key success factors",
+    "fr": "Les facteurs clés de succès"
+   },
+   "cards": [
+    "ch03-039",
+    "ch03-040",
+    "ch03-041",
+    "ch03-042"
+   ],
+   "blocks": {
+    "en": [
+     {
+      "t": "key",
+      "h": "Identifying key success factors (KSFs)",
+      "x": "Two questions: **What do customers want?** (segment, needs, choice criteria such as price, reliability, quality, brand, convenience, service) and **What does it take to survive competition?** (nature and intensity of rivalry, conditions for a sustainable position). Method: segment → criteria → requirement → indicator. Ohmae's forestry example: to maximize yield, find the concrete cause of tree growth (light, water, variety) to act on."
+     },
+     {
+      "t": "example",
+      "h": "KSFs in three industries",
+      "x": "**Cloud computing**: reliability, security, AI → global scale, broad offering, technical services, financial strength. **Fashion**: brand, style or low prices → differentiation, low costs, speed of response, efficient production. **Supermarkets**: price, convenience, range → large-scale purchasing, store efficiency, location. Common KSFs do not impose one recipe: Zara, H&M, Diesel and Mango combine them differently."
+     },
+     {
+      "t": "key",
+      "h": "Airlines: profit per available seat mile",
+      "x": "**Profit / ASM = (Revenue / RPM) × (RPM / ASM) − Costs / ASM**, i.e. **yield × load factor − unit cost**. ASM (available seat miles) measures capacity; RPM (revenue passenger miles) measures actual traffic. Example: 100,000 ASM, 80,000 RPM, revenue €12,000, costs €10,000 → yield €0.15, load factor 80%, cost per ASM €0.10 → profit €0.02 per ASM, i.e. €2,000."
+     }
+    ],
+    "fr": [
+     {
+      "t": "key",
+      "h": "Identifier les facteurs clés de succès (KSF)",
+      "x": "Deux questions : **Que veulent les clients ?** (segment, besoins, critères de choix comme le prix, la fiabilité, la qualité, la marque, la commodité, le service) et **Que faut-il pour survivre à la concurrence ?** (nature et intensité de la rivalité, conditions d'une position durable). Méthode : segment → critères → exigence → indicateur. L'exemple forestier d'Ohmae : pour maximiser le rendement, trouver la cause concrète de la croissance des arbres (lumière, eau, variété) sur laquelle agir."
+     },
+     {
+      "t": "example",
+      "h": "Les KSF dans trois secteurs",
+      "x": "**Cloud** : fiabilité, sécurité, IA → envergure mondiale, offre large, services techniques, solidité financière. **Mode** : marque, style ou prix bas → différenciation, coûts bas, rapidité de réaction, production efficace. **Supermarchés** : prix, commodité, assortiment → achats à grande échelle, efficacité des magasins, emplacement. Des KSF communs n'imposent pas une recette unique : Zara, H&M, Diesel et Mango les combinent différemment."
+     },
+     {
+      "t": "key",
+      "h": "Compagnies aériennes : profit par siège-mille offert",
+      "x": "**Profit / ASM = (Revenus / RPM) × (RPM / ASM) − Coûts / ASM**, soit **recette unitaire (*yield*) × coefficient de remplissage (*load factor*) − coût unitaire**. L'ASM (*available seat miles*, sièges-milles offerts) mesure la capacité ; le RPM (*revenue passenger miles*, passagers payants-milles) mesure le trafic réel. Exemple : 100 000 ASM, 80 000 RPM, 12 000 € de revenus, 10 000 € de coûts → yield 0,15 €, remplissage 80 %, coût par ASM 0,10 € → profit de 0,02 € par ASM, soit 2 000 €."
+     }
+    ]
+   }
+  }
+ ],
+ "takeaways": {
+  "en": [
+   "Industry structure largely determines **who captures the value** created — hence huge ROCE differences between industries.",
+   "**Five forces**: entry, substitutes, rivalry (horizontal); buyer and supplier power (vertical); complements as a sixth force.",
+   "**Barriers to entry** and **sunk costs** decide how contestable a market is; barriers work less well against diversified entrants.",
+   "Buyer and supplier power = **price sensitivity + relative bargaining power**; control of a critical input shifts value to suppliers.",
+   "Use the analysis to **forecast profitability** and to **alter structure or reposition** the firm.",
+   "Define markets by **substitutability** (demand and supply side, geography) and translate customer needs into **key success factors**."
+  ],
+  "fr": [
+   "La structure du secteur détermine largement **qui capte la valeur** créée — d'où d'énormes écarts de ROCE entre secteurs.",
+   "**Cinq forces** : entrée, substituts, rivalité (horizontales) ; pouvoir des clients et des fournisseurs (verticales) ; les compléments comme sixième force.",
+   "Les **barrières à l'entrée** et les **coûts irrécupérables** déterminent la contestabilité d'un marché ; les barrières protègent mal contre les entrants diversifiés.",
+   "Pouvoir des clients et des fournisseurs = **sensibilité au prix + pouvoir de négociation relatif** ; contrôler une ressource critique déplace la valeur vers le fournisseur.",
+   "Utiliser l'analyse pour **prévoir la rentabilité** et pour **modifier la structure ou repositionner** l'entreprise.",
+   "Définir les marchés par la **substituabilité** (demande, offre, géographie) et traduire les besoins des clients en **facteurs clés de succès**."
+  ]
+ }
+}
