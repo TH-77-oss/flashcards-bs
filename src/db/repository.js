@@ -90,3 +90,15 @@ export function saveNote(cardId, text) {
 export function deleteNote(cardId) {
   return db.notes.delete(cardId)
 }
+
+/* ---------- Temps de lecture du cours ---------- */
+
+// Ajoute du temps de lecture au total du jour pour ce chapitre.
+export function addReadingTime(chapterId, ms, date = new Date()) {
+  const day = dayKey(date)
+  const id = `${day}|${chapterId}`
+  return db.transaction('rw', db.readingTime, async () => {
+    const row = await db.readingTime.get(id)
+    await db.readingTime.put({ id, day, chapterId, ms: (row?.ms || 0) + ms })
+  })
+}

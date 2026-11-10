@@ -5,7 +5,7 @@ import { dayKey } from '../lib/dates.js'
 
 const APP_ID = 'flashcards-business-strategy'
 // Toutes les tables sauvegardées (les images sont traitées à part, plus bas).
-const TABLES = ['chapters', 'cards', 'sessions', 'answers', 'usageDaily', 'settings', 'plannedSessions', 'notes']
+const TABLES = ['chapters', 'cards', 'sessions', 'answers', 'usageDaily', 'settings', 'plannedSessions', 'notes', 'readingTime']
 
 function blobToDataUrl(blob) {
   return new Promise((resolve, reject) => {

@@ -26,14 +26,19 @@ export function periodDays(periodKey, today = new Date()) {
 }
 
 // Une ligne par jour : cartes révisées, bonnes réponses, taux, temps, sessions.
-export function dailySeries(days, answers, sessions, usageDaily) {
-  const rows = new Map(days.map((d) => [d, { day: d, cards: 0, good: 0, studyMs: 0, appMs: 0, sessions: 0 }]))
+// reading : temps de lecture du cours ({ day, chapterId, ms }).
+export function dailySeries(days, answers, sessions, usageDaily, reading = []) {
+  const rows = new Map(days.map((d) => [d, { day: d, cards: 0, good: 0, studyMs: 0, readMs: 0, appMs: 0, sessions: 0 }]))
   for (const a of answers) {
     const r = rows.get(a.day)
     if (!r) continue
     r.cards++
     if (a.correct) r.good++
     r.studyMs += a.durationMs
+  }
+  for (const r of reading) {
+    const row = rows.get(r.day)
+    if (row) row.readMs += r.ms
   }
   for (const u of usageDaily) {
     const r = rows.get(u.day)

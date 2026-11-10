@@ -5,17 +5,20 @@
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../db/db.js'
 import { computeStats } from '../domain/stats.js'
+import { dayKey } from '../lib/dates.js'
 
 export function useStats() {
   return useLiveQuery(async () => {
-    const [chapters, cards, answers, sessions, usageDaily] = await Promise.all([
+    const [chapters, cards, answers, sessions, usageDaily, readToday] = await Promise.all([
       db.chapters.orderBy('id').toArray(),
       db.cards.toArray(),
       db.answers.toArray(),
       db.sessions.toArray(),
       db.usageDaily.toArray(),
+      db.readingTime.where('day').equals(dayKey()).toArray(),
     ])
-    return computeStats({ chapters, cards, answers, sessions, usageDaily })
+    const stats = computeStats({ chapters, cards, answers, sessions, usageDaily })
+    return { ...stats, readMsToday: readToday.reduce((t, r) => t + r.ms, 0) }
   }, [])
 }
 

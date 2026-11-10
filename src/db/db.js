@@ -50,6 +50,20 @@ db.version(3).stores({
   notes: 'cardId, updatedAt', // { cardId, text, updatedAt }
 })
 
+// Version 4 : temps de lecture du mode « Cours », par jour et par chapitre.
+db.version(4).stores({
+  chapters: 'id',
+  cards: 'id, chapterId',
+  sessions: 'id, chapterId, startedAt',
+  answers: 'id, sessionId, cardId, chapterId, day',
+  usageDaily: 'day',
+  images: 'id',
+  settings: 'key',
+  plannedSessions: 'id, day, chapterId, status',
+  notes: 'cardId, updatedAt',
+  readingTime: 'id, day, chapterId', // { id: "2026-11-10|3", day, chapterId, ms }
+})
+
 // Fichiers de contenu des chapitres (src/content/ch01.json, ch02.json…).
 // Vite les intègre à l'app au moment de la compilation : ajouter un fichier
 // dans ce dossier suffit pour qu'il soit pris en compte au prochain lancement.

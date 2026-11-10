@@ -46,16 +46,20 @@ export default function Home() {
       <section className="card today">
         <p className="section-label">Aujourd’hui</p>
         <div className="today-row">
-          <span>Révision</span>
-          <span className="today-value">{formatDuration(stats.studyMsToday)}</span>
+          <span>Étude</span>
+          <span className="today-value">{formatDuration(stats.studyMsToday + stats.readMsToday)}</span>
         </div>
         <div className="progress" aria-hidden="true">
-          <div className="progress-fill" style={{ width: `${Math.min(100, (stats.studyMsToday / (30 * 60000)) * 100)}%` }} />
+          <div
+            className="progress-fill"
+            style={{ width: `${Math.min(100, ((stats.studyMsToday + stats.readMsToday) / (30 * 60000)) * 100)}%` }}
+          />
         </div>
         <div className="today-row muted small">
+          <span>Flashcards {formatDuration(stats.studyMsToday)} · Cours {formatDuration(stats.readMsToday)}</span>
           <span>Objectif 30 min</span>
-          <span>Temps dans l’app : {formatDuration(stats.appMsToday)}</span>
         </div>
+        <p className="muted tiny">Temps dans l’app : {formatDuration(stats.appMsToday)}</p>
       </section>
 
       <BackupCard />

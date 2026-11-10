@@ -5,6 +5,7 @@ import { useRef } from 'react'
 import { Link, Navigate, useParams } from 'react-router'
 import { getCourse } from '../lib/courses.js'
 import { useCourseLang, useCourseRead, setCourseRead } from '../hooks/useCourse.js'
+import { useReadingTimer } from '../hooks/useReadingTimer.js'
 import '../styles/course.css'
 
 const UI = {
@@ -18,6 +19,7 @@ export default function Course() {
   const [lang, setLang] = useCourseLang()
   const read = useCourseRead(id)
   const refs = useRef({})
+  useReadingTimer(id) // compte le temps de lecture de ce chapitre
 
   if (!course) return <Navigate to={`/chapitres/${id}`} replace />
   const t = UI[lang]

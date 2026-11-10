@@ -21,7 +21,7 @@ export default function ChapterStats() {
   if (!data) return <div className="page" />
   if (!data.chapter) return <Navigate to="/stats" replace />
 
-  const { chapter: ch, history } = data
+  const { chapter: ch, history, cardMs, readMs } = data
   const selected = history.find((h) => h.sessionId === sel)
 
   return (
@@ -42,6 +42,21 @@ export default function ChapterStats() {
         <Kpi value={ch.good} label="Bonnes réponses" />
         <Kpi value={ch.attempts - ch.good} label="Mauvaises réponses" />
       </div>
+
+      <section className="card time-split chapter-time">
+        <div>
+          <span className="time-split-value">{formatDuration(cardMs)}</span>
+          <span className="muted tiny">Flashcards</span>
+        </div>
+        <div>
+          <span className="time-split-value">{formatDuration(readMs)}</span>
+          <span className="muted tiny">Lecture du cours</span>
+        </div>
+        <div>
+          <span className="time-split-value">{formatDuration(cardMs + readMs)}</span>
+          <span className="muted tiny">Total</span>
+        </div>
+      </section>
 
       <ChartCard
         title="Évolution par session"

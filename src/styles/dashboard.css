@@ -279,3 +279,35 @@
   text-align: right;
   font-weight: 600;
 }
+
+/* Barres empilées (temps d'étude) : 2 px d'écart entre segments */
+.bar-hit.stacked {
+  gap: 2px;
+}
+.bar-seg {
+  display: block;
+  width: 100%;
+}
+.bar-hit.stacked .bar-seg:first-child {
+  border-radius: 3px 3px 0 0;
+}
+
+/* Répartition du temps : flashcards / cours / app */
+.time-split {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.time-split > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.time-split-value {
+  font-size: 17px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.chapter-time {
+  padding: 14px 16px;
+}

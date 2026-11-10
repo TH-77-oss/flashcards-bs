@@ -10,6 +10,7 @@ import LineChart from '../components/charts/LineChart.jsx'
 import BarChart from '../components/charts/BarChart.jsx'
 import Heatmap from '../components/charts/Heatmap.jsx'
 import ChartCard from '../components/charts/ChartCard.jsx'
+import StackedBarChart from '../components/charts/StackedBarChart.jsx'
 import '../styles/dashboard.css'
 
 const fmtDay = (key) => parseDayKey(key).toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' })
@@ -29,8 +30,13 @@ export default function Stats() {
   const sel = d.daily.find((r) => r.day === selDay)
   const dayReadout = sel
     ? `${fmtDay(sel.day)} · ` +
-      (sel.cards
-        ? `${sel.rate} % · ${sel.cards} cartes · ${formatDuration(sel.studyMs)} de révision · ${formatDuration(sel.appMs)} dans l’app`
+      (sel.cards || sel.readMs
+        ? [
+            sel.cards ? `${sel.rate} % · ${sel.cards} cartes` : 'aucune carte',
+            `${formatDuration(sel.studyMs)} de flashcards`,
+            `${formatDuration(sel.readMs)} de cours`,
+            `${formatDuration(sel.appMs)} dans l’app`,
+          ].join(' · ')
         : 'aucune révision')
     : 'Touchez un graphique pour lire les valeurs du jour'
   const heatCell = d.heat.find((c) => c.day === selHeat)
@@ -39,7 +45,9 @@ export default function Stats() {
     : 'Touchez une case pour le détail'
   const chapterSel = d.chapters.find((c) => c.id === selChapter)
   const maxAttempts = Math.max(1, ...d.chapters.map((c) => c.attempts))
-  const studiedDays = d.daily.filter((r) => r.cards > 0).length
+  const studiedDays = d.daily.filter((r) => r.cards > 0 || r.readMs > 0).length
+  const studyAll = k.studyMsTotal + k.readMs // flashcards + lecture du cours
+  const readShare = studyAll ? Math.round((100 * k.readMs) / studyAll) : 0
 
   function changePeriod(p) {
     setPeriod(p)
@@ -63,7 +71,7 @@ export default function Stats() {
         <Kpi value={k.daysStudied} label="Jours étudiés" />
         <Kpi value={`${k.chaptersWorked}/18`} label="Chapitres vus" />
         <Kpi value={k.cardsRemaining} label="À maîtriser" />
-        <Kpi value={formatDuration(k.studyMsTotal)} label="Temps de révision" />
+        <Kpi value={formatDuration(studyAll)} label="Temps d’étude" />
       </div>
 
       {k.total === 0 && <p className="card muted small">Pas encore de révision sur cette période : les graphiques se rempliront au fil de vos sessions.</p>}
@@ -89,19 +97,41 @@ export default function Stats() {
       </ChartCard>
 
       <ChartCard
-        title="Temps de révision par jour"
-        aside={`moy. ${formatDuration(studiedDays ? k.studyMsTotal / studiedDays : 0)} / jour étudié`}
+        title="Temps d’étude par jour"
+        aside={`moy. ${formatDuration(studiedDays ? studyAll / studiedDays : 0)} / jour étudié`}
         readout={dayReadout}
       >
-        <BarChart
-          bars={d.daily.map((r) => ({ key: r.day, value: Math.round(r.studyMs / 60000), label: fmtDay(r.day) }))}
+        <div className="legend muted tiny">
+          <span><i style={{ background: 'var(--chart-violet)' }} />Flashcards</span>
+          <span><i style={{ background: 'var(--chart-blue)' }} />Lecture du cours</span>
+        </div>
+        <StackedBarChart
+          bars={d.daily.map((r) => ({
+            key: r.day,
+            label: fmtDay(r.day),
+            segments: [
+              { value: r.studyMs / 60000, color: 'var(--chart-violet)', selectedColor: '#cba6f5' },
+              { value: r.readMs / 60000, color: 'var(--chart-blue)', selectedColor: '#a9bdff' },
+            ],
+          }))}
           selectedKey={selDay}
           onSelect={setSelDay}
-          color="var(--chart-violet)"
-          selectedColor="#cba6f5"
-          ariaLabel="Minutes de révision chaque jour"
+          ariaLabel="Minutes d’étude chaque jour, flashcards et lecture du cours"
         />
-        <p className="muted tiny">Temps total passé dans l’app sur la période : {formatDuration(k.appMs)}</p>
+        <div className="time-split">
+          <div>
+            <span className="time-split-value">{formatDuration(k.studyMsTotal)}</span>
+            <span className="muted tiny">Flashcards · {100 - readShare} %</span>
+          </div>
+          <div>
+            <span className="time-split-value">{formatDuration(k.readMs)}</span>
+            <span className="muted tiny">Lecture du cours · {readShare} %</span>
+          </div>
+          <div>
+            <span className="time-split-value">{formatDuration(k.appMs)}</span>
+            <span className="muted tiny">Temps dans l’app</span>
+          </div>
+        </div>
       </ChartCard>
 
       <ChartCard title="Régularité" aside={`série ${d.streak.current} j · record ${d.streak.best} j`} readout={heatReadout}>

@@ -6,14 +6,15 @@ import { periodDays, dailySeries, heatmap, streaks, chapterHistory } from '../do
 import { dayKey } from '../lib/dates.js'
 
 async function loadAll() {
-  const [chapters, cards, answers, sessions, usageDaily] = await Promise.all([
+  const [chapters, cards, answers, sessions, usageDaily, reading] = await Promise.all([
     db.chapters.orderBy('id').toArray(),
     db.cards.toArray(),
     db.answers.toArray(),
     db.sessions.toArray(),
     db.usageDaily.toArray(),
+    db.readingTime.toArray(),
   ])
-  return { chapters, cards, answers, sessions, usageDaily }
+  return { chapters, cards, answers, sessions, usageDaily, reading }
 }
 
 export function useDashboard(periodKey) {
@@ -28,10 +29,12 @@ export function useDashboard(periodKey) {
     const overall = computeStats(data) // la maîtrise se juge sur tout l'historique
     const period = computeStats({ ...data, answers, sessions })
     const appMs = data.usageDaily.filter((u) => inPeriod.has(u.day)).reduce((t, u) => t + u.appMs, 0)
+    const reading = data.reading.filter((r) => inPeriod.has(r.day))
+    const readMs = reading.reduce((t, r) => t + r.ms, 0)
 
     return {
-      kpi: { ...period, appMs, cardsRemaining: overall.cardsRemaining, cardsMastered: overall.cardsMastered },
-      daily: dailySeries(days, answers, sessions, data.usageDaily),
+      kpi: { ...period, appMs, readMs, cardsRemaining: overall.cardsRemaining, cardsMastered: overall.cardsMastered },
+      daily: dailySeries(days, answers, sessions, data.usageDaily, reading),
       heat: heatmap(data.answers),
       streak: streaks(data.answers),
       chapters: period.chapters,
@@ -46,6 +49,8 @@ export function useChapterDashboard(chapterId) {
     return {
       chapter: stats.chapters.find((c) => c.id === chapterId) || null,
       history: chapterHistory(chapterId, data.answers),
+      cardMs: data.answers.filter((a) => a.chapterId === chapterId).reduce((t, a) => t + a.durationMs, 0),
+      readMs: data.reading.filter((r) => r.chapterId === chapterId).reduce((t, r) => t + r.ms, 0),
     }
   }, [chapterId])
 }
